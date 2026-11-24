@@ -1,0 +1,494 @@
+[
+  {
+    "file": "2026-09-01-quote-portal-kickoff.md",
+    "raw": "Friday",
+    "date": "2026-09-04",
+    "reason": null
+  },
+  {
+    "file": "2026-09-01-quote-portal-kickoff.md",
+    "raw": "2026-09-08",
+    "date": "2026-09-08",
+    "reason": null
+  },
+  {
+    "file": "2026-09-01-quote-portal-kickoff.md",
+    "raw": "Thursday",
+    "date": "2026-09-03",
+    "reason": null
+  },
+  {
+    "file": "2026-09-02-standup.md",
+    "raw": "tomorrow",
+    "date": "2026-09-03",
+    "reason": null
+  },
+  {
+    "file": "2026-09-03-billing-migration-sync.md",
+    "raw": "10 Sep",
+    "date": "2026-09-10",
+    "reason": null
+  },
+  {
+    "file": "2026-09-03-billing-migration-sync.md",
+    "raw": "Monday",
+    "date": "2026-09-07",
+    "reason": null
+  },
+  {
+    "file": "2026-09-03-billing-migration-sync.md",
+    "raw": "end of next week",
+    "date": "2026-09-11",
+    "reason": null
+  },
+  {
+    "file": "2026-09-03-billing-migration-sync.md",
+    "raw": "cutover",
+    "date": null,
+    "reason": "unresolvable"
+  },
+  {
+    "file": "2026-09-08-quote-portal-weekly.md",
+    "raw": "Friday",
+    "date": "2026-09-11",
+    "reason": null
+  },
+  {
+    "file": "2026-09-08-quote-portal-weekly.md",
+    "raw": "Wed",
+    "date": "2026-09-09",
+    "reason": null
+  },
+  {
+    "file": "2026-09-09-qa-standup.md",
+    "raw": "Friday",
+    "date": "2026-09-11",
+    "reason": null
+  },
+  {
+    "file": "2026-09-10-acme-renewal-prep.md",
+    "raw": "tomorrow",
+    "date": "2026-09-11",
+    "reason": null
+  },
+  {
+    "file": "2026-09-10-acme-renewal-prep.md",
+    "raw": "2026-09-14",
+    "date": "2026-09-14",
+    "reason": null
+  },
+  {
+    "file": "2026-09-14-onboarding-flow-design.md",
+    "raw": "Wed 16 Sep",
+    "date": "2026-09-16",
+    "reason": null
+  },
+  {
+    "file": "2026-09-14-onboarding-flow-design.md",
+    "raw": "18 Sep",
+    "date": "2026-09-18",
+    "reason": null
+  },
+  {
+    "file": "2026-09-14-onboarding-flow-design.md",
+    "raw": "end of month",
+    "date": "2026-09-30",
+    "reason": null
+  },
+  {
+    "file": "2026-09-15-quote-portal-weekly.md",
+    "raw": "Thursday",
+    "date": "2026-09-17",
+    "reason": null
+  },
+  {
+    "file": "2026-09-15-quote-portal-weekly.md",
+    "raw": "Friday",
+    "date": "2026-09-18",
+    "reason": null
+  },
+  {
+    "file": "2026-09-16-standup.md",
+    "raw": "2026-09-21",
+    "date": "2026-09-21",
+    "reason": null
+  },
+  {
+    "file": "2026-09-16-standup.md",
+    "raw": "Friday",
+    "date": "2026-09-18",
+    "reason": null
+  },
+  {
+    "file": "2026-09-17-billing-migration-sync.md",
+    "raw": "Monday",
+    "date": "2026-09-21",
+    "reason": null
+  },
+  {
+    "file": "2026-09-17-billing-migration-sync.md",
+    "raw": "2026-09-22",
+    "date": "2026-09-22",
+    "reason": null
+  },
+  {
+    "file": "2026-09-18-design-review.md",
+    "raw": "Mon",
+    "date": "2026-09-21",
+    "reason": null
+  },
+  {
+    "file": "2026-09-18-design-review.md",
+    "raw": "Wednesday",
+    "date": "2026-09-23",
+    "reason": null
+  },
+  {
+    "file": "2026-09-18-design-review.md",
+    "raw": "2026-09-25",
+    "date": "2026-09-25",
+    "reason": null
+  },
+  {
+    "file": "2026-09-18-design-review.md",
+    "raw": "the next review",
+    "date": null,
+    "reason": "unresolvable"
+  },
+  {
+    "file": "2026-09-21-incident-review.md",
+    "raw": "EOD tomorrow",
+    "date": "2026-09-22",
+    "reason": null
+  },
+  {
+    "file": "2026-09-21-incident-review.md",
+    "raw": "Friday",
+    "date": "2026-09-25",
+    "reason": null
+  },
+  {
+    "file": "2026-09-21-incident-review.md",
+    "raw": "25 Sep",
+    "date": "2026-09-25",
+    "reason": null
+  },
+  {
+    "file": "2026-09-22-quote-portal-weekly.md",
+    "raw": "Thursday",
+    "date": "2026-09-24",
+    "reason": null
+  },
+  {
+    "file": "2026-09-22-quote-portal-weekly.md",
+    "raw": "2026-09-25",
+    "date": "2026-09-25",
+    "reason": null
+  },
+  {
+    "file": "2026-09-22-quote-portal-weekly.md",
+    "raw": "Wednesday",
+    "date": "2026-09-23",
+    "reason": null
+  },
+  {
+    "file": "2026-09-23-standup.md",
+    "raw": "Thursday",
+    "date": "2026-09-24",
+    "reason": null
+  },
+  {
+    "file": "2026-09-24-onboarding-flow-design.md",
+    "raw": "Friday",
+    "date": "2026-09-25",
+    "reason": null
+  },
+  {
+    "file": "2026-09-24-onboarding-flow-design.md",
+    "raw": "2 Oct",
+    "date": "2026-10-02",
+    "reason": null
+  },
+  {
+    "file": "2026-09-24-onboarding-flow-design.md",
+    "raw": "Monday",
+    "date": "2026-09-28",
+    "reason": null
+  },
+  {
+    "file": "2026-09-25-qa-sync.md",
+    "raw": "Monday",
+    "date": "2026-09-28",
+    "reason": null
+  },
+  {
+    "file": "2026-09-25-qa-sync.md",
+    "raw": "2026-10-02",
+    "date": "2026-10-02",
+    "reason": null
+  },
+  {
+    "file": "2026-09-28-acme-renewal-checkin.md",
+    "raw": "Wednesday",
+    "date": "2026-09-30",
+    "reason": null
+  },
+  {
+    "file": "2026-09-28-acme-renewal-checkin.md",
+    "raw": "2026-10-01",
+    "date": "2026-10-01",
+    "reason": null
+  },
+  {
+    "file": "2026-09-28-acme-renewal-checkin.md",
+    "raw": "Friday",
+    "date": "2026-10-02",
+    "reason": null
+  },
+  {
+    "file": "2026-09-29-billing-cutover-planning.md",
+    "raw": "Thursday",
+    "date": "2026-10-01",
+    "reason": null
+  },
+  {
+    "file": "2026-09-29-billing-cutover-planning.md",
+    "raw": "2026-10-05",
+    "date": "2026-10-05",
+    "reason": null
+  },
+  {
+    "file": "2026-09-29-billing-cutover-planning.md",
+    "raw": "Saturday 10 Oct",
+    "date": "2026-10-10",
+    "reason": null
+  },
+  {
+    "file": "2026-09-29-billing-cutover-planning.md",
+    "raw": "9 Oct",
+    "date": "2026-10-09",
+    "reason": null
+  },
+  {
+    "file": "2026-09-30-q4-offsite.md",
+    "raw": "Oct 3rd",
+    "date": "2026-10-03",
+    "reason": null
+  },
+  {
+    "file": "2026-09-30-q4-offsite.md",
+    "raw": "Oct 5th",
+    "date": "2026-10-05",
+    "reason": null
+  },
+  {
+    "file": "2026-09-30-q4-offsite.md",
+    "raw": "15 October",
+    "date": "2026-10-15",
+    "reason": null
+  },
+  {
+    "file": "2026-09-30-q4-offsite.md",
+    "raw": "mid-October",
+    "date": "2026-10-15",
+    "reason": null
+  },
+  {
+    "file": "2026-09-30-q4-offsite.md",
+    "raw": "Friday",
+    "date": "2026-10-02",
+    "reason": null
+  },
+  {
+    "file": "2026-09-30-q4-offsite.md",
+    "raw": "7 Oct",
+    "date": "2026-10-07",
+    "reason": null
+  },
+  {
+    "file": "2026-09-30-q4-offsite.md",
+    "raw": "tomorrow",
+    "date": "2026-10-01",
+    "reason": null
+  },
+  {
+    "file": "2026-09-30-standup.md",
+    "raw": "2026-10-02",
+    "date": "2026-10-02",
+    "reason": null
+  },
+  {
+    "file": "2026-09-30-standup.md",
+    "raw": "Friday",
+    "date": "2026-10-02",
+    "reason": null
+  },
+  {
+    "file": "2026-10-01-quote-portal-weekly.md",
+    "raw": "Friday",
+    "date": "2026-10-02",
+    "reason": null
+  },
+  {
+    "file": "2026-10-01-quote-portal-weekly.md",
+    "raw": "2026-10-06",
+    "date": "2026-10-06",
+    "reason": null
+  },
+  {
+    "file": "2026-10-02-finance-sync.md",
+    "raw": "2026-10-09",
+    "date": "2026-10-09",
+    "reason": null
+  },
+  {
+    "file": "2026-10-02-finance-sync.md",
+    "raw": "Wednesday",
+    "date": "2026-10-07",
+    "reason": null
+  },
+  {
+    "file": "2026-10-02-finance-sync.md",
+    "raw": "12 Oct",
+    "date": "2026-10-12",
+    "reason": null
+  },
+  {
+    "file": "2026-10-03-sales-pipeline.md",
+    "raw": "Friday",
+    "date": "2026-10-09",
+    "reason": null
+  },
+  {
+    "file": "2026-10-05-onboarding-retro.md",
+    "raw": "next Tuesday",
+    "date": "2026-10-13",
+    "reason": null
+  },
+  {
+    "file": "2026-10-05-onboarding-retro.md",
+    "raw": "9 Oct",
+    "date": "2026-10-09",
+    "reason": null
+  },
+  {
+    "file": "2026-10-06-quote-portal-weekly.md",
+    "raw": "tomorrow",
+    "date": "2026-10-07",
+    "reason": null
+  },
+  {
+    "file": "2026-10-06-quote-portal-weekly.md",
+    "raw": "2026-10-14",
+    "date": "2026-10-14",
+    "reason": null
+  },
+  {
+    "file": "2026-10-06-quote-portal-weekly.md",
+    "raw": "Thursday",
+    "date": "2026-10-08",
+    "reason": null
+  },
+  {
+    "file": "2026-10-07-standup.md",
+    "raw": "tomorrow",
+    "date": "2026-10-08",
+    "reason": null
+  },
+  {
+    "file": "2026-10-08-billing-go-no-go.md",
+    "raw": "EOD",
+    "date": "2026-10-08",
+    "reason": null
+  },
+  {
+    "file": "2026-10-08-billing-go-no-go.md",
+    "raw": "2026-10-09",
+    "date": "2026-10-09",
+    "reason": null
+  },
+  {
+    "file": "2026-10-08-billing-go-no-go.md",
+    "raw": "9 Oct",
+    "date": "2026-10-09",
+    "reason": null
+  },
+  {
+    "file": "2026-10-09-security-review.md",
+    "raw": "<date>",
+    "date": null,
+    "reason": "unresolvable"
+  },
+  {
+    "file": "2026-10-09-security-review.md",
+    "raw": "2026-10-16",
+    "date": "2026-10-16",
+    "reason": null
+  },
+  {
+    "file": "2026-10-09-security-review.md",
+    "raw": "Monday",
+    "date": "2026-10-12",
+    "reason": null
+  },
+  {
+    "file": "2026-10-09-security-review.md",
+    "raw": "23 Oct",
+    "date": "2026-10-23",
+    "reason": null
+  },
+  {
+    "file": "2026-10-10-sales-weekly.md",
+    "raw": "Tuesday",
+    "date": "2026-10-13",
+    "reason": null
+  },
+  {
+    "file": "2026-10-10-sales-weekly.md",
+    "raw": "EOD",
+    "date": "2026-10-10",
+    "reason": null
+  },
+  {
+    "file": "2026-10-12-billing-post-cutover.md",
+    "raw": "2026-10-30",
+    "date": "2026-10-30",
+    "reason": null
+  },
+  {
+    "file": "2026-10-12-billing-post-cutover.md",
+    "raw": "Wednesday",
+    "date": "2026-10-14",
+    "reason": null
+  },
+  {
+    "file": "2026-10-12-billing-post-cutover.md",
+    "raw": "15 Oct",
+    "date": "2026-10-15",
+    "reason": null
+  },
+  {
+    "file": "2026-10-13-quote-portal-weekly.md",
+    "raw": "Friday",
+    "date": "2026-10-16",
+    "reason": null
+  },
+  {
+    "file": "2026-10-13-quote-portal-weekly.md",
+    "raw": "2026-10-20",
+    "date": "2026-10-20",
+    "reason": null
+  },
+  {
+    "file": "2026-10-14-acme-renewal-wrapup.md",
+    "raw": "tomorrow",
+    "date": "2026-10-15",
+    "reason": null
+  },
+  {
+    "file": "untitled.md",
+    "raw": "Friday",
+    "date": null,
+    "reason": "no-meeting-date"
+  }
+]

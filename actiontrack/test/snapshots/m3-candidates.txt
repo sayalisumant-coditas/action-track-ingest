@@ -1,0 +1,187 @@
+# 2026-09-01-quote-portal-kickoff.md
+9	checkbox	 	indent=0	Priya to send the revised quote to Acme by Friday
+10	checkbox	 	indent=0	Rahul to set up the staging environment by 2026-09-08
+11	checkbox	 	indent=0	Anita to share first wireframes by Thursday
+12	checkbox	 	indent=0	Sam to confirm cloud budget with finance
+
+# 2026-09-02-standup.md
+9	checkbox	 	indent=0	Rahul to open the repo access request by tomorrow
+10	checkbox	 	indent=0	Sam to share the VPN guide
+
+# 2026-09-03-billing-migration-sync.md
+9	checkbox	 	indent=0	Karan to export last quarter invoices by 10 Sep
+10	checkbox	 	indent=0	Rahul to review the schema mapping doc by Monday
+11	checkbox	 	indent=0	Priya to draft the test plan for invoice rounding by end of next week
+12	checkbox	 	indent=0	Sam to snapshot the production DB before cutover
+
+# 2026-09-08-quote-portal-weekly.md
+9	checkbox	 	indent=0	Priya N. to send revised quote to Acme — by Friday
+10	checkbox	 	indent=0	Rahul to finish login screen by Wed
+11	checkbox	 	indent=0	Meera to ask Acme for their procurement contact
+12	checkbox	x	indent=0	Rahul to set up the staging environment
+
+# 2026-09-09-qa-standup.md
+9	checkbox	 	indent=0	Karan to send the vendor invoice list by Friday
+10	checkbox	 	indent=0	Priya to set up the test data
+
+# 2026-09-10-acme-renewal-prep.md
+9	checkbox	 	indent=0	Lena to pull Acme's usage report for the last 6 months by tomorrow
+10	checkbox	 	indent=0	Karan to confirm discount ceiling with the CFO by 2026-09-14
+11	checkbox	 	indent=0	Meera to book the renewal call with Acme's CTO
+12	checkbox	 	indent=0	Someone to update the CRM notes
+
+# 2026-09-14-onboarding-flow-design.md
+9	checkbox	 	indent=0	Anita to finalise the welcome-email copy by Wed 16 Sep
+10	checkbox	 	indent=0	Priya to write acceptance tests for the signup flow by 18 Sep
+11	checkbox	 	indent=0	Rahul to estimate the SSO work
+12	checkbox	 	indent=0	Lena to collect 5 customer quotes for the landing page by end of month
+
+# 2026-09-15-quote-portal-weekly.md
+9	checkbox	x	indent=0	Priya to send the revised quote to Acme
+10	checkbox	 	indent=0	Anita to share updated wireframes by Thursday
+11	checkbox	 	indent=0	Sam to confirm cloud budget with finance by Friday
+12	checkbox	 	indent=0	Rahul to fix the pagination bug
+
+# 2026-09-16-standup.md
+11	checkbox	 	indent=0	Lena to draft the case study outline by 2026-09-21
+12	checkbox	 	indent=0	Meera to update the pipeline sheet by Friday
+
+# 2026-09-17-billing-migration-sync.md
+9	checkbox	 	indent=0	Priya to sign off the cutover checklist by Monday
+10	checkbox	 	indent=0	Sam to run the dry-run migration on staging by 2026-09-22
+11	checkbox	x	indent=0	Karan to export last quarter invoices
+12	checkbox	 	indent=0	Rahul to review the schema mapping doc
+
+# 2026-09-18-design-review.md
+11	checkbox	 	indent=0	@anita: audit colour contrast on the dashboard by Mon
+12	checkbox	 	indent=0	Anita & Rahul to agree on the component API by Wednesday
+13	checkbox	 	indent=0	Lena (with Priya) to collect user feedback on the prototype by 2026-09-25
+14	checkbox	 	indent=0	Everyone to review the prototype before the next review
+15	checkbox	 	indent=0	TBD to write the design-system changelog
+
+# 2026-09-21-incident-review.md
+14	checkbox	 	indent=0	Sam to write the postmortem by EOD tomorrow
+15	checkbox	 	indent=0	Rahul to add idempotency keys to the payment call by Friday
+16	checkbox	 	indent=0	Priya to add a regression test for double charge by 25 Sep
+17	checkbox	 	indent=0	Karan to refund affected customers
+ignored	9	blockquote
+
+# 2026-09-22-quote-portal-weekly.md
+9	checkbox	 	indent=0	Anita to share updated wireframes by Thursday
+10	checkbox	x	indent=0	Sam to confirm cloud budget with finance
+11	checkbox	 	indent=0	Meera to send Acme the procurement form by 2026-09-25
+12	checkbox	 	indent=0	Rahul to fix the pagination bug by Wednesday
+
+# 2026-09-23-standup.md
+8	checkbox	 	indent=0	Rahul to rebase the feature branch by Thursday
+9	checkbox	 	indent=0	Sam to rotate the staging credentials
+
+# 2026-09-24-onboarding-flow-design.md
+9	checkbox	 	indent=0	Anita to finalise the welcome-email copy by Friday
+10	checkbox	x	indent=0	Priya to write acceptance tests for the signup flow
+11	checkbox	 	indent=0	Lena to collect 5 customer quotes for the landing page by 2 Oct
+12	checkbox	 	indent=0	Rahul to estimate SSO work by Monday
+
+# 2026-09-25-qa-sync.md
+9	checkbox	 	indent=0	Priya to triage the open bug list by Monday
+10	checkbox	 	indent=0	Rahul to fix the top three critical bugs by 2026-10-02
+
+# 2026-09-28-acme-renewal-checkin.md
+9	checkbox	 	indent=0	Meera to book the renewal call with Acme's CTO by Wednesday
+10	checkbox	 	indent=0	Karan to send Acme the revised pricing sheet by 2026-10-01
+11	checkbox	 	indent=0	Lena to share the usage report with Meera
+12	checkbox	 	indent=0	Priya to prepare the renewal one-pager by Friday
+
+# 2026-09-29-billing-cutover-planning.md
+9	checkbox	 	indent=0	Priya S. to run the invoice rounding tests by Thursday
+10	checkbox	 	indent=0	Priya N. to notify customers about the maintenance window by 2026-10-05
+11	checkbox	 	indent=0	Sam to schedule cutover for Saturday 10 Oct
+12	checkbox	 	indent=0	Karan to freeze invoice edits from 9 Oct
+
+# 2026-09-30-q4-offsite.md
+9	checkbox	 	indent=0	Meera to finalise the Q4 sales targets by Oct 3rd
+10	checkbox	 	indent=2	parent=9	Karan to validate targets against the budget by Oct 5th
+11	checkbox	 	indent=0	Lena to run the customer survey, results due 15 October
+12	checkbox	 	indent=0	Sam to propose the on-call rotation by mid-October
+16	checkbox	 	indent=0	Priya to own the hiring plan for the two QA roles
+17	checkbox	 	indent=0	Rahul to prepare the architecture overview by Friday
+18	checkbox	 	indent=0	Everyone to submit their Q4 goals by 7 Oct
+22	table	 	indent=0	Refresh the brand kit	{"owner":"Anita","action":"Refresh the brand kit","due":"2026-10-09"}
+24	action	 	indent=0	Karan to circulate the offsite summary tomorrow
+
+# 2026-09-30-standup.md
+11	checkbox	 	indent=0	Karan to approve the Q4 cloud spend by 2026-10-02
+12	checkbox	 	indent=0	Priya to share the Q4 roadmap draft by Friday
+
+# 2026-10-01-quote-portal-weekly.md
+9	checkbox	x	indent=0	Meera to send Acme the procurement form
+10	checkbox	 	indent=0	Rahul to deploy the beta to staging by Friday
+11	checkbox	 	indent=0	Anita to hand over final designs to dev by 2026-10-06
+12	checkbox	 	indent=0	Team to decide on the launch date
+
+# 2026-10-02-finance-sync.md
+9	checkbox	x	indent=0	Karan to approve the Q4 cloud spend
+10	checkbox	 	indent=0	Sam to cut cloud costs by 10% — proposal by 2026-10-09
+11	checkbox	 	indent=0	Meera to share the Q4 pipeline forecast by Wednesday
+12	checkbox	 	indent=0	Karan to prepare the board finance slide by 12 Oct
+
+# 2026-10-03-sales-pipeline.md
+6	checkbox	 	indent=0	Meera to chase Orbit Labs by Friday
+7	checkbox	 	indent=0	Lena to clean up duplicate leads
+
+# 2026-10-05-onboarding-retro.md
+9	checkbox	 	indent=0	Rahul to start SSO spike by next Tuesday
+10	checkbox	 	indent=0	Lena to publish the customer quotes by 9 Oct
+11	checkbox	x	indent=0	Anita to finalise the welcome-email copy
+12	checkbox	 	indent=0	Priya to review the welcome email for accessibility
+
+# 2026-10-06-quote-portal-weekly.md
+9	checkbox	 	indent=0	Rahul to deploy the beta to staging by tomorrow
+10	checkbox	 	indent=0	Meera to demo the portal to Acme on 2026-10-14
+11	checkbox	 	indent=0	Sam to set up uptime monitoring
+12	checkbox	 	indent=0	Priya to write the beta test checklist by Thursday
+
+# 2026-10-07-standup.md
+9	checkbox	 	indent=0	Rahul to review Anita's PR by tomorrow
+10	checkbox	 	indent=0	Anita to update the style guide
+
+# 2026-10-08-billing-go-no-go.md
+9	checkbox	 	indent=0	Priya to circulate the go/no-go summary by EOD
+10	checkbox	 	indent=0	Sam to confirm rollback plan by 2026-10-09
+11	checkbox	 	indent=0	Karan to freeze invoice edits from 9 Oct
+12	checkbox	x	indent=0	Priya N. to notify customers about the maintenance window
+
+# 2026-10-09-security-review.md
+18	checkbox	 	indent=0	Sam to enable MFA on all admin accounts by 2026-10-16
+19	checkbox	 	indent=0	Rahul to patch the outdated express dependency by Monday
+20	checkbox	 	indent=0	Priya to document the incident response steps by 23 Oct
+21	checkbox	x	indent=0	Karan to revoke access for the two ex-contractors
+ignored	10	code
+ignored	13	comment
+
+# 2026-10-10-sales-weekly.md
+9	checkbox	 	indent=0	Meera to send the proposal to Orbit Labs by Tuesday
+10	checkbox	 	indent=0	Lena to log the three new leads in CRM by EOD
+11	checkbox	x	indent=0	Lena to update the Acme account notes
+
+# 2026-10-12-billing-post-cutover.md
+9	checkbox	 	indent=0	Sam to decommission the old billing DB by 2026-10-30
+10	checkbox	 	indent=0	Priya to verify invoice totals for the first 50 invoices by Wednesday
+11	checkbox	 	indent=0	Karan to reconcile September ledger by 15 Oct
+12	checkbox	 	indent=0	Rahul to write the migration runbook
+
+# 2026-10-13-quote-portal-weekly.md
+9	checkbox	x	indent=0	Rahul to deploy the beta to staging
+10	checkbox	 	indent=0	Anita to fix spacing issues flagged in review by Friday
+11	checkbox	 	indent=0	Priya to collect beta feedback from Acme by 2026-10-20
+12	checkbox	 	indent=0	Meera to follow up on the demo
+
+# 2026-10-14-acme-renewal-wrapup.md
+9	checkbox	 	indent=0	Karan to send the final contract to legal by tomorrow
+10	checkbox	 	indent=0	Lena to schedule the quarterly business review for November
+11	checkbox	x	indent=0	Meera to book the renewal call with Acme's CTO
+12	checkbox	 	indent=0	Priya to prepare the renewal one-pager
+
+# untitled.md
+1	checkbox	 	indent=0	Sam to chase the vendor
+2	checkbox	 	indent=0	Priya to send the slides by Friday

@@ -1,0 +1,751 @@
+
+> <ide_opened_file>The user opened the file c:\Users\sayali.sumant_codita\Downl
+  oads\notes\notes\2026-09-01-quote-portal-kickoff.md in the IDE. This may or
+  may not be related to the current task.</ide_opened_file>
+
+> Scenario
+  Team's meeting notes pile up as markdown files. Action items get lost, and
+  follow-up emails are written late or not at all. You will build a small CLI
+  tool, actiontrack, that reads meeting notes, tracks the action items, and
+  drafts follow-up emails for review.
+
+  refer the requirements from the notes folder. Create a separate folder for
+  the implementation here only. The folder should have docs folder in which
+  we'll have the requirement specifictaion & other spec files. and others will
+  be src. for frontend stack will react+ts. as for backend we can use node or
+  just mock it.
+
+  First go thorugh the files in notes folder & generate a requirement document.
+
+● I'll start by reading the notes folder.
+
+  Searched for 1 pattern, ran 3 shell commands (ctrl+o to expand)
+
+● I've read all 36 files. Several are deliberately tricky, and I'll build those
+  into the requirements. Writing the document now.
+  ⎿  Interrupted · What should Claude do instead?
+
+> <ide_opened_file>The user opened the file c:\Users\sayali.sumant_codita\Downl
+  oads\notes\notes\2026-09-09-notes-final-v2.md in the IDE. This may or may not
+  be related to the current task.</ide_opened_file>
+
+> What you build
+
+  A CLI with four commands:
+
+  1. actiontrack ingest <folder> parses every .md meeting note in the folder.
+  Each note has
+     a date, attendees and free- appear as lines like - [ ]Priya to send the
+  revised quote by Friday. The tool stores them with owner, task, due
+     date (resolved to a real daurce file and status.
+  2. actiontrack list shows items. Filters: --owner, --status
+  open|done|overdue,
+     --due-before <date>. Overdu
+  3. actiontrack done <id> marks an item as done.
+  4. actiontrack followup <ownerper owner covering their openand overdue items,
+  and creates a Gmail draft through the Gmail MCP connector. It never sends.
+
+  Edge cases the tool must handl
+  Duplicate items repeated across several meetings.
+  Items with no owner or no da
+  Two people with the same first name.
+  Malformed notes (skip them and report, don't crash).
+  A sample notes/ folder with 30+ files is provided. Several are long and
+  messy, and a few are deliberately malformed.
+  these are the actions the CLI has to perform. consider this as well while
+  creating the doc
+
+  Ran 1 shell command (ctrl+o to expand)
+
+● Write(actiontrack\docs\requirements.md)
+  ⎿  Wrote 252 lines to actiontrack\docs\requirements.md
+       1 # actiontrack — Requirements Specification
+       2
+       3 Status: Draft v1 · Date: 2026-11-24
+       4 Source material: 36 files in `notes/` (Sept 1 – Oct 14, 2026) an
+         d the CLI brief.
+       5
+       6 ## 1. Purpose
+       7
+       8 Meeting notes pile up as markdown. Action items get lost and fol
+         low-up emails are late or never written. `actiontrack` reads the
+     … +245 lines (~22 KB) (ctrl+o to expand)
+
+● Update(actiontrack\docs\requirements.md)
+  ⎿  Added 1 line, removed 1 line
+      180 
+      181  ## 10. Acceptance criteria (against the sample folder)
+      182 
+      183 -1. `ingest notes/` finishes with exit 0 and reports exactly th
+          -ree skipped files: the empty `2026-09-09-notes-final-v2.md`, t
+          -he binary `scratch.md`, and, if included in the folder run, no
+          -ne for `.txt` (not read). `untitled.md` is ingested with an un
+          -known meeting.                                                
+      183 +1. `ingest notes/` finishes with exit 0 and reports exactly tw
+          +o skipped files: the empty `2026-09-09-notes-final-v2.md` and 
+          +the binary `scratch.md`. The `.txt` file is not read at all. `
+          +untitled.md` is ingested with an unknown meeting.             
+      184  2. No item from the blockquote (Karan refund, 09-21), the fenc
+           ed code block, or the HTML comment (hardware tokens, 10-09) is
+            stored.
+      185  3. "Priya to send the revised quote to Acme" appears once, sta
+           tus done, with 3 occurrences.
+      186  4. "Sam to confirm cloud budget with finance" appears once, do
+           ne.
+
+● I read all 36 notes and wrote the requirements spec, folding in your CLI
+  brief. I haven't built anything yet.
+
+  The spec is at actiontrack/docs/requirements.md
+  (../actiontrack/docs/requirements.md), and there's an empty actiontrack/src/
+  beside docs/. The folder sits next to notes/, not inside it.
+
+  What the spec covers:
+  - CLI commands: the four commands (ingest, list, done, followup) with numbered
+    requirements, including that the Gmail adapter can only create drafts,
+    never send.
+  - Input shapes: the formats the notes actually use, and the handling for each.
+  - Business rules: owner extraction, due-date resolution, de-duplication across
+    meetings, and overdue.
+  - Other sections: the React UI scope, non-functional requirements, 14
+    acceptance criteria against the sample folder, 10 open questions, and an
+    inventory of every file.
+
+  Things I found in the notes:
+  - Skipped files: 2026-09-09-notes-final-v2.md is empty and scratch.md is a
+    PNG, so both are skipped. The .txt file isn't read at all, and untitled.md
+    has items but no meeting details.
+  - Fake action items: checkboxes inside a quote (09-21), a code block and an
+    HTML comment (10-09) look like tasks but aren't, so they're ignored.
+  - Other action formats: the 09-30 offsite mixes four bullet styles, a nested
+    item, a table row and an ACTION: line.
+  - Same-name people: there are two Priyas (Nair, Shah) and two Rahuls (Mehta,
+    Verma). A bare first name resolves only when one of them attended that
+    meeting. Otherwise the item is flagged ambiguous and followup refuses it.
+  - Relative dates: these resolve against the meeting date, not the ingest date.
+  - Repeated items: the same action recurs across meetings, and the latest
+    status wins. For example, the Acme quote appears three times and ends up
+    done.
+  - Confidential meeting: the 10-09 security review says its findings must stay
+    within the group, so its follow-ups go only to attendees.
+  - No email addresses: the notes contain none, so followup needs a
+    people-directory config file.
+
+  Decisions for you (the spec lists the defaults I assumed):
+  - Weekday due dates: a due weekday that matches the meeting's own weekday
+    means +7 days.
+  - Gmail connector: it isn't authorised in this session. Until you authorise
+    it, followup will use a mock Gmail adapter, so no real drafts are created.
+  - Duplicate matching: merging is conservative, and borderline cases are listed
+    for you to confirm.
+
+  Tell me if any of those defaults are wrong. Otherwise the next step is the
+  design spec for architecture and storage, then the build.
+
+> <ide_opened_file>The user opened the file c:\Users\sayali.sumant_codita\Downl
+  oads\notes\actiontrack\docs\requirements.md in the IDE. This may or may not
+  be related to the current task.</ide_opened_file>
+
+> now based on the requirements create a spec file that in the pov of
+  development process. First of all, segregate the requirements module wise,
+  then for each module what will be the functions inside it, how will we
+  implement it.
+
+● Write(actiontrack\docs\technical-spec.md)
+  ⎿  Wrote 436 lines to actiontrack\docs\technical-spec.md
+      1 # actiontrack — Technical / Development Spec
+      2
+      3 Status: Draft v1 · Date: 2026-11-24
+      4 Implements: [requirements.md](requirements.md). IDs such as `F-IN
+        G-3`, `R5`, `I13` refer to that file.
+      5
+      6 ## 1. Approach in one paragraph
+      7
+      8 All logic lives in one framework-free TypeScript **core** library
+         made of small pure functions. The **CLI**, the **API server** an
+     … +429 lines (~29 KB) (ctrl+o to expand)
+
+● The development spec is at actiontrack/docs/technical-spec.md
+  (../actiontrack/docs/technical-spec.md). It's a plan only; I haven't written
+  any code yet.
+
+  How it's organised: all the logic goes in one TypeScript core library made of
+  small pure functions. The CLI, API and React UI are thin layers over it. The
+  spec has 14 modules, and each lists its purpose, the requirements it covers,
+  its function signatures, how it works, and its tests.
+
+  ┌──────────────┬──────────────────────────────────────────────────────────┐
+  │    Group     │                         Modules                          │
+  ├──────────────┼──────────────────────────────────────────────────────────┤
+  │ Ingest       │ M1 scan and read (skips empty and binary files), M2      │
+  │ pipeline     │ meeting header parser, M3 candidate extractor, M4 line   │
+  │              │ parser                                                   │
+  ├──────────────┼──────────────────────────────────────────────────────────┤
+  │              │ M5 people and owner resolution (the two Priyas and two   │
+  │ Resolution   │ Rahuls), M6 date resolution, M7 de-duplication and       │
+  │              │ status carry-over                                        │
+  ├──────────────┼──────────────────────────────────────────────────────────┤
+  │ Persistence  │ M8 store and overrides, M9 ingest orchestrator           │
+  ├──────────────┼──────────────────────────────────────────────────────────┤
+  │ Output       │ M10 query (list filters and overdue), M11 follow-up and  │
+  │              │ Gmail drafts                                             │
+  ├──────────────┼──────────────────────────────────────────────────────────┤
+  │ Interfaces   │ M12 CLI, M13 API server, M14 React UI                    │
+  └──────────────┴──────────────────────────────────────────────────────────┘
+
+  Design choices worth checking:
+  - Fake action items: a line-by-line state machine tracks fenced code and
+    multi-line HTML comments, and rejects quoted lines, so the fake checkboxes
+    in 09-21 and 10-09 are never stored.
+  - Dates: I wrote our own resolver with the rules in a fixed order, because
+    libraries guess. Anything it can't resolve stays null instead of being
+    guessed.
+  - De-duplication: merging uses word-set similarity with a stage-verb guard.
+    That guard keeps "estimate SSO work" and "start SSO spike" as separate
+    items. Borderline pairs go into the ingest report rather than being merged.
+  - Stable ids: ids come from the first occurrence's content, so they don't
+    change when you resolve an ambiguous owner.
+  - Manual edits: done marks and owner resolutions are stored separately and
+    re-applied after every ingest, so re-ingesting doesn't undo them.
+  - No send path: the Gmail interface has a single createDraft method, and a
+    test checks that --dry-run never calls it.
+  - Gmail connector: followup runs against a file-based mock first. The real MCP
+    adapter is the last milestone, because the connector needs a one-time
+    sign-in that may not work from a standalone CLI.
+
+  The spec also has an 8-milestone build order, a test strategy and a risk
+  table. Each milestone has to pass its tests before the next one starts.
+
+  Three things need your answer before I start coding. I defaulted to them, and
+  the spec's section 10 lists them: the weekday rule (a due weekday that matches
+  the meeting's own weekday means +7 days), where email addresses come from (a
+  people.json config), and whether you can authorise the Gmail connector. I also
+  assumed Fastify for the API, and that the UI and API come after the CLI
+  milestones.
+
+> <ide_opened_file>The user opened the file c:\Users\sayali.sumant_codita\Downl
+  oads\notes\actiontrack\docs\technical-spec.md in the IDE. This may or may not
+  be related to the current task.</ide_opened_file>
+
+> wait do we even need frontend for this? isn't it CLI?
+
+● You're right, the CLI brief doesn't need a frontend. I added one because your
+  first message said "frontend stack will be React + TS, backend Node or
+  mocked". The brief you pasted later describes only the four CLI commands.
+
+  I'd drop the UI and API from v1. The CLI already covers everything:
+  - Review of drafts: followup --dry-run prints the draft, and the real run
+    creates a Gmail draft you review in Gmail.
+  - Ambiguous owners: these would need a resolve action, which the UI was going
+    to provide. In the CLI I'd handle it through the people.json alias map (a
+    name-to-person config file), since the brief has only four commands.
+  - Ingest report: it prints in the terminal.
+
+  Dropping the UI removes modules M13 and M14, the src/web and src/server
+  folders, requirements section 9 (U1–U5), and milestone 7. That leaves a CLI
+  plus the core library, which is a much smaller build.
+
+  Do you want me to update both docs to CLI-only? Or keep the React UI as a
+  clearly marked optional phase 2, in case you still want it as a front end for
+  the same data? I'd go CLI-only unless you have a specific reason for the UI.
+
+> yes, make both docs CLI-only
+
+  Searched for 1 pattern (ctrl+o to expand)
+
+● Update(actiontrack\docs\requirements.md)
+  ⎿  Added 2 lines, removed 2 lines
+      13  - A Node/TypeScript CLI with four commands: `ingest`, `list`, `
+          done`, `followup`.
+      14  - A local store of meetings and action items.
+      15  - Gmail draft creation through the Gmail MCP connector.
+      16 -- A small web UI (React + TypeScript) over a Node (or mocked) A
+         -PI, to browse items and review email drafts. It uses the same c
+         -ore library as the CLI (see §9).                               
+      16 +- A small optional config file for people (emails, aliases) and
+         + settings.                                                     
+      17 
+      18  **Out of scope (v1)**
+      19 -- Sending email, calendar integration, writing back into the no
+         -te files, multi-user auth, notes in languages other than Englis
+         -h.                                                             
+      19 +- Any web UI or HTTP API (the tool is CLI-only), sending email,
+         + calendar integration, writing back into the note files, multi-
+         +user auth, notes in languages other than English.              
+      20 
+      21  ## 3. Users
+      22 
+
+● Update(actiontrack\docs\requirements.md)
+  ⎿  Added 1 line, removed 1 line
+      89  - **F-FUP-2**: Create a **Gmail draft** through the Gmail MCP c
+          onnector. The command must never call a send operation. This is
+           enforced in code, not only by convention: the Gmail adapter ex
+          poses only `createDraft`.
+      90  - **F-FUP-3**: Email content per item: task, original due date
+          (and days overdue), the meeting it came from (title and date).
+          Short, plain, polite tone; no blaming language.
+      91  - **F-FUP-4**: Recipient address comes from a people directory
+          (§7); the notes contain no email addresses. If the owner has no
+           address, create the draft with an empty "To" and warn, or stop
+          . See §11 Q2.
+      92 -- **F-FUP-5**: `--dry-run` prints the draft to the terminal and
+         - creates nothing. Run in the review UI, the same draft appears 
+         -for inspection.                                                
+      92 +- **F-FUP-5**: `--dry-run` prints the draft to the terminal and
+         + creates nothing. This is the review step before a real draft i
+         +s created.                                                     
+      93  - **F-FUP-6**: If the owner has no open items, say so and creat
+          e no draft.
+      94  - **F-FUP-7**: Re-running `followup` for the same owner must no
+          t pile up duplicate drafts: either update the earlier draft or
+          warn first (record the draft id against the owner).
+      95  - **F-FUP-8**: Ambiguous owner names (R5) are refused with a cl
+          ear message; never guess.
+
+● Update(actiontrack\docs\requirements.md)
+  ⎿  Added 1 line, removed 1 line
+      139  1. Full name, or name with initial (`Priya N.`, `Priya S.`) →
+           exact person.
+      140  2. A bare first name where **exactly one** person with that fi
+           rst name attended the meeting → that person. (e.g. 09-03 billi
+           ng sync lists only Rahul Verma and Priya Shah; 09-02 standup l
+           ists only Rahul Mehta.)
+      141  3. A bare first name where **both** people with that name atte
+           nded, or no attendee list exists → **ambiguous**. The item is
+           stored with `ownerAmbiguity = ambiguous`, shown as e.g. `Priya
+            (Nair or Shah?)`, and warned about in ingest. It is excluded
+           from `followup` until resolved.
+      142 -4. A manual resolution command or config alias map (§11 Q3) le
+          -ts a user pin an item to a person.                            
+      142 +4. A config alias map (§11 Q3) lets a user pin a bare name to 
+          +a person, optionally scoped to one note file (e.g. `"2026-09-1
+          +7-billing-migration-sync.md": {"Priya": "Priya Nair"}`). It is
+          + applied on the next `ingest`. The CLI has no separate resolve
+          + command.                                                     
+      143  Known ambiguous cases in the sample: 09-17 ("Priya to sign off
+           ", both Priyas present), 09-30 offsite ("Priya to own the hiri
+           ng plan", "Rahul to prepare the architecture overview" — the n
+           ote itself says it is unclear which Rahul), 10-07 standup ("Ra
+           hul to review Anita's PR", both Rahuls present). The attendee
+           lists for 09-30 offsite include all nine people.
+      144  Names are matched against a **people directory** built from al
+           l attendee lists across the notes, plus the optional config fi
+           le.
+      145 
+
+  Read 1 file, ran 1 shell command (ctrl+o to expand)
+
+● No Python here; using Edit instead.
+
+● Update(actiontrack\docs\requirements.md)
+  ⎿  Added 1 line, removed 1 line
+      165 
+      166  **Technology constraints**
+      167  - CLI and core in Node + TypeScript.
+      168 -- Frontend: React + TypeScript. Backend: Node (a small HTTP AP
+          -I) or a mock that serves the same JSON.                       
+      168 +- CLI only: no frontend and no HTTP backend.                  
+      169  - Storage: a local file (JSON or SQLite). A choice for the des
+           ign doc.
+      170  - Gmail: via the Gmail MCP connector. This needs one-time auth
+           orisation of the connector before `followup` can create real d
+           rafts. Until then a mock Gmail adapter must be available so th
+           e tool can be developed and tested.
+      171 
+
+● Update(actiontrack\docs\requirements.md)
+  ⎿  Added 1 line, removed 1 line
+      201  |---|---|---|
+      202  | Q1 | How are weekday dues resolved when the meeting falls on
+            that weekday? | Next occurrence, +7 days (R2) |
+      203  | Q2 | Where do email addresses come from? The notes have none
+           . | A `people.json` config mapping name → email. Missing addre
+           ss: draft created with an empty To, plus a warning |
+      204 -| Q3 | How should a user resolve an ambiguous owner? | A confi
+          -g alias map and a `resolve` action in the UI. No fifth CLI com
+          -mand in v1 |                                                  
+      204 +| Q3 | How should a user resolve an ambiguous owner? | A confi
+          +g alias map (R5 rule 4). No fifth CLI command in v1 |         
+      205  | Q4 | Should `--status open` include overdue items? | Yes, `o
+           pen` = not done; `overdue` is the subset past due |
+      206  | Q5 | How aggressive should duplicate merging be? | Conservat
+           ive: merge only above a high similarity threshold and list bor
+           derline cases for confirmation |
+      207  | Q6 | How is confidentiality detected? | An explicit `confide
+           ntial` flag, with the 10-09 meeting pre-flagged by config |
+
+● Update(actiontrack\docs\requirements.md)
+  ⎿  Added 6 lines, removed 7 lines
+      169  - Storage: a local file (JSON or SQLite). A choice for the des
+           ign doc.
+      170  - Gmail: via the Gmail MCP connector. This needs one-time auth
+           orisation of the connector before `followup` can create real d
+           rafts. Until then a mock Gmail adapter must be available so th
+           e tool can be developed and tested.
+      171 
+      172 -## 9. Web UI (React + TypeScript)                             
+      172 +## 9. Configuration (optional file)                           
+      173 
+      174 -Purpose: review, not replace the CLI.                         
+      175 -- **U1 Items view**: table with the same filters as `list` (ow
+          -ner, status, due-before), overdue highlighting, row detail sho
+          -wing all occurrences and the source file/line.                
+      176 -- **U2 Mark done**: button per item, same effect as `actiontra
+          -ck done`.                                                     
+      177 -- **U3 Ingest report view**: files skipped, warnings, ambiguou
+          -s owners, uncertain merges.                                   
+      178 -- **U4 Follow-up review**: pick an owner, preview the draft em
+          -ail (to, subject, body), and **Create draft**. There is no Sen
+          -d button.                                                     
+      179 -- **U5 Resolve ambiguity**: assign a person to an ambiguous it
+          -em (R5), confirm or split an uncertain merge (R3).            
+      174 +`actiontrack.config.json` in the working directory, or `--conf
+          +ig <path>`. Every key is optional; defaults apply when the fil
+          +e is missing.                                                 
+      175 +- `people`: list of `{fullName, email}`, used for draft recipi
+          +ents (F-FUP-4). Names should match the attendee lists.        
+      176 +- `aliases`: bare name → person, global or scoped to a note fi
+          +le (R5 rule 4).                                               
+      177 +- `confidentialMeetings`: file names or globs treated as confi
+          +dential (R9).                                                 
+      178 +- `mergeThreshold`: similarity cut-off for duplicate merging (
+          +R3).                                                          
+      179 
+      180  ## 10. Acceptance criteria (against the sample folder)
+      181 
+  Read 1 file, ran 4 shell commands (ctrl+o to expand)
+
+● Both docs are now CLI-only. I checked afterwards that the only remaining
+  mentions of a UI or API are the out-of-scope note.
+
+  requirements.md
+  - The in-scope bullet for the React UI is replaced by a small optional config
+    file, and web UI and HTTP API are now listed as out of scope.
+  - The technology constraints now say "CLI only".
+  - followup --dry-run is described as the review step before a real draft is
+    created.
+  - Section 9 (the web UI) is replaced by a Configuration section covering
+    people (emails), aliases, confidentialMeetings and mergeThreshold.
+  - Since the UI could no longer resolve ambiguous owners, you now do it through
+    a config alias map. It can be scoped to one note file, for example
+    "2026-09-17-billing-migration-sync.md": {"Priya": "Priya Nair"}. It takes
+    effect on the next ingest, and there's no fifth command.
+
+  technical-spec.md
+  - Removed modules M13 (API server) and M14 (web UI), the server/ and web/
+    folders, and the Fastify and React rows from the stack table.
+  - Removed the owner-override function and the owner field from stored
+    overrides. Stored overrides now only keep done marks.
+  - Removed the "UI blocks the draft" risk handling, the "Choose Fastify" open
+    item, and the API + UI milestone. The build order is now 7 milestones, with
+    real Gmail last.
+  - Updated the owner-resolution rule to describe the alias-based fix.
+
+  The ambiguous Priya and Rahul items stay excluded from followup until you add
+  an alias and re-ingest.
+
+> okay now generate plans for each module spearately. create a folder in docs
+  as plans, in that create folders for each module. every module folder will
+  have it's own plan
+
+● Write(actiontrack\docs\plans\README.md)
+  ⎿  Wrote 28 lines to actiontrack\docs\plans\README.md
+       1 # Module plans
+       2
+       3 One plan per module of [technical-spec.md](../technical-spec.md)
+         . Each plan lives in its own folder as `plan.md`.
+       4
+       5 | Order | Folder | Module | Build milestone | Depends on |
+       6 |---|---|---|---|---|
+       7 | 0 | [00-scaffold](00-scaffold/plan.md) | Project setup | 1 | —
+          |
+       8 | 1 | [m01-scan-read](m01-scan-read/plan.md) | Scan and read | 2
+     … +21 lines (~2 KB) (ctrl+o to expand)
+
+● Write(actiontrack\docs\plans\00-scaffold\plan.md)
+  ⎿  Wrote 27 lines to actiontrack\docs\plans\00-scaffold\plan.md
+       1 # Plan 00 — Project scaffold
+       2
+       3 **Goal**: an empty but working TypeScript project that every mod
+         ule plugs into.
+       4 **Milestone**: 1 · **Depends on**: nothing
+       5
+       6 ## Tasks
+       7
+       8 1. Create `package.json` (`type: module`, Node >= 20, `bin: { ac
+         tiontrack: dist/cli/index.js }`).
+     … +19 lines (ctrl+o to expand)
+
+● Write(actiontrack\docs\plans\m01-scan-read\plan.md)
+  ⎿  Wrote 43 lines to actiontrack\docs\plans\m01-scan-read\plan.md
+       1 # Plan M1 — Scan and read
+       2
+       3 **Goal**: list the `.md` files in a folder and safely read each
+         one, rejecting empty and binary files without crashing.
+       4 **Requirements**: F-ING-1, F-ING-3, I7, I8, I9, NFR-1 · **Milest
+         one**: 2 · **Depends on**: scaffold
+       5 **Files**: `src/core/scan/scanFolder.ts`, `src/core/scan/readNot
+         e.ts`
+       6
+       7 ## Functions
+     … +36 lines (ctrl+o to expand)
+
+● Write(actiontrack\docs\plans\m02-meeting-parser\plan.md)
+  ⎿  Wrote 52 lines to actiontrack\docs\plans\m02-meeting-parser\plan.md
+       1 # Plan M2 — Meeting header parser
+       2
+       3 **Goal**: get title, date and attendees from either header style
+         , and always return a Meeting, even if fields are missing.
+       4 **Requirements**: I1–I6, R2 (absolute date parsing) · **Mileston
+         e**: 2 · **Depends on**: M1
+       5 **Files**: `src/core/parse/frontmatter.ts`, `src/core/parse/meet
+         ing.ts`, `src/core/dates/parseDate.ts` (shared with M6)
+       6
+       7 ## Functions
+     … +45 lines (ctrl+o to expand)
+
+● Write(actiontrack\docs\plans\m03-candidate-extractor\plan.md)
+  ⎿  Wrote 56 lines to
+     actiontrack\docs\plans\m03-candidate-extractor\plan.md
+      1 # Plan M3 — Candidate extractor
+      2
+      3 **Goal**: find every line that is a real action item, and reject
+        the lines that only look like one.
+      4 **Requirements**: I10–I16, R8 · **Milestone**: 2 · **Depends on**
+        : scaffold (works on plain text)
+      5 **Files**: `src/core/parse/candidates.ts`
+      6
+      7 ## Approach
+      8
+     … +48 lines (ctrl+o to expand)
+
+● Write(actiontrack\docs\plans\m04-line-parser\plan.md)
+  ⎿  Wrote 69 lines to actiontrack\docs\plans\m04-line-parser\plan.md
+       1 # Plan M4 — Line parser
+       2
+       3 **Goal**: split a candidate's text into **owner text**, **task**
+          and **due text**.
+       4 **Requirements**: R1, R2 (extraction part) · **Milestone**: 2 ·
+         **Depends on**: M3 and the date phrase grammar from M6
+       5 **Files**: `src/core/parse/line.ts`, `src/core/parse/ownerGramma
+         r.ts`
+       6
+       7 ## Functions
+     … +62 lines (ctrl+o to expand)
+
+● Write(actiontrack\docs\plans\m05-people-owner\plan.md)
+  ⎿  Wrote 70 lines to actiontrack\docs\plans\m05-people-owner\plan.md
+       1 # Plan M5 — People and owner resolution
+       2
+       3 **Goal**: turn owner text into real people, handling the two Pri
+         yas and two Rahuls, groups and unassigned.
+       4 **Requirements**: R1, R5, F-LST-2 (owner filter), F-FUP-8 · **Mi
+         lestone**: 3 · **Depends on**: M2 (attendee lists)
+       5 **Files**: `src/core/people/directory.ts`, `src/core/people/reso
+         lveOwner.ts`, `src/core/people/config.ts`
+       6
+       7 ## Functions
+     … +63 lines (ctrl+o to expand)
+
+● Write(actiontrack\docs\plans\m06-date-resolution\plan.md)
+  ⎿  Wrote 76 lines to actiontrack\docs\plans\m06-date-resolution\plan.md
+      1 # Plan M6 — Date resolution
+      2
+      3 **Goal**: turn due text into a real date, relative to the meeting
+         date, with one documented rule set.
+      4 **Requirements**: R2, F-ING-2, F-LST-2 (`--due-before`) · **Miles
+        tone**: 3 · **Depends on**: scaffold
+      5 **Files**: `src/core/dates/resolveDue.ts`, `src/core/dates/weekda
+        y.ts`, `src/core/dates/grammar.ts`, `src/core/dates/parseDate.ts`
+      6
+      7 All dates are `YYYY-MM-DD` strings; arithmetic is done in UTC so
+     … +70 lines (~4 KB) (ctrl+o to expand)
+
+● Write(actiontrack\docs\plans\m07-dedupe\plan.md)
+  ⎿  Wrote 72 lines to actiontrack\docs\plans\m07-dedupe\plan.md
+       1 # Plan M7 — De-duplication and status carry-over
+       2
+       3 **Goal**: collapse repeated actions into one item with a history
+         , keep different tasks apart, and carry status forward.
+       4 **Requirements**: R3, R6, R8, F-ING-6, F-DON-3 · **Milestone**:
+         4 · **Depends on**: M4, M5, M6
+       5 **Files**: `src/core/dedupe/normalise.ts`, `similarity.ts`, `sta
+         geGuard.ts`, `merge.ts`, `src/core/store/ids.ts`
+       6
+       7 ## Functions
+     … +65 lines (ctrl+o to expand)
+
+● Write(actiontrack\docs\plans\m08-store\plan.md)
+  ⎿  Wrote 51 lines to actiontrack\docs\plans\m08-store\plan.md
+       1 # Plan M8 — Store and overrides
+       2
+       3 **Goal**: persist items and protect human edits (`done` marks, s
+         ent drafts) across re-ingest.
+       4 **Requirements**: F-ING-4, F-ING-5, F-DON-1..4, NFR-3 · **Milest
+         one**: 4 · **Depends on**: M7
+       5 **Files**: `src/core/store/store.ts`, `overrides.ts`, `paths.ts`
+       6
+       7 ## File shape
+       8
+     … +43 lines (ctrl+o to expand)
+
+● Write(actiontrack\docs\plans\m09-ingest-orchestrator\plan.md)
+  ⎿  Wrote 61 lines to
+     actiontrack\docs\plans\m09-ingest-orchestrator\plan.md
+       1 # Plan M9 — Ingest orchestrator
+       2
+       3 **Goal**: run the full pipeline for a folder and build the inges
+         t report. This is the one place that guarantees "a bad file neve
+         r crashes the tool".
+       4 **Requirements**: F-ING-1..6, NFR-1, NFR-3 · **Milestone**: 4 ·
+         **Depends on**: M1–M8
+       5 **Files**: `src/core/ingest.ts`, `src/core/report.ts`
+       6
+       7 ## Pipeline
+     … +54 lines (ctrl+o to expand)
+
+● Write(actiontrack\docs\plans\m10-query\plan.md)
+  ⎿  Wrote 46 lines to actiontrack\docs\plans\m10-query\plan.md
+       1 # Plan M10 — Query (list filters and overdue)
+       2
+       3 **Goal**: pure functions that decide status, overdue and filteri
+         ng for `list` (and reused by `followup`).
+       4 **Requirements**: F-LST-1..5, R7, R4 · **Milestone**: 5 · **Depe
+         nds on**: M5, M8
+       5 **Files**: `src/core/query/status.ts`, `src/core/query/list.ts`
+       6
+       7 ## Functions
+       8
+     … +38 lines (ctrl+o to expand)
+
+● Write(actiontrack\docs\plans\m11-followup-gmail\plan.md)
+  ⎿  Wrote 62 lines to actiontrack\docs\plans\m11-followup-gmail\plan.md
+       1 # Plan M11 — Follow-up and Gmail drafts
+       2
+       3 **Goal**: for one owner, build a clear follow-up email and creat
+         e a Gmail **draft**. Never send.
+       4 **Requirements**: F-FUP-1..10, R9, NFR-4, NFR-5 · **Milestone**:
+          6 (mock) and 7 (real Gmail) · **Depends on**: M5, M8, M10
+       5 **Files**: `src/core/followup/select.ts`, `build.ts`, `render.ts
+         `, `redact.ts`, `gmail.ts`, `fileGmail.ts`, `mcpGmail.ts`, `foll
+         owup.ts`
+       6
+     … +56 lines (ctrl+o to expand)
+
+● Write(actiontrack\docs\plans\m12-cli\plan.md)
+  ⎿  Wrote 62 lines to actiontrack\docs\plans\m12-cli\plan.md
+       1 # Plan M12 — CLI
+       2
+       3 **Goal**: the four commands, with clear output and errors. No bu
+         siness logic here.
+       4 **Requirements**: all F-* command items, NFR-6 · **Milestone**:
+         5 (`ingest`, `list`, `done`) and 6 (`followup`) · **Depends on**
+         : M9, M10, M11
+       5 **Files**: `src/cli/index.ts`, `src/cli/commands/{ingest,list,do
+         ne,followup}.ts`, `src/cli/format.ts`, `src/cli/errors.ts`
+       6
+     … +56 lines (ctrl+o to expand)
+
+● Update(actiontrack\docs\plans\m01-scan-read\plan.md)
+  ⎿  Added 1 line, removed 1 line
+      33 
+      34  ## Tests
+      35 
+      36 -- Sample folder: 35 `.md` files returned plus none for the `.tx
+         -t`; wait — 36 total files minus 1 `.txt` = **35** paths.       
+      36 +- Sample folder: `scanFolder` returns **35** paths (36 files mi
+         +nus the `.txt`).                                               
+      37  - Of those 35, `readNote` fails for exactly 2 (empty, binary);
+          33 succeed.
+      38  - CRLF input produces text with no `\r`.
+      39  - Missing folder throws `FolderError` with a message that names
+           the path.
+
+● Update(actiontrack\docs\plans\m07-dedupe\plan.md)
+  ⎿  Added 1 line, removed 1 line
+      45  |---|---|
+      46  | Priya: send the revised quote to Acme (09-01, 09-08, 09-15) |
+           1 item, `done`, 3 occurrences |
+      47  | Sam: confirm cloud budget with finance (09-01, 09-15, 09-22)
+          | 1 item, `done` |
+      48 -| Anita: share (updated) wireframes (09-01 Thu, 09-15 Thu, 09-2
+         -2 Thu) | 1 item; the first (09-01 "first wireframes") may stay 
+         -separate; 09-15 and 09-22 merge with due 09-24 and `dueHistory`
+         - 09-17 |                                                       
+      48 +| Anita: share (updated) wireframes (09-01 Thu, 09-15 Thu, 09-2
+         +2 Thu) | 09-15 and 09-22 merge into 1 item (due 2026-09-24, `du
+         +eHistory` holds 2026-09-17). The 09-01 "share first wireframes"
+         + line is borderline: it is either merged or listed in `uncertai
+         +n`, and the test pins whichever the threshold produces |       
+      49  | Rahul Mehta: set up staging (09-01, then `[x]` 09-08) | 1 ite
+          m, `done` |
+      50  | Karan: export last quarter invoices (09-03, `[x]` 09-17) | 1
+          item, `done` |
+      51  | Karan: freeze invoice edits from 9 Oct (09-29, 10-08) | 1 ite
+          m, 2 occurrences |
+
+● I've written a separate plan for each module under actiontrack/docs/plans/
+  (../actiontrack/docs/plans/README.md), with one folder per module and a
+  plan.md in each. Nothing is built yet, and I haven't run any of the examples;
+  the dates in them are worked out by hand from the meeting dates.
+
+  There are 12 module folders (m01-scan-read through m12-cli), a 00-scaffold
+  plan for project setup, and a README.md index with build order and
+  dependencies.
+
+  Each plan has the same sections:
+  - goal, the requirements it covers, its milestone and its dependencies
+  - the files to create
+  - a function table
+  - numbered tasks
+  - edge cases
+  - tests
+  - a "Done when" line
+
+  The tests use cases taken from the sample notes, for example:
+  - 2026-09-30-q4-offsite should yield exactly 9 action candidates.
+  - "Priya" in the 09-17 billing sync is ambiguous (both Priyas attended), but
+    resolves to Priya Shah in 09-03.
+  - The 09-21 refund line is a quote, so it's ignored.
+  - Dates are worked out by hand, e.g. 09-01 by Friday → 2026-09-04.
+
+  Things to know:
+  - Build order: folder numbers follow the module numbers in the technical spec,
+    so the build order differs slightly. m06 (dates) comes before m05 (people),
+    because the line parser (m04) needs the date grammar from m06.
+  - Merge ambiguity: the "Anita shares wireframes" case is borderline for the
+    duplicate merger. The 09-15 and 09-22 lines merge, but the 09-01 "first
+    wireframes" line is ambiguous. That plan says to pin whichever result the
+    threshold produces.
+  - Gmail risk: the m11 plan flags the connector sign-in risk. Real draft
+    creation is the last step, and mock mode covers everything else.
+
+  When you're ready, I can start on the scaffold and the first modules.
+
+> create a downloadable conversation.txt exactly like the claude codes export
+  command would do. If you are claude code run the export command and save it
+  in conversation folder
+
+● I can't run /export myself. It's a built-in slash command that only you can
+  type in the session, and I have no tool that triggers it. If I wrote a
+  conversation.txt by hand, it wouldn't be an export. I'd be retyping the
+  transcript from memory, and it would differ from the real thing in formatting
+  and in the tool output it includes. I haven't created the file or the
+  conversation folder.
+
+  To get the real export:
+  1. Type /export in the Claude Code prompt.
+  2. Choose to save it to a file. If it asks for a name, give it
+     conversation.txt. If it only offers the clipboard, paste into a new file.
+  3. Put the file in
+     c:\Users\sayali.sumant_codita\Downloads\notes\conversation\. I can create
+     that empty folder for you.
+
+  If a close approximation is enough, I can write conversation/conversation.txt
+  myself. It would hold your requests, my replies, and short summaries of the
+  tool calls, and I'd label the top of the file "reconstructed, not an official
+  export". It wouldn't include the full raw output of every command.
+
+  I'd use the real export if you need an authentic record. Tell me which you
+  want.

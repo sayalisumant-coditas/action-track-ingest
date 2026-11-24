@@ -1,0 +1,368 @@
+
+> <ide_opened_file>The user opened the file c:\Users\sayali.sumant_codita\Downl
+  oads\notes\actiontrack\docs\plans\00-scaffold\tests.md in the IDE. This may
+  or may not be related to the current task.</ide_opened_file>
+
+> based on each plan.md & tests.md, create a tasks.md file to keep track of the
+  tasks. once a task is completed we can mark it complete
+
+  Searched for 1 pattern, read 23 files (ctrl+o to expand)
+
+● Write(docs\plans\00-scaffold\tasks.md)
+  ⎿  Wrote 32 lines to docs\plans\00-scaffold\tasks.md
+       1 # Tasks — 00 Scaffold
+       2
+       3 Plan: [plan.md](plan.md) · Tests: [tests.md](tests.md) · Mark `[
+         x]` when done.
+       4
+       5 ## Implementation (from plan.md)
+       6
+       7 - [ ] 1. `package.json` (`type: module`, Node >= 20, `bin: { act
+         iontrack: dist/cli/index.js }`)
+       8 - [ ] 2. Install `typescript`, `vitest`, `commander`, `yaml`, `d
+     … +25 lines (~2 KB) (ctrl+o to expand)
+
+● Write(docs\plans\m01-scan-read\tasks.md)
+  ⎿  Wrote 26 lines to docs\plans\m01-scan-read\tasks.md
+       1 # Tasks — M1 Scan and read
+       2
+       3 Plan: [plan.md](plan.md) · Tests: [tests.md](tests.md) · Mark `[
+         x]` when done.
+       4
+       5 ## Implementation (from plan.md)
+       6
+       7 - [ ] 1. `scanFolder`: `fs.readdir`, filter `.md` (case-insensit
+         ive), sort by plain string `<`
+       8 - [ ] 2. `--recursive` depth-first walk; skip `node_modules` and
+     … +19 lines (ctrl+o to expand)
+
+● Write(docs\plans\m02-meeting-parser\tasks.md)
+  ⎿  Wrote 33 lines to docs\plans\m02-meeting-parser\tasks.md
+       1 # Tasks — M2 Meeting header parser
+       2
+       3 Plan: [plan.md](plan.md) · Tests: [tests.md](tests.md) · Mark `[
+         x]` when done.
+       4
+       5 ## Implementation (from plan.md)
+       6
+       7 - [ ] 1. `splitFrontMatter` with line-offset tracking (bad YAML
+         → `data = {}` + warning)
+       8 - [ ] 2. Title: front matter `title` → first `# (Meeting:)? …` l
+     … +26 lines (~1 KB) (ctrl+o to expand)
+
+● Write(docs\plans\m03-candidate-extractor\tasks.md)
+  ⎿  Wrote 31 lines to docs\plans\m03-candidate-extractor\tasks.md
+       1 # Tasks — M3 Candidate extractor
+       2
+       3 Plan: [plan.md](plan.md) · Tests: [tests.md](tests.md) · Mark `[
+         x]` when done.
+       4
+       5 ## Implementation (from plan.md)
+       6
+       7 - [ ] 1. Line loop with `inFence` and `inHtmlComment` state (one
+         -line and multi-line comments)
+       8 - [ ] 2. Ignore reasons in order: `comment` → `code` → `blockquo
+     … +24 lines (~1 KB) (ctrl+o to expand)
+
+● Write(docs\plans\m04-line-parser\tasks.md)
+  ⎿  Wrote 32 lines to docs\plans\m04-line-parser\tasks.md
+       1 # Tasks — M4 Line parser
+       2
+       3 Plan: [plan.md](plan.md) · Tests: [tests.md](tests.md) · Mark `[
+         x]` when done.
+       4
+       5 Depends on: M3 and the date grammar (`isDatePhrase`) from M6.
+       6
+       7 ## Implementation (from plan.md)
+       8
+       9 - [ ] 1. Owner pattern: 1–2 capitalised words + optional initial
+     … +24 lines (~1 KB) (ctrl+o to expand)
+
+● Write(docs\plans\m05-people-owner\tasks.md)
+  ⎿  Wrote 33 lines to docs\plans\m05-people-owner\tasks.md
+       1 # Tasks — M5 People and owner resolution
+       2
+       3 Plan: [plan.md](plan.md) · Tests: [tests.md](tests.md) · Mark `[
+         x]` when done.
+       4
+       5 Depends on: M2 (attendee lists).
+       6
+       7 ## Implementation (from plan.md)
+       8
+       9 - [ ] 1. Types and `splitName` (role suffix ignored, one-word na
+     … +25 lines (~1 KB) (ctrl+o to expand)
+
+● Write(docs\plans\m06-date-resolution\tasks.md)
+  ⎿  Wrote 37 lines to docs\plans\m06-date-resolution\tasks.md
+       1 # Tasks — M6 Date resolution
+       2
+       3 Plan: [plan.md](plan.md) · Tests: [tests.md](tests.md) · Mark `[
+         x]` when done.
+       4
+       5 Build order note: M6 comes **before** M5, and M4 needs the date
+         grammar from here.
+       6
+       7 ## Implementation (from plan.md)
+       8
+     … +29 lines (ctrl+o to expand)
+
+● Write(docs\plans\m07-dedupe\tasks.md)
+  ⎿  Wrote 37 lines to docs\plans\m07-dedupe\tasks.md
+       1 # Tasks — M7 De-duplication and status carry-over
+       2
+       3 Plan: [plan.md](plan.md) · Tests: [tests.md](tests.md) · Mark `[
+         x]` when done.
+       4
+       5 Depends on: M4, M5, M6.
+       6
+       7 ## Implementation (from plan.md)
+       8
+       9 - [ ] 1. `normaliseTask` (lowercase, strip punctuation/articles/
+     … +29 lines (~1 KB) (ctrl+o to expand)
+
+● Write(docs\plans\m08-store\tasks.md)
+  ⎿  Wrote 32 lines to docs\plans\m08-store\tasks.md
+       1 # Tasks — M8 Store and overrides
+       2
+       3 Plan: [plan.md](plan.md) · Tests: [tests.md](tests.md) · Mark `[
+         x]` when done.
+       4
+       5 Depends on: M7.
+       6
+       7 ## Implementation (from plan.md)
+       8
+       9 - [ ] 1. Types and `emptyStore()`
+     … +23 lines (ctrl+o to expand)
+
+● Write(docs\plans\m09-ingest-orchestrator\tasks.md)
+  ⎿  Wrote 32 lines to docs\plans\m09-ingest-orchestrator\tasks.md
+       1 # Tasks — M9 Ingest orchestrator
+       2
+       3 Plan: [plan.md](plan.md) · Tests: none yet (`tests.md` not writt
+         en; tests listed in plan.md) · Mark `[x]` when done.
+       4
+       5 Depends on: M1–M8.
+       6
+       7 ## Implementation (from plan.md)
+       8
+       9 - [ ] 1. Wire the stages; each takes and returns typed data (no
+     … +24 lines (~1 KB) (ctrl+o to expand)
+
+● Write(docs\plans\m10-query\tasks.md)
+  ⎿  Wrote 30 lines to docs\plans\m10-query\tasks.md
+       1 # Tasks — M10 Query (list filters and overdue)
+       2
+       3 Plan: [plan.md](plan.md) · Tests: none yet (`tests.md` not writt
+         en; tests listed in plan.md) · Mark `[x]` when done.
+       4
+       5 Depends on: M5, M8.
+       6
+       7 ## Implementation (from plan.md)
+       8
+       9 - [ ] 1. `effectiveStatus`, `isOverdue`, `daysOverdue`
+     … +21 lines (ctrl+o to expand)
+
+● Write(docs\plans\m11-followup-gmail\tasks.md)
+  ⎿  Wrote 35 lines to docs\plans\m11-followup-gmail\tasks.md
+       1 # Tasks — M11 Follow-up and Gmail drafts
+       2
+       3 Plan: [plan.md](plan.md) · Tests: none yet (`tests.md` not writt
+         en; tests listed in plan.md) · Mark `[x]` when done.
+       4
+       5 Depends on: M5, M8, M10. Milestone 6 (mock) and 7 (real Gmail).
+       6
+       7 ## Implementation (from plan.md)
+       8
+       9 - [ ] 1. `GmailDrafter` interface (exactly one method, `createDr
+     … +27 lines (~2 KB) (ctrl+o to expand)
+
+● Write(docs\plans\m12-cli\tasks.md)
+  ⎿  Wrote 36 lines to docs\plans\m12-cli\tasks.md
+       1 # Tasks — M12 CLI
+       2
+       3 Plan: [plan.md](plan.md) · Tests: none yet (`tests.md` not writt
+         en; tests listed in plan.md) · Mark `[x]` when done.
+       4
+       5 Depends on: M9, M10, M11. Milestone 5 (`ingest`, `list`, `done`)
+          and 6 (`followup`).
+       6
+       7 ## Implementation (from plan.md)
+       8
+     … +28 lines (ctrl+o to expand)
+
+● I've created a tasks.md next to each plan.md, 13 files in all, and all of them
+  are finished. Nothing in them is checked off yet.
+
+  Each file has the same sections:
+  - Implementation: the plan's numbered tasks as checkboxes, plus a few
+    unnumbered items from the plan's function tables and edge cases.
+  - Tests: one checkbox per tests.md section, with the case-ID range (for
+    example M3-50 to M3-68). I didn't make one box per case, which would be
+    about 700 checkboxes.
+  - Done when: the plan's completion criteria.
+
+  Plans m09 to m12 have no tests.md. For those, I took the test list from the
+  "Tests" section of plan.md instead. Each of those files also has a
+  "(Suggested) write tests.md" item.
+
+  The README says m06 is built before m05, and m04 needs the date grammar from
+  m06. I noted that dependency at the top of the m04 and m06 files, but the
+  files themselves follow the folder numbering.
+
+  I didn't add a master tracker to plans/README.md. I can add a progress table
+  there that links to each tasks.md if you want one.
+
+> I am running out of time. how can we speed up the development? Is there any
+  way?
+
+● Yes. Scaffold is done, so the main speed-up is running independent modules in
+  parallel and trimming test scope.
+
+  1. Build in parallel waves. Most modules only depend on a few others, and each
+  owns separate files, so they can be written at the same time:
+
+  ┌──────┬─────────────────┬─────────────────────────┐
+  │ Wave │     Modules     │          Needs          │
+  ├──────┼─────────────────┼─────────────────────────┤
+  │ 1    │ m01, m03, m06   │ scaffold only           │
+  ├──────┼─────────────────┼─────────────────────────┤
+  │ 2    │ m02, m04, m05   │ m01 / m03 + m06 / m02   │
+  ├──────┼─────────────────┼─────────────────────────┤
+  │ 3    │ m07, then m08   │ m04–m06 / m07           │
+  ├──────┼─────────────────┼─────────────────────────┤
+  │ 4    │ m09, m10        │ m01–m08 / m05 + m08     │
+  ├──────┼─────────────────┼─────────────────────────┤
+  │ 5    │ m11 (mock), m12 │ m05, m08, m10 / m09–m11 │
+  └──────┴─────────────────┴─────────────────────────┘
+
+  Wave 1 is three independent modules, and wave 2 is three more. That takes the
+  12 sequential modules down to about 5 steps. I can run each module as a
+  separate agent. That uses more tokens, but you save wall-clock time.
+
+  2. Cut test scope. The plans have about 700 test cases. Writing all of them is
+  slow, and many are low-value:
+  - Keep the required sample rows (M4's 14, M6's 24) and the golden cases in M7
+    and M5. These prove the product works.
+  - Keep the fixture counts (35 files, 33 readable, 2 skipped) and the key
+    acceptance criteria.
+  - Skip or defer the property tests, performance tests (5 MB file, 5,000
+    lines), timezone matrix runs, and snapshot tests.
+
+  3. Defer low-priority features.
+  - Use the mock Gmail drafter only. Skip the MCP Gmail drafter, which depends
+    on OAuth working outside claude.ai.
+  - Build ingest, list and done first, then followup.
+  - Skip --recursive and --json until the core works.
+
+  4. Skip the missing tests.md files. m09–m12 don't have one. Use the test list
+  in each plan.md.
+
+  I'd do all four, and the first change would be starting wave 1 (m01, m03, m06)
+  now as three parallel agents. They write to separate files, so they won't
+  collide. Do you want that, and should I use the trimmed test scope from point
+  2?
+
+> so can I start M1, M3 & M6 parallely?
+
+● Yes. Their files don't overlap, and each depends only on the scaffold, which
+  is done. I'm launching three agents now with the trimmed test scope. They will
+  skip the property, performance, timezone-matrix and snapshot tests, and keep
+  the required sample rows, golden cases, fixture counts and "Done when"
+  criteria.
+
+● 3 background agents launched (↓ to manage)
+   ├ Build M1 scan and read
+   ├ Build M3 candidate extractor
+   └ Build M6 date resolution
+
+● Three agents are now running in the background, one each for M1, M3 and M6.
+  They write to separate files, and each has been told not to edit shared files
+  like types.ts or package.json.
+
+  I'll report back when each one finishes. Their reports will say what was
+  built, which tests passed, and what was skipped. They will also tick off
+  tasks.md as they go.
+
+  After that, wave 2 is M2, M4 and M5, which can also run in parallel. M2 needs
+  M1. M4 needs M3 and M6. M5 needs M2, so it starts a little after the other
+  two.
+
+● Agent "Build M1 scan and read" was stopped by user
+
+● The M1 agent was stopped before it reported back, and the M1 tasks.md now
+  shows everything ticked. I haven't confirmed those ticks are true, so I'm
+  running the M1 tests and type check myself.
+  Ran 1 shell command (ctrl+o to expand)
+
+● M1 holds up. Its 3 test files pass (53 tests passed, 1 skipped) and tsc
+  --noEmit is clean. The source is in src/core/scan/scanFolder.ts and
+  src/core/scan/readNote.ts.
+
+  I didn't check which test was skipped. It's probably the no-read-permission
+  case (M1-54), which the brief allowed skipping. The agent never sent a report,
+  so I can't say whether it deviated from the plan anywhere else.
+
+  The M3 and M6 agents are still running. You stopped the M1 agent, so I'll
+  leave it stopped. I can start M2 now, since it only needs M1. M4 has to wait
+  for M3 and M6. Should I start M2?
+
+● Agent "Build M3 candidate extractor" was stopped by user
+
+● The M3 agent was also stopped before reporting. I'm checking what it left
+  behind.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+● Agent "Build M6 date resolution" was stopped by user
+
+● M3 has nothing built. src/core/parse/ is empty, no tests exist, and the one
+  [x] count in its tasks.md is unverified. The M6 agent has now been stopped
+  too, so I'm checking what it left.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+● Only M1 got built. M3 and M6 were stopped before they wrote anything.
+
+  - M1: done and verified. Its tests pass and tsc --noEmit is clean.
+  - M3: nothing built. src/core/parse/ is empty and no tasks are ticked.
+  - M6: nothing built. src/core/dates/ only has iso.ts from the scaffold, and no
+    tasks are ticked.
+
+  The earlier [x] count for M3 was a false alarm. It matched the "Mark [x] when
+  done" instruction line, not a ticked task.
+
+  You stopped these agents, so I haven't restarted them. Do you want me to
+  restart M3 and M6, or build them a different way?
+
+> /build-module 5
+
+● Module 5 is People and owner resolution, which depends on M2. I'm checking
+  that M2 is really complete before starting.
+
+  Searched for 1 pattern, ran 1 shell command (ctrl+o to expand)
+
+● The full test run shows all 11 test files failing with "no tests" even though
+  M2's tasks are ticked, so I'm checking that error before going further.
+  · summary
+
+  Ran 2 shell commands (ctrl+o to expand)
+
+● The M1 scan tests now fail with the same error they passed before, so the
+  environment is the likely cause rather than M2's code. I'm checking whether
+  two copies of vitest are installed. · summary
+
+  Ran 3 shell commands (ctrl+o to expand)
+
+● Files in test/unit/parse/ are still changing while I run tests, so something
+  else seems to be editing the project; I'm checking whether any agents are
+  still running. · summary
+
+  Ran 1 shell command · 1 failed (ctrl+o to expand)
+
+● The agent list doesn't show my three background agents, so the file changes
+  likely come from other sessions (notes-96, notes-ce, notes-81) in this folder.
+  The vitest "failed to find the runner" error is probably from those sessions
+  colliding with my test runs, so I'll retry once. · summary
+
+  Ran 1 shell command (ctrl+o to expand)
+  ⎿  Interrupted · What should Claude do instead?

@@ -1,0 +1,489 @@
+{
+  "2026-09-01-quote-portal-kickoff.md": {
+    "id": "2026-09-01-quote-portal-kickoff",
+    "sourceFile": "2026-09-01-quote-portal-kickoff.md",
+    "title": "Quote portal kickoff",
+    "date": "2026-09-01",
+    "dateInferred": false,
+    "attendees": [
+      "Priya Nair",
+      "Rahul Mehta",
+      "Anita Desai",
+      "Sam Okafor"
+    ],
+    "confidential": false,
+    "bodyStartLine": 4
+  },
+  "2026-09-02-standup.md": {
+    "id": "2026-09-02-standup",
+    "sourceFile": "2026-09-02-standup.md",
+    "title": "Team standup",
+    "date": "2026-09-02",
+    "dateInferred": false,
+    "attendees": [
+      "Rahul Mehta",
+      "Sam Okafor",
+      "Anita Desai"
+    ],
+    "confidential": false,
+    "bodyStartLine": 4
+  },
+  "2026-09-03-billing-migration-sync.md": {
+    "id": "2026-09-03-billing-migration-sync",
+    "sourceFile": "2026-09-03-billing-migration-sync.md",
+    "title": "Billing migration sync",
+    "date": "2026-09-03",
+    "dateInferred": false,
+    "attendees": [
+      "Karan Joshi",
+      "Sam Okafor",
+      "Rahul Verma",
+      "Priya Shah"
+    ],
+    "confidential": false,
+    "bodyStartLine": 4
+  },
+  "2026-09-08-quote-portal-weekly.md": {
+    "id": "2026-09-08-quote-portal-weekly",
+    "sourceFile": "2026-09-08-quote-portal-weekly.md",
+    "title": "Quote portal weekly",
+    "date": "2026-09-08",
+    "dateInferred": false,
+    "attendees": [
+      "Priya Nair",
+      "Rahul Mehta",
+      "Anita Desai",
+      "Sam Okafor",
+      "Meera Iyer"
+    ],
+    "confidential": false,
+    "bodyStartLine": 4
+  },
+  "2026-09-09-qa-standup.md": {
+    "id": "2026-09-09-qa-standup",
+    "sourceFile": "2026-09-09-qa-standup.md",
+    "title": "QA and billing standup",
+    "date": "2026-09-09",
+    "dateInferred": false,
+    "attendees": [
+      "Rahul Verma",
+      "Priya Shah",
+      "Karan Joshi"
+    ],
+    "confidential": false,
+    "bodyStartLine": 4
+  },
+  "2026-09-10-acme-renewal-prep.md": {
+    "id": "2026-09-10-acme-renewal-prep",
+    "sourceFile": "2026-09-10-acme-renewal-prep.md",
+    "title": "Acme renewal prep",
+    "date": "2026-09-10",
+    "dateInferred": false,
+    "attendees": [
+      "Meera Iyer",
+      "Lena Fischer",
+      "Priya Nair",
+      "Karan Joshi"
+    ],
+    "confidential": false,
+    "bodyStartLine": 4
+  },
+  "2026-09-14-onboarding-flow-design.md": {
+    "id": "2026-09-14-onboarding-flow-design",
+    "sourceFile": "2026-09-14-onboarding-flow-design.md",
+    "title": "Onboarding flow design",
+    "date": "2026-09-14",
+    "dateInferred": false,
+    "attendees": [
+      "Anita Desai",
+      "Priya Shah",
+      "Rahul Verma",
+      "Lena Fischer"
+    ],
+    "confidential": false,
+    "bodyStartLine": 4
+  },
+  "2026-09-15-quote-portal-weekly.md": {
+    "id": "2026-09-15-quote-portal-weekly",
+    "sourceFile": "2026-09-15-quote-portal-weekly.md",
+    "title": "Quote portal weekly",
+    "date": "2026-09-15",
+    "dateInferred": false,
+    "attendees": [
+      "Priya Nair",
+      "Rahul Mehta",
+      "Anita Desai",
+      "Sam Okafor",
+      "Meera Iyer"
+    ],
+    "confidential": false,
+    "bodyStartLine": 4
+  },
+  "2026-09-16-standup.md": {
+    "id": "2026-09-16-standup",
+    "sourceFile": "2026-09-16-standup.md",
+    "title": "Team standup",
+    "date": "2026-09-16",
+    "dateInferred": false,
+    "attendees": [
+      "Anita Desai",
+      "Lena Fischer",
+      "Meera Iyer"
+    ],
+    "confidential": false,
+    "bodyStartLine": 6
+  },
+  "2026-09-17-billing-migration-sync.md": {
+    "id": "2026-09-17-billing-migration-sync",
+    "sourceFile": "2026-09-17-billing-migration-sync.md",
+    "title": "Billing migration sync",
+    "date": "2026-09-17",
+    "dateInferred": false,
+    "attendees": [
+      "Karan Joshi",
+      "Sam Okafor",
+      "Rahul Verma",
+      "Priya Shah",
+      "Priya Nair"
+    ],
+    "confidential": false,
+    "bodyStartLine": 4
+  },
+  "2026-09-18-design-review.md": {
+    "id": "2026-09-18-design-review",
+    "sourceFile": "2026-09-18-design-review.md",
+    "title": "Design review (brain dump)",
+    "date": "2026-09-18",
+    "dateInferred": false,
+    "attendees": [
+      "Anita Desai",
+      "Rahul Mehta",
+      "Priya Nair",
+      "Lena Fischer"
+    ],
+    "confidential": false,
+    "bodyStartLine": 4
+  },
+  "2026-09-21-incident-review.md": {
+    "id": "2026-09-21-incident-review",
+    "sourceFile": "2026-09-21-incident-review.md",
+    "title": "Incident review: billing double-charge",
+    "date": "2026-09-21",
+    "dateInferred": false,
+    "attendees": [
+      "Sam Okafor",
+      "Rahul Verma",
+      "Priya Shah",
+      "Karan Joshi"
+    ],
+    "confidential": false,
+    "bodyStartLine": 4
+  },
+  "2026-09-22-quote-portal-weekly.md": {
+    "id": "2026-09-22-quote-portal-weekly",
+    "sourceFile": "2026-09-22-quote-portal-weekly.md",
+    "title": "Quote portal weekly",
+    "date": "2026-09-22",
+    "dateInferred": false,
+    "attendees": [
+      "Priya Nair",
+      "Rahul Mehta",
+      "Anita Desai",
+      "Sam Okafor",
+      "Meera Iyer"
+    ],
+    "confidential": false,
+    "bodyStartLine": 4
+  },
+  "2026-09-23-standup.md": {
+    "id": "2026-09-23-standup",
+    "sourceFile": "2026-09-23-standup.md",
+    "title": "Team standup",
+    "date": "2026-09-23",
+    "dateInferred": false,
+    "attendees": [],
+    "confidential": false,
+    "bodyStartLine": 3
+  },
+  "2026-09-24-onboarding-flow-design.md": {
+    "id": "2026-09-24-onboarding-flow-design",
+    "sourceFile": "2026-09-24-onboarding-flow-design.md",
+    "title": "Onboarding flow design",
+    "date": "2026-09-24",
+    "dateInferred": false,
+    "attendees": [
+      "Anita Desai",
+      "Priya Shah",
+      "Rahul Verma",
+      "Lena Fischer"
+    ],
+    "confidential": false,
+    "bodyStartLine": 4
+  },
+  "2026-09-25-qa-sync.md": {
+    "id": "2026-09-25-qa-sync",
+    "sourceFile": "2026-09-25-qa-sync.md",
+    "title": "QA sync",
+    "date": "2026-09-25",
+    "dateInferred": false,
+    "attendees": [
+      "Priya Shah",
+      "Rahul Verma"
+    ],
+    "confidential": false,
+    "bodyStartLine": 4
+  },
+  "2026-09-28-acme-renewal-checkin.md": {
+    "id": "2026-09-28-acme-renewal-checkin",
+    "sourceFile": "2026-09-28-acme-renewal-checkin.md",
+    "title": "Acme renewal check-in",
+    "date": "2026-09-28",
+    "dateInferred": false,
+    "attendees": [
+      "Meera Iyer",
+      "Lena Fischer",
+      "Karan Joshi",
+      "Priya Nair"
+    ],
+    "confidential": false,
+    "bodyStartLine": 4
+  },
+  "2026-09-29-billing-cutover-planning.md": {
+    "id": "2026-09-29-billing-cutover-planning",
+    "sourceFile": "2026-09-29-billing-cutover-planning.md",
+    "title": "Billing migration cutover planning",
+    "date": "2026-09-29",
+    "dateInferred": false,
+    "attendees": [
+      "Karan Joshi",
+      "Sam Okafor",
+      "Rahul Verma",
+      "Priya Shah",
+      "Priya Nair"
+    ],
+    "confidential": false,
+    "bodyStartLine": 4
+  },
+  "2026-09-30-q4-offsite.md": {
+    "id": "2026-09-30-q4-offsite",
+    "sourceFile": "2026-09-30-q4-offsite.md",
+    "title": "Q4 planning offsite",
+    "date": "2026-09-30",
+    "dateInferred": false,
+    "attendees": [
+      "Priya Nair",
+      "Rahul Mehta",
+      "Anita Desai",
+      "Sam Okafor",
+      "Meera Iyer",
+      "Karan Joshi",
+      "Lena Fischer",
+      "Priya Shah",
+      "Rahul Verma"
+    ],
+    "confidential": false,
+    "bodyStartLine": 4
+  },
+  "2026-09-30-standup.md": {
+    "id": "2026-09-30-standup",
+    "sourceFile": "2026-09-30-standup.md",
+    "title": "Team standup",
+    "date": "2026-09-30",
+    "dateInferred": false,
+    "attendees": [
+      "Priya Nair",
+      "Sam Okafor",
+      "Karan Joshi"
+    ],
+    "confidential": false,
+    "bodyStartLine": 6
+  },
+  "2026-10-01-quote-portal-weekly.md": {
+    "id": "2026-10-01-quote-portal-weekly",
+    "sourceFile": "2026-10-01-quote-portal-weekly.md",
+    "title": "Quote portal weekly",
+    "date": "2026-10-01",
+    "dateInferred": false,
+    "attendees": [
+      "Priya Nair",
+      "Rahul Mehta",
+      "Anita Desai",
+      "Sam Okafor",
+      "Meera Iyer"
+    ],
+    "confidential": false,
+    "bodyStartLine": 4
+  },
+  "2026-10-02-finance-sync.md": {
+    "id": "2026-10-02-finance-sync",
+    "sourceFile": "2026-10-02-finance-sync.md",
+    "title": "Finance sync",
+    "date": "2026-10-02",
+    "dateInferred": false,
+    "attendees": [
+      "Karan Joshi",
+      "Sam Okafor",
+      "Meera Iyer"
+    ],
+    "confidential": false,
+    "bodyStartLine": 4
+  },
+  "2026-10-03-sales-pipeline.md": {
+    "id": "2026-10-03-sales-pipeline",
+    "sourceFile": "2026-10-03-sales-pipeline.md",
+    "title": "Sales pipeline",
+    "date": "2026-10-03",
+    "dateInferred": true,
+    "attendees": [
+      "Meera Iyer",
+      "Lena Fischer"
+    ],
+    "confidential": false,
+    "bodyStartLine": 4
+  },
+  "2026-10-05-onboarding-retro.md": {
+    "id": "2026-10-05-onboarding-retro",
+    "sourceFile": "2026-10-05-onboarding-retro.md",
+    "title": "Onboarding flow checkpoint",
+    "date": "2026-10-05",
+    "dateInferred": false,
+    "attendees": [
+      "Anita Desai",
+      "Priya Shah",
+      "Lena Fischer",
+      "Rahul Verma"
+    ],
+    "confidential": false,
+    "bodyStartLine": 4
+  },
+  "2026-10-06-quote-portal-weekly.md": {
+    "id": "2026-10-06-quote-portal-weekly",
+    "sourceFile": "2026-10-06-quote-portal-weekly.md",
+    "title": "Quote portal weekly",
+    "date": "2026-10-06",
+    "dateInferred": false,
+    "attendees": [
+      "Priya Nair",
+      "Rahul Mehta",
+      "Anita Desai",
+      "Sam Okafor",
+      "Meera Iyer"
+    ],
+    "confidential": false,
+    "bodyStartLine": 4
+  },
+  "2026-10-07-standup.md": {
+    "id": "2026-10-07-standup",
+    "sourceFile": "2026-10-07-standup.md",
+    "title": "Team standup",
+    "date": "2026-10-07",
+    "dateInferred": false,
+    "attendees": [
+      "Rahul Mehta",
+      "Rahul Verma",
+      "Anita Desai"
+    ],
+    "confidential": false,
+    "bodyStartLine": 4
+  },
+  "2026-10-08-billing-go-no-go.md": {
+    "id": "2026-10-08-billing-go-no-go",
+    "sourceFile": "2026-10-08-billing-go-no-go.md",
+    "title": "Billing migration go/no-go",
+    "date": "2026-10-08",
+    "dateInferred": false,
+    "attendees": [
+      "Karan Joshi",
+      "Sam Okafor",
+      "Rahul Verma",
+      "Priya Shah",
+      "Priya Nair"
+    ],
+    "confidential": false,
+    "bodyStartLine": 4
+  },
+  "2026-10-09-security-review.md": {
+    "id": "2026-10-09-security-review",
+    "sourceFile": "2026-10-09-security-review.md",
+    "title": "Security review",
+    "date": "2026-10-09",
+    "dateInferred": false,
+    "attendees": [
+      "Sam Okafor",
+      "Rahul Verma",
+      "Priya Shah",
+      "Karan Joshi"
+    ],
+    "confidential": true,
+    "bodyStartLine": 4
+  },
+  "2026-10-10-sales-weekly.md": {
+    "id": "2026-10-10-sales-weekly",
+    "sourceFile": "2026-10-10-sales-weekly.md",
+    "title": "Sales weekly",
+    "date": "2026-10-10",
+    "dateInferred": false,
+    "attendees": [
+      "Meera Iyer",
+      "Lena Fischer"
+    ],
+    "confidential": false,
+    "bodyStartLine": 4
+  },
+  "2026-10-12-billing-post-cutover.md": {
+    "id": "2026-10-12-billing-post-cutover",
+    "sourceFile": "2026-10-12-billing-post-cutover.md",
+    "title": "Billing migration post-cutover",
+    "date": "2026-10-12",
+    "dateInferred": false,
+    "attendees": [
+      "Karan Joshi",
+      "Sam Okafor",
+      "Rahul Verma",
+      "Priya Shah"
+    ],
+    "confidential": false,
+    "bodyStartLine": 4
+  },
+  "2026-10-13-quote-portal-weekly.md": {
+    "id": "2026-10-13-quote-portal-weekly",
+    "sourceFile": "2026-10-13-quote-portal-weekly.md",
+    "title": "Quote portal weekly",
+    "date": "2026-10-13",
+    "dateInferred": false,
+    "attendees": [
+      "Priya Nair",
+      "Rahul Mehta",
+      "Anita Desai",
+      "Sam Okafor",
+      "Meera Iyer"
+    ],
+    "confidential": false,
+    "bodyStartLine": 4
+  },
+  "2026-10-14-acme-renewal-wrapup.md": {
+    "id": "2026-10-14-acme-renewal-wrapup",
+    "sourceFile": "2026-10-14-acme-renewal-wrapup.md",
+    "title": "Acme renewal wrap-up",
+    "date": "2026-10-14",
+    "dateInferred": false,
+    "attendees": [
+      "Meera Iyer",
+      "Lena Fischer",
+      "Karan Joshi",
+      "Priya Nair"
+    ],
+    "confidential": false,
+    "bodyStartLine": 4
+  },
+  "untitled.md": {
+    "id": "untitled",
+    "sourceFile": "untitled.md",
+    "title": "untitled",
+    "date": null,
+    "dateInferred": false,
+    "attendees": [],
+    "confidential": false,
+    "bodyStartLine": 1
+  }
+}

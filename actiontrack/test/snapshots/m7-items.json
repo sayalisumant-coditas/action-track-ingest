@@ -1,0 +1,1283 @@
+[
+  {
+    "id": "d92408",
+    "task": "send the revised quote to Acme",
+    "owner": "person:priya-nair",
+    "status": "done",
+    "due": "2026-09-11",
+    "dueHistory": [
+      "2026-09-04"
+    ],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-01-quote-portal-kickoff.md:9",
+      "2026-09-08-quote-portal-weekly.md:9",
+      "2026-09-15-quote-portal-weekly.md:9 [x]"
+    ]
+  },
+  {
+    "id": "b5113e",
+    "task": "set up the staging environment",
+    "owner": "person:rahul-mehta",
+    "status": "done",
+    "due": "2026-09-08",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-01-quote-portal-kickoff.md:10",
+      "2026-09-08-quote-portal-weekly.md:12 [x]"
+    ]
+  },
+  {
+    "id": "468935",
+    "task": "share first wireframes",
+    "owner": "person:anita-desai",
+    "status": "open",
+    "due": "2026-09-03",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-01-quote-portal-kickoff.md:11"
+    ]
+  },
+  {
+    "id": "3301be",
+    "task": "confirm cloud budget with finance",
+    "owner": "person:sam-okafor",
+    "status": "done",
+    "due": "2026-09-18",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-01-quote-portal-kickoff.md:12",
+      "2026-09-15-quote-portal-weekly.md:11",
+      "2026-09-22-quote-portal-weekly.md:10 [x]"
+    ]
+  },
+  {
+    "id": "58175d",
+    "task": "open the repo access request",
+    "owner": "person:rahul-mehta",
+    "status": "open",
+    "due": "2026-09-03",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-02-standup.md:9"
+    ]
+  },
+  {
+    "id": "0350f1",
+    "task": "share the VPN guide",
+    "owner": "person:sam-okafor",
+    "status": "open",
+    "due": null,
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-02-standup.md:10"
+    ]
+  },
+  {
+    "id": "be2be0",
+    "task": "export last quarter invoices",
+    "owner": "person:karan-joshi",
+    "status": "done",
+    "due": "2026-09-10",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-03-billing-migration-sync.md:9",
+      "2026-09-17-billing-migration-sync.md:11 [x]"
+    ]
+  },
+  {
+    "id": "2243c3",
+    "task": "review the schema mapping doc",
+    "owner": "person:rahul-verma",
+    "status": "open",
+    "due": "2026-09-07",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-03-billing-migration-sync.md:10",
+      "2026-09-17-billing-migration-sync.md:12"
+    ]
+  },
+  {
+    "id": "ef1c24",
+    "task": "draft the test plan for invoice rounding",
+    "owner": "person:priya-shah",
+    "status": "open",
+    "due": "2026-09-11",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-03-billing-migration-sync.md:11"
+    ]
+  },
+  {
+    "id": "b2a970",
+    "task": "snapshot the production DB before cutover",
+    "owner": "person:sam-okafor",
+    "status": "open",
+    "due": null,
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-03-billing-migration-sync.md:12"
+    ]
+  },
+  {
+    "id": "c93afc",
+    "task": "finish login screen",
+    "owner": "person:rahul-mehta",
+    "status": "open",
+    "due": "2026-09-09",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-08-quote-portal-weekly.md:10"
+    ]
+  },
+  {
+    "id": "1d075b",
+    "task": "ask Acme for their procurement contact",
+    "owner": "person:meera-iyer",
+    "status": "open",
+    "due": null,
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-08-quote-portal-weekly.md:11"
+    ]
+  },
+  {
+    "id": "1ba826",
+    "task": "send the vendor invoice list",
+    "owner": "person:karan-joshi",
+    "status": "open",
+    "due": "2026-09-11",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-09-qa-standup.md:9"
+    ]
+  },
+  {
+    "id": "575997",
+    "task": "set up the test data",
+    "owner": "person:priya-shah",
+    "status": "open",
+    "due": null,
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-09-qa-standup.md:10"
+    ]
+  },
+  {
+    "id": "1ba512",
+    "task": "pull Acme's usage report for the last 6 months",
+    "owner": "person:lena-fischer",
+    "status": "open",
+    "due": "2026-09-11",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-10-acme-renewal-prep.md:9"
+    ]
+  },
+  {
+    "id": "25202a",
+    "task": "confirm discount ceiling with the CFO",
+    "owner": "person:karan-joshi",
+    "status": "open",
+    "due": "2026-09-14",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-10-acme-renewal-prep.md:10"
+    ]
+  },
+  {
+    "id": "7efddf",
+    "task": "book the renewal call with Acme's CTO",
+    "owner": "person:meera-iyer",
+    "status": "done",
+    "due": "2026-09-30",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-10-acme-renewal-prep.md:11",
+      "2026-09-28-acme-renewal-checkin.md:9",
+      "2026-10-14-acme-renewal-wrapup.md:11 [x]"
+    ]
+  },
+  {
+    "id": "042cd9",
+    "task": "update the CRM notes",
+    "owner": "unassigned:Someone",
+    "status": "open",
+    "due": null,
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-10-acme-renewal-prep.md:12"
+    ]
+  },
+  {
+    "id": "d1f6e5",
+    "task": "finalise the welcome-email copy",
+    "owner": "person:anita-desai",
+    "status": "done",
+    "due": "2026-09-25",
+    "dueHistory": [
+      "2026-09-16"
+    ],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-14-onboarding-flow-design.md:9",
+      "2026-09-24-onboarding-flow-design.md:9",
+      "2026-10-05-onboarding-retro.md:11 [x]"
+    ]
+  },
+  {
+    "id": "bc6b38",
+    "task": "write acceptance tests for the signup flow",
+    "owner": "person:priya-shah",
+    "status": "done",
+    "due": "2026-09-18",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-14-onboarding-flow-design.md:10",
+      "2026-09-24-onboarding-flow-design.md:10 [x]"
+    ]
+  },
+  {
+    "id": "d17b30",
+    "task": "estimate the SSO work",
+    "owner": "person:rahul-verma",
+    "status": "open",
+    "due": "2026-09-28",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-14-onboarding-flow-design.md:11",
+      "2026-09-24-onboarding-flow-design.md:12"
+    ]
+  },
+  {
+    "id": "691baf",
+    "task": "collect 5 customer quotes for the landing page",
+    "owner": "person:lena-fischer",
+    "status": "open",
+    "due": "2026-10-02",
+    "dueHistory": [
+      "2026-09-30"
+    ],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-14-onboarding-flow-design.md:12",
+      "2026-09-24-onboarding-flow-design.md:11"
+    ]
+  },
+  {
+    "id": "da83d9",
+    "task": "share updated wireframes",
+    "owner": "person:anita-desai",
+    "status": "open",
+    "due": "2026-09-24",
+    "dueHistory": [
+      "2026-09-17"
+    ],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-15-quote-portal-weekly.md:10",
+      "2026-09-22-quote-portal-weekly.md:9"
+    ]
+  },
+  {
+    "id": "a519a5",
+    "task": "fix the pagination bug",
+    "owner": "person:rahul-mehta",
+    "status": "open",
+    "due": "2026-09-23",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-15-quote-portal-weekly.md:12",
+      "2026-09-22-quote-portal-weekly.md:12"
+    ]
+  },
+  {
+    "id": "60c63f",
+    "task": "draft the case study outline",
+    "owner": "person:lena-fischer",
+    "status": "open",
+    "due": "2026-09-21",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-16-standup.md:11"
+    ]
+  },
+  {
+    "id": "54dcc6",
+    "task": "update the pipeline sheet",
+    "owner": "person:meera-iyer",
+    "status": "open",
+    "due": "2026-09-18",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-16-standup.md:12"
+    ]
+  },
+  {
+    "id": "8c1c94",
+    "task": "sign off the cutover checklist",
+    "owner": "ambiguous:Priya",
+    "status": "open",
+    "due": "2026-09-21",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-17-billing-migration-sync.md:9"
+    ]
+  },
+  {
+    "id": "5b033f",
+    "task": "run the dry-run migration on staging",
+    "owner": "person:sam-okafor",
+    "status": "open",
+    "due": "2026-09-22",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-17-billing-migration-sync.md:10"
+    ]
+  },
+  {
+    "id": "491f08",
+    "task": "audit colour contrast on the dashboard",
+    "owner": "person:anita-desai",
+    "status": "open",
+    "due": "2026-09-21",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-18-design-review.md:11"
+    ]
+  },
+  {
+    "id": "3ee74f",
+    "task": "agree on the component API",
+    "owner": "person:anita-desai+rahul-mehta",
+    "status": "open",
+    "due": "2026-09-23",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-18-design-review.md:12"
+    ]
+  },
+  {
+    "id": "d51243",
+    "task": "collect user feedback on the prototype",
+    "owner": "person:lena-fischer",
+    "status": "open",
+    "due": "2026-09-25",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-18-design-review.md:13"
+    ]
+  },
+  {
+    "id": "de416b",
+    "task": "review the prototype before the next review",
+    "owner": "group:Everyone",
+    "status": "open",
+    "due": null,
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-18-design-review.md:14"
+    ]
+  },
+  {
+    "id": "244cb4",
+    "task": "write the design-system changelog",
+    "owner": "unassigned:TBD",
+    "status": "open",
+    "due": null,
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-18-design-review.md:15"
+    ]
+  },
+  {
+    "id": "29c7f2",
+    "task": "write the postmortem",
+    "owner": "person:sam-okafor",
+    "status": "open",
+    "due": "2026-09-22",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-21-incident-review.md:14"
+    ]
+  },
+  {
+    "id": "49b423",
+    "task": "add idempotency keys to the payment call",
+    "owner": "person:rahul-verma",
+    "status": "open",
+    "due": "2026-09-25",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-21-incident-review.md:15"
+    ]
+  },
+  {
+    "id": "d85059",
+    "task": "add a regression test for double charge",
+    "owner": "person:priya-shah",
+    "status": "open",
+    "due": "2026-09-25",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-21-incident-review.md:16"
+    ]
+  },
+  {
+    "id": "a7b3d3",
+    "task": "refund affected customers",
+    "owner": "person:karan-joshi",
+    "status": "open",
+    "due": null,
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-21-incident-review.md:17"
+    ]
+  },
+  {
+    "id": "4f05cf",
+    "task": "send Acme the procurement form",
+    "owner": "person:meera-iyer",
+    "status": "done",
+    "due": "2026-09-25",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-22-quote-portal-weekly.md:11",
+      "2026-10-01-quote-portal-weekly.md:9 [x]"
+    ]
+  },
+  {
+    "id": "d02daf",
+    "task": "rebase the feature branch",
+    "owner": "ambiguous:Rahul",
+    "status": "open",
+    "due": "2026-09-24",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-23-standup.md:8"
+    ]
+  },
+  {
+    "id": "78c8a3",
+    "task": "rotate the staging credentials",
+    "owner": "person:sam-okafor",
+    "status": "open",
+    "due": null,
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-23-standup.md:9"
+    ]
+  },
+  {
+    "id": "b5276c",
+    "task": "triage the open bug list",
+    "owner": "person:priya-shah",
+    "status": "open",
+    "due": "2026-09-28",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-25-qa-sync.md:9"
+    ]
+  },
+  {
+    "id": "e258c6",
+    "task": "fix the top three critical bugs",
+    "owner": "person:rahul-verma",
+    "status": "open",
+    "due": "2026-10-02",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-25-qa-sync.md:10"
+    ]
+  },
+  {
+    "id": "891e2f",
+    "task": "send Acme the revised pricing sheet",
+    "owner": "person:karan-joshi",
+    "status": "open",
+    "due": "2026-10-01",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-28-acme-renewal-checkin.md:10"
+    ]
+  },
+  {
+    "id": "8bef43",
+    "task": "share the usage report with Meera",
+    "owner": "person:lena-fischer",
+    "status": "open",
+    "due": null,
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-28-acme-renewal-checkin.md:11"
+    ]
+  },
+  {
+    "id": "61ec92",
+    "task": "prepare the renewal one-pager",
+    "owner": "person:priya-nair",
+    "status": "open",
+    "due": "2026-10-02",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-28-acme-renewal-checkin.md:12",
+      "2026-10-14-acme-renewal-wrapup.md:12"
+    ]
+  },
+  {
+    "id": "aea9f5",
+    "task": "run the invoice rounding tests",
+    "owner": "person:priya-shah",
+    "status": "open",
+    "due": "2026-10-01",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-29-billing-cutover-planning.md:9"
+    ]
+  },
+  {
+    "id": "d9c3d4",
+    "task": "notify customers about the maintenance window",
+    "owner": "person:priya-nair",
+    "status": "done",
+    "due": "2026-10-05",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-29-billing-cutover-planning.md:10",
+      "2026-10-08-billing-go-no-go.md:12 [x]"
+    ]
+  },
+  {
+    "id": "0dc88c",
+    "task": "schedule cutover",
+    "owner": "person:sam-okafor",
+    "status": "open",
+    "due": "2026-10-10",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-29-billing-cutover-planning.md:11"
+    ]
+  },
+  {
+    "id": "3030a3",
+    "task": "freeze invoice edits from 9 Oct",
+    "owner": "person:karan-joshi",
+    "status": "open",
+    "due": null,
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-29-billing-cutover-planning.md:12",
+      "2026-10-08-billing-go-no-go.md:11"
+    ]
+  },
+  {
+    "id": "05c6bc",
+    "task": "finalise the Q4 sales targets",
+    "owner": "person:meera-iyer",
+    "status": "open",
+    "due": "2026-10-03",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-30-q4-offsite.md:9"
+    ]
+  },
+  {
+    "id": "61eb88",
+    "task": "validate targets against the budget",
+    "owner": "person:karan-joshi",
+    "status": "open",
+    "due": "2026-10-05",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": "05c6bc",
+    "occurrences": [
+      "2026-09-30-q4-offsite.md:10"
+    ]
+  },
+  {
+    "id": "cc8dff",
+    "task": "run the customer survey",
+    "owner": "person:lena-fischer",
+    "status": "open",
+    "due": "2026-10-15",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-30-q4-offsite.md:11"
+    ]
+  },
+  {
+    "id": "b1539a",
+    "task": "propose the on-call rotation",
+    "owner": "person:sam-okafor",
+    "status": "open",
+    "due": "2026-10-15",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-30-q4-offsite.md:12"
+    ]
+  },
+  {
+    "id": "3f7306",
+    "task": "own the hiring plan for the two QA roles",
+    "owner": "ambiguous:Priya",
+    "status": "open",
+    "due": null,
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-30-q4-offsite.md:16"
+    ]
+  },
+  {
+    "id": "2b8e09",
+    "task": "prepare the architecture overview",
+    "owner": "ambiguous:Rahul",
+    "status": "open",
+    "due": "2026-10-02",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-30-q4-offsite.md:17"
+    ]
+  },
+  {
+    "id": "0f5abc",
+    "task": "submit their Q4 goals",
+    "owner": "group:Everyone",
+    "status": "open",
+    "due": "2026-10-07",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-30-q4-offsite.md:18"
+    ]
+  },
+  {
+    "id": "47eb7c",
+    "task": "Refresh the brand kit",
+    "owner": "person:anita-desai",
+    "status": "open",
+    "due": "2026-10-09",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-30-q4-offsite.md:22"
+    ]
+  },
+  {
+    "id": "b3433d",
+    "task": "circulate the offsite summary",
+    "owner": "person:karan-joshi",
+    "status": "open",
+    "due": "2026-10-01",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-30-q4-offsite.md:24"
+    ]
+  },
+  {
+    "id": "757362",
+    "task": "approve the Q4 cloud spend",
+    "owner": "person:karan-joshi",
+    "status": "done",
+    "due": "2026-10-02",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-30-standup.md:11",
+      "2026-10-02-finance-sync.md:9 [x]"
+    ]
+  },
+  {
+    "id": "79dd05",
+    "task": "share the Q4 roadmap draft",
+    "owner": "person:priya-nair",
+    "status": "open",
+    "due": "2026-10-02",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-09-30-standup.md:12"
+    ]
+  },
+  {
+    "id": "82a5aa",
+    "task": "deploy the beta to staging",
+    "owner": "person:rahul-mehta",
+    "status": "done",
+    "due": "2026-10-07",
+    "dueHistory": [
+      "2026-10-02"
+    ],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-01-quote-portal-weekly.md:10",
+      "2026-10-06-quote-portal-weekly.md:9",
+      "2026-10-13-quote-portal-weekly.md:9 [x]"
+    ]
+  },
+  {
+    "id": "caa5dd",
+    "task": "hand over final designs to dev",
+    "owner": "person:anita-desai",
+    "status": "open",
+    "due": "2026-10-06",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-01-quote-portal-weekly.md:11"
+    ]
+  },
+  {
+    "id": "8661df",
+    "task": "decide on the launch date",
+    "owner": "group:Team",
+    "status": "open",
+    "due": null,
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-01-quote-portal-weekly.md:12"
+    ]
+  },
+  {
+    "id": "d9373e",
+    "task": "cut cloud costs by 10%",
+    "owner": "person:sam-okafor",
+    "status": "open",
+    "due": "2026-10-09",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-02-finance-sync.md:10"
+    ]
+  },
+  {
+    "id": "ae91b9",
+    "task": "share the Q4 pipeline forecast",
+    "owner": "person:meera-iyer",
+    "status": "open",
+    "due": "2026-10-07",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-02-finance-sync.md:11"
+    ]
+  },
+  {
+    "id": "f96a4b",
+    "task": "prepare the board finance slide",
+    "owner": "person:karan-joshi",
+    "status": "open",
+    "due": "2026-10-12",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-02-finance-sync.md:12"
+    ]
+  },
+  {
+    "id": "dde2e7",
+    "task": "chase Orbit Labs",
+    "owner": "person:meera-iyer",
+    "status": "open",
+    "due": "2026-10-09",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-03-sales-pipeline.md:6"
+    ]
+  },
+  {
+    "id": "70c94b",
+    "task": "clean up duplicate leads",
+    "owner": "person:lena-fischer",
+    "status": "open",
+    "due": null,
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-03-sales-pipeline.md:7"
+    ]
+  },
+  {
+    "id": "87218c",
+    "task": "start SSO spike",
+    "owner": "person:rahul-verma",
+    "status": "open",
+    "due": "2026-10-13",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-05-onboarding-retro.md:9"
+    ]
+  },
+  {
+    "id": "e35fce",
+    "task": "publish the customer quotes",
+    "owner": "person:lena-fischer",
+    "status": "open",
+    "due": "2026-10-09",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-05-onboarding-retro.md:10"
+    ]
+  },
+  {
+    "id": "b23dec",
+    "task": "review the welcome email for accessibility",
+    "owner": "person:priya-shah",
+    "status": "open",
+    "due": null,
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-05-onboarding-retro.md:12"
+    ]
+  },
+  {
+    "id": "d0e3a4",
+    "task": "demo the portal to Acme",
+    "owner": "person:meera-iyer",
+    "status": "open",
+    "due": "2026-10-14",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-06-quote-portal-weekly.md:10"
+    ]
+  },
+  {
+    "id": "e1b541",
+    "task": "set up uptime monitoring",
+    "owner": "person:sam-okafor",
+    "status": "open",
+    "due": null,
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-06-quote-portal-weekly.md:11"
+    ]
+  },
+  {
+    "id": "bf0dac",
+    "task": "write the beta test checklist",
+    "owner": "person:priya-nair",
+    "status": "open",
+    "due": "2026-10-08",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-06-quote-portal-weekly.md:12"
+    ]
+  },
+  {
+    "id": "45bc7e",
+    "task": "review Anita's PR",
+    "owner": "ambiguous:Rahul",
+    "status": "open",
+    "due": "2026-10-08",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-07-standup.md:9"
+    ]
+  },
+  {
+    "id": "a55eac",
+    "task": "update the style guide",
+    "owner": "person:anita-desai",
+    "status": "open",
+    "due": null,
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-07-standup.md:10"
+    ]
+  },
+  {
+    "id": "fe2295",
+    "task": "circulate the go/no-go summary",
+    "owner": "ambiguous:Priya",
+    "status": "open",
+    "due": "2026-10-08",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-08-billing-go-no-go.md:9"
+    ]
+  },
+  {
+    "id": "db1233",
+    "task": "confirm rollback plan",
+    "owner": "person:sam-okafor",
+    "status": "open",
+    "due": "2026-10-09",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-08-billing-go-no-go.md:10"
+    ]
+  },
+  {
+    "id": "02ddc7",
+    "task": "enable MFA on all admin accounts",
+    "owner": "person:sam-okafor",
+    "status": "open",
+    "due": "2026-10-16",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-09-security-review.md:18"
+    ]
+  },
+  {
+    "id": "6d8998",
+    "task": "patch the outdated express dependency",
+    "owner": "person:rahul-verma",
+    "status": "open",
+    "due": "2026-10-12",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-09-security-review.md:19"
+    ]
+  },
+  {
+    "id": "8457f0",
+    "task": "document the incident response steps",
+    "owner": "person:priya-shah",
+    "status": "open",
+    "due": "2026-10-23",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-09-security-review.md:20"
+    ]
+  },
+  {
+    "id": "d34897",
+    "task": "revoke access for the two ex-contractors",
+    "owner": "person:karan-joshi",
+    "status": "done",
+    "due": null,
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-09-security-review.md:21 [x]"
+    ]
+  },
+  {
+    "id": "f3c090",
+    "task": "send the proposal to Orbit Labs",
+    "owner": "person:meera-iyer",
+    "status": "open",
+    "due": "2026-10-13",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-10-sales-weekly.md:9"
+    ]
+  },
+  {
+    "id": "06e10f",
+    "task": "log the three new leads in CRM",
+    "owner": "person:lena-fischer",
+    "status": "open",
+    "due": "2026-10-10",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-10-sales-weekly.md:10"
+    ]
+  },
+  {
+    "id": "05a916",
+    "task": "update the Acme account notes",
+    "owner": "person:lena-fischer",
+    "status": "done",
+    "due": null,
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-10-sales-weekly.md:11 [x]"
+    ]
+  },
+  {
+    "id": "6c6368",
+    "task": "decommission the old billing DB",
+    "owner": "person:sam-okafor",
+    "status": "open",
+    "due": "2026-10-30",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-12-billing-post-cutover.md:9"
+    ]
+  },
+  {
+    "id": "2c855b",
+    "task": "verify invoice totals for the first 50 invoices",
+    "owner": "person:priya-shah",
+    "status": "open",
+    "due": "2026-10-14",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-12-billing-post-cutover.md:10"
+    ]
+  },
+  {
+    "id": "f8100f",
+    "task": "reconcile September ledger",
+    "owner": "person:karan-joshi",
+    "status": "open",
+    "due": "2026-10-15",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-12-billing-post-cutover.md:11"
+    ]
+  },
+  {
+    "id": "bec179",
+    "task": "write the migration runbook",
+    "owner": "person:rahul-verma",
+    "status": "open",
+    "due": null,
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-12-billing-post-cutover.md:12"
+    ]
+  },
+  {
+    "id": "8b929f",
+    "task": "fix spacing issues flagged in review",
+    "owner": "person:anita-desai",
+    "status": "open",
+    "due": "2026-10-16",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-13-quote-portal-weekly.md:10"
+    ]
+  },
+  {
+    "id": "6dd768",
+    "task": "collect beta feedback from Acme",
+    "owner": "person:priya-nair",
+    "status": "open",
+    "due": "2026-10-20",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-13-quote-portal-weekly.md:11"
+    ]
+  },
+  {
+    "id": "3f23c0",
+    "task": "follow up on the demo",
+    "owner": "person:meera-iyer",
+    "status": "open",
+    "due": null,
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-13-quote-portal-weekly.md:12"
+    ]
+  },
+  {
+    "id": "5d1538",
+    "task": "send the final contract to legal",
+    "owner": "person:karan-joshi",
+    "status": "open",
+    "due": "2026-10-15",
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-14-acme-renewal-wrapup.md:9"
+    ]
+  },
+  {
+    "id": "23b71c",
+    "task": "schedule the quarterly business review for November",
+    "owner": "person:lena-fischer",
+    "status": "open",
+    "due": null,
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "2026-10-14-acme-renewal-wrapup.md:10"
+    ]
+  },
+  {
+    "id": "2a705b",
+    "task": "chase the vendor",
+    "owner": "person:sam-okafor",
+    "status": "open",
+    "due": null,
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "untitled.md:1"
+    ]
+  },
+  {
+    "id": "98b264",
+    "task": "send the slides",
+    "owner": "ambiguous:Priya",
+    "status": "open",
+    "due": null,
+    "dueHistory": [],
+    "flags": [],
+    "parentId": null,
+    "occurrences": [
+      "untitled.md:2"
+    ]
+  }
+]

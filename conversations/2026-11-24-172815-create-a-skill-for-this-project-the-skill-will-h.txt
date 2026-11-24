@@ -1,0 +1,86 @@
+
+> <ide_opened_file>The user opened the file c:\Users\sayali.sumant_codita\Downl
+  oads\notes\actiontrack\docs\technical-spec.md in the IDE. This may or may not
+  be related to the current task.</ide_opened_file>
+
+> create a skill for this project. the skill will have the module no as a
+  parameter & then when we call it it should start working on that task & mark
+  complete once it's done.
+
+● I'll start by looking at the project structure and the spec.
+
+  Searched for 3 patterns, read 4 files (ctrl+o to expand)
+
+● Write(.claude\skills\build-module\SKILL.md)
+  ⎿  Wrote 58 lines to .claude\skills\build-module\SKILL.md
+       1 ---
+       2 name: build-module
+       3 description: Implement one ActionTrack module end to end from it
+         s plan, tests and tasks docs, then tick its tasks.md checkboxes.
+          Takes the module number as the argument (0 for scaffold, 1-12 f
+         or m01-m12). Use when the user says "build module N", "work on m
+         05", or invokes /build-module N.
+       4 argument-hint: <module-number, e.g. 1, 07, m07, 0 for scaffold>
+       5 disable-model-invocation: true
+       6 ---
+     … +52 lines (ctrl+o to expand)
+
+● I created the skill at .claude/skills/build-module/SKILL.md. I haven't run it
+  yet.
+
+  Usage: /build-module 7 works. So do 07, m07 and 0 (the scaffold). It's
+  manual-only, so Claude won't start building a module on its own.
+
+  What it does when called:
+  1. Finds the module. It maps the number to its folder in docs/plans/ (for
+     example 7 → m07-dedupe). It reads that folder's plan.md, tests.md and
+     tasks.md, plus the technical spec and the plans README. A bad or missing
+     number stops it and lists the valid folders.
+  2. Checks dependencies. It uses the "Depends on" column in the README, so it
+     knows m06 comes before m05. If a dependency's tasks aren't all ticked, it
+     stops and tells you which module to build first. If the module is already
+     fully ticked, it says so and stops. If it's partly done, it resumes from
+     the first unticked task.
+  3. Implements the tasks in order. It follows the plan and writes tests tagged
+     with the case IDs from tests.md (such as M7-50). It ticks each [ ] → [x] in
+     tasks.md as soon as that task and its tests pass.
+  4. Verifies. It runs npm test, npm run build and npm run lint, and checks each
+     "Done when" item against real output.
+  5. Marks the module complete only if everything passes. It ticks the "Done
+     when" boxes and reports files changed, test results, any ambiguities it
+     resolved, and the next module. Anything that fails or is left over stays
+     unticked, with the reason given.
+
+  Things to check:
+  - Location: the skill is in notes/.claude/skills/, the folder this session is
+    open in. If you open actiontrack/ as its own workspace, move the .claude
+    folder there.
+  - No code yet: the project has docs only (no package.json or src).
+    /build-module 0 has to run first, because every other module depends on the
+    scaffold.
+  - No commits: the skill never commits or pushes. The folder isn't a git repo
+    anyway.
+
+> no it seems like the skill is not created becuse it's not visible in the
+  skill list when we type /
+
+  Listed 1 directory · 1 failed (ctrl+o to expand)
+
+● The skill file is on disk and the format is correct, so it isn't missing. The
+  likely cause is that Claude Code only scans for skills when a session starts.
+  The .claude/skills folder didn't exist then, so the running session never
+  picked it up.
+
+  Try these in order:
+  1. Reload the session. Run /clear or start a new conversation. If that doesn't
+     work, run Developer: Reload Window from the VS Code command palette
+     (Ctrl+Shift+P). Then type /build-module and check the list.
+  2. Check which folder VS Code has open. The skill is in notes/.claude/skills/,
+     which only works if notes is the workspace root. If you opened actiontrack
+     itself, Claude Code looks in actiontrack/.claude/skills/ instead and won't
+     see it.
+
+  For the second case, I can copy the skill into
+  actiontrack/.claude/skills/build-module/. Tell me which folder you have open,
+  or I can put it in both. I can also move it to your user-level skills folder
+  (~/.claude/skills), which works in any project.

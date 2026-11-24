@@ -1,0 +1,954 @@
+[
+  {
+    "file": "2026-09-01-quote-portal-kickoff.md",
+    "line": 9,
+    "owner": "Priya",
+    "helper": null,
+    "task": "send the revised quote to Acme",
+    "due": "Friday"
+  },
+  {
+    "file": "2026-09-01-quote-portal-kickoff.md",
+    "line": 10,
+    "owner": "Rahul",
+    "helper": null,
+    "task": "set up the staging environment",
+    "due": "2026-09-08"
+  },
+  {
+    "file": "2026-09-01-quote-portal-kickoff.md",
+    "line": 11,
+    "owner": "Anita",
+    "helper": null,
+    "task": "share first wireframes",
+    "due": "Thursday"
+  },
+  {
+    "file": "2026-09-01-quote-portal-kickoff.md",
+    "line": 12,
+    "owner": "Sam",
+    "helper": null,
+    "task": "confirm cloud budget with finance",
+    "due": null
+  },
+  {
+    "file": "2026-09-02-standup.md",
+    "line": 9,
+    "owner": "Rahul",
+    "helper": null,
+    "task": "open the repo access request",
+    "due": "tomorrow"
+  },
+  {
+    "file": "2026-09-02-standup.md",
+    "line": 10,
+    "owner": "Sam",
+    "helper": null,
+    "task": "share the VPN guide",
+    "due": null
+  },
+  {
+    "file": "2026-09-03-billing-migration-sync.md",
+    "line": 9,
+    "owner": "Karan",
+    "helper": null,
+    "task": "export last quarter invoices",
+    "due": "10 Sep"
+  },
+  {
+    "file": "2026-09-03-billing-migration-sync.md",
+    "line": 10,
+    "owner": "Rahul",
+    "helper": null,
+    "task": "review the schema mapping doc",
+    "due": "Monday"
+  },
+  {
+    "file": "2026-09-03-billing-migration-sync.md",
+    "line": 11,
+    "owner": "Priya",
+    "helper": null,
+    "task": "draft the test plan for invoice rounding",
+    "due": "end of next week"
+  },
+  {
+    "file": "2026-09-03-billing-migration-sync.md",
+    "line": 12,
+    "owner": "Sam",
+    "helper": null,
+    "task": "snapshot the production DB before cutover",
+    "due": null
+  },
+  {
+    "file": "2026-09-08-quote-portal-weekly.md",
+    "line": 9,
+    "owner": "Priya N.",
+    "helper": null,
+    "task": "send revised quote to Acme",
+    "due": "Friday"
+  },
+  {
+    "file": "2026-09-08-quote-portal-weekly.md",
+    "line": 10,
+    "owner": "Rahul",
+    "helper": null,
+    "task": "finish login screen",
+    "due": "Wed"
+  },
+  {
+    "file": "2026-09-08-quote-portal-weekly.md",
+    "line": 11,
+    "owner": "Meera",
+    "helper": null,
+    "task": "ask Acme for their procurement contact",
+    "due": null
+  },
+  {
+    "file": "2026-09-08-quote-portal-weekly.md",
+    "line": 12,
+    "owner": "Rahul",
+    "helper": null,
+    "task": "set up the staging environment",
+    "due": null
+  },
+  {
+    "file": "2026-09-09-qa-standup.md",
+    "line": 9,
+    "owner": "Karan",
+    "helper": null,
+    "task": "send the vendor invoice list",
+    "due": "Friday"
+  },
+  {
+    "file": "2026-09-09-qa-standup.md",
+    "line": 10,
+    "owner": "Priya",
+    "helper": null,
+    "task": "set up the test data",
+    "due": null
+  },
+  {
+    "file": "2026-09-10-acme-renewal-prep.md",
+    "line": 9,
+    "owner": "Lena",
+    "helper": null,
+    "task": "pull Acme's usage report for the last 6 months",
+    "due": "tomorrow"
+  },
+  {
+    "file": "2026-09-10-acme-renewal-prep.md",
+    "line": 10,
+    "owner": "Karan",
+    "helper": null,
+    "task": "confirm discount ceiling with the CFO",
+    "due": "2026-09-14"
+  },
+  {
+    "file": "2026-09-10-acme-renewal-prep.md",
+    "line": 11,
+    "owner": "Meera",
+    "helper": null,
+    "task": "book the renewal call with Acme's CTO",
+    "due": null
+  },
+  {
+    "file": "2026-09-10-acme-renewal-prep.md",
+    "line": 12,
+    "owner": "Someone",
+    "helper": null,
+    "task": "update the CRM notes",
+    "due": null
+  },
+  {
+    "file": "2026-09-14-onboarding-flow-design.md",
+    "line": 9,
+    "owner": "Anita",
+    "helper": null,
+    "task": "finalise the welcome-email copy",
+    "due": "Wed 16 Sep"
+  },
+  {
+    "file": "2026-09-14-onboarding-flow-design.md",
+    "line": 10,
+    "owner": "Priya",
+    "helper": null,
+    "task": "write acceptance tests for the signup flow",
+    "due": "18 Sep"
+  },
+  {
+    "file": "2026-09-14-onboarding-flow-design.md",
+    "line": 11,
+    "owner": "Rahul",
+    "helper": null,
+    "task": "estimate the SSO work",
+    "due": null
+  },
+  {
+    "file": "2026-09-14-onboarding-flow-design.md",
+    "line": 12,
+    "owner": "Lena",
+    "helper": null,
+    "task": "collect 5 customer quotes for the landing page",
+    "due": "end of month"
+  },
+  {
+    "file": "2026-09-15-quote-portal-weekly.md",
+    "line": 9,
+    "owner": "Priya",
+    "helper": null,
+    "task": "send the revised quote to Acme",
+    "due": null
+  },
+  {
+    "file": "2026-09-15-quote-portal-weekly.md",
+    "line": 10,
+    "owner": "Anita",
+    "helper": null,
+    "task": "share updated wireframes",
+    "due": "Thursday"
+  },
+  {
+    "file": "2026-09-15-quote-portal-weekly.md",
+    "line": 11,
+    "owner": "Sam",
+    "helper": null,
+    "task": "confirm cloud budget with finance",
+    "due": "Friday"
+  },
+  {
+    "file": "2026-09-15-quote-portal-weekly.md",
+    "line": 12,
+    "owner": "Rahul",
+    "helper": null,
+    "task": "fix the pagination bug",
+    "due": null
+  },
+  {
+    "file": "2026-09-16-standup.md",
+    "line": 11,
+    "owner": "Lena",
+    "helper": null,
+    "task": "draft the case study outline",
+    "due": "2026-09-21"
+  },
+  {
+    "file": "2026-09-16-standup.md",
+    "line": 12,
+    "owner": "Meera",
+    "helper": null,
+    "task": "update the pipeline sheet",
+    "due": "Friday"
+  },
+  {
+    "file": "2026-09-17-billing-migration-sync.md",
+    "line": 9,
+    "owner": "Priya",
+    "helper": null,
+    "task": "sign off the cutover checklist",
+    "due": "Monday"
+  },
+  {
+    "file": "2026-09-17-billing-migration-sync.md",
+    "line": 10,
+    "owner": "Sam",
+    "helper": null,
+    "task": "run the dry-run migration on staging",
+    "due": "2026-09-22"
+  },
+  {
+    "file": "2026-09-17-billing-migration-sync.md",
+    "line": 11,
+    "owner": "Karan",
+    "helper": null,
+    "task": "export last quarter invoices",
+    "due": null
+  },
+  {
+    "file": "2026-09-17-billing-migration-sync.md",
+    "line": 12,
+    "owner": "Rahul",
+    "helper": null,
+    "task": "review the schema mapping doc",
+    "due": null
+  },
+  {
+    "file": "2026-09-18-design-review.md",
+    "line": 11,
+    "owner": "anita",
+    "helper": null,
+    "task": "audit colour contrast on the dashboard",
+    "due": "Mon"
+  },
+  {
+    "file": "2026-09-18-design-review.md",
+    "line": 12,
+    "owner": "Anita & Rahul",
+    "helper": null,
+    "task": "agree on the component API",
+    "due": "Wednesday"
+  },
+  {
+    "file": "2026-09-18-design-review.md",
+    "line": 13,
+    "owner": "Lena",
+    "helper": "Priya",
+    "task": "collect user feedback on the prototype",
+    "due": "2026-09-25"
+  },
+  {
+    "file": "2026-09-18-design-review.md",
+    "line": 14,
+    "owner": "Everyone",
+    "helper": null,
+    "task": "review the prototype before the next review",
+    "due": null
+  },
+  {
+    "file": "2026-09-18-design-review.md",
+    "line": 15,
+    "owner": "TBD",
+    "helper": null,
+    "task": "write the design-system changelog",
+    "due": null
+  },
+  {
+    "file": "2026-09-21-incident-review.md",
+    "line": 14,
+    "owner": "Sam",
+    "helper": null,
+    "task": "write the postmortem",
+    "due": "EOD tomorrow"
+  },
+  {
+    "file": "2026-09-21-incident-review.md",
+    "line": 15,
+    "owner": "Rahul",
+    "helper": null,
+    "task": "add idempotency keys to the payment call",
+    "due": "Friday"
+  },
+  {
+    "file": "2026-09-21-incident-review.md",
+    "line": 16,
+    "owner": "Priya",
+    "helper": null,
+    "task": "add a regression test for double charge",
+    "due": "25 Sep"
+  },
+  {
+    "file": "2026-09-21-incident-review.md",
+    "line": 17,
+    "owner": "Karan",
+    "helper": null,
+    "task": "refund affected customers",
+    "due": null
+  },
+  {
+    "file": "2026-09-22-quote-portal-weekly.md",
+    "line": 9,
+    "owner": "Anita",
+    "helper": null,
+    "task": "share updated wireframes",
+    "due": "Thursday"
+  },
+  {
+    "file": "2026-09-22-quote-portal-weekly.md",
+    "line": 10,
+    "owner": "Sam",
+    "helper": null,
+    "task": "confirm cloud budget with finance",
+    "due": null
+  },
+  {
+    "file": "2026-09-22-quote-portal-weekly.md",
+    "line": 11,
+    "owner": "Meera",
+    "helper": null,
+    "task": "send Acme the procurement form",
+    "due": "2026-09-25"
+  },
+  {
+    "file": "2026-09-22-quote-portal-weekly.md",
+    "line": 12,
+    "owner": "Rahul",
+    "helper": null,
+    "task": "fix the pagination bug",
+    "due": "Wednesday"
+  },
+  {
+    "file": "2026-09-23-standup.md",
+    "line": 8,
+    "owner": "Rahul",
+    "helper": null,
+    "task": "rebase the feature branch",
+    "due": "Thursday"
+  },
+  {
+    "file": "2026-09-23-standup.md",
+    "line": 9,
+    "owner": "Sam",
+    "helper": null,
+    "task": "rotate the staging credentials",
+    "due": null
+  },
+  {
+    "file": "2026-09-24-onboarding-flow-design.md",
+    "line": 9,
+    "owner": "Anita",
+    "helper": null,
+    "task": "finalise the welcome-email copy",
+    "due": "Friday"
+  },
+  {
+    "file": "2026-09-24-onboarding-flow-design.md",
+    "line": 10,
+    "owner": "Priya",
+    "helper": null,
+    "task": "write acceptance tests for the signup flow",
+    "due": null
+  },
+  {
+    "file": "2026-09-24-onboarding-flow-design.md",
+    "line": 11,
+    "owner": "Lena",
+    "helper": null,
+    "task": "collect 5 customer quotes for the landing page",
+    "due": "2 Oct"
+  },
+  {
+    "file": "2026-09-24-onboarding-flow-design.md",
+    "line": 12,
+    "owner": "Rahul",
+    "helper": null,
+    "task": "estimate SSO work",
+    "due": "Monday"
+  },
+  {
+    "file": "2026-09-25-qa-sync.md",
+    "line": 9,
+    "owner": "Priya",
+    "helper": null,
+    "task": "triage the open bug list",
+    "due": "Monday"
+  },
+  {
+    "file": "2026-09-25-qa-sync.md",
+    "line": 10,
+    "owner": "Rahul",
+    "helper": null,
+    "task": "fix the top three critical bugs",
+    "due": "2026-10-02"
+  },
+  {
+    "file": "2026-09-28-acme-renewal-checkin.md",
+    "line": 9,
+    "owner": "Meera",
+    "helper": null,
+    "task": "book the renewal call with Acme's CTO",
+    "due": "Wednesday"
+  },
+  {
+    "file": "2026-09-28-acme-renewal-checkin.md",
+    "line": 10,
+    "owner": "Karan",
+    "helper": null,
+    "task": "send Acme the revised pricing sheet",
+    "due": "2026-10-01"
+  },
+  {
+    "file": "2026-09-28-acme-renewal-checkin.md",
+    "line": 11,
+    "owner": "Lena",
+    "helper": null,
+    "task": "share the usage report with Meera",
+    "due": null
+  },
+  {
+    "file": "2026-09-28-acme-renewal-checkin.md",
+    "line": 12,
+    "owner": "Priya",
+    "helper": null,
+    "task": "prepare the renewal one-pager",
+    "due": "Friday"
+  },
+  {
+    "file": "2026-09-29-billing-cutover-planning.md",
+    "line": 9,
+    "owner": "Priya S.",
+    "helper": null,
+    "task": "run the invoice rounding tests",
+    "due": "Thursday"
+  },
+  {
+    "file": "2026-09-29-billing-cutover-planning.md",
+    "line": 10,
+    "owner": "Priya N.",
+    "helper": null,
+    "task": "notify customers about the maintenance window",
+    "due": "2026-10-05"
+  },
+  {
+    "file": "2026-09-29-billing-cutover-planning.md",
+    "line": 11,
+    "owner": "Sam",
+    "helper": null,
+    "task": "schedule cutover",
+    "due": "Saturday 10 Oct"
+  },
+  {
+    "file": "2026-09-29-billing-cutover-planning.md",
+    "line": 12,
+    "owner": "Karan",
+    "helper": null,
+    "task": "freeze invoice edits from 9 Oct",
+    "due": null
+  },
+  {
+    "file": "2026-09-30-q4-offsite.md",
+    "line": 9,
+    "owner": "Meera",
+    "helper": null,
+    "task": "finalise the Q4 sales targets",
+    "due": "Oct 3rd"
+  },
+  {
+    "file": "2026-09-30-q4-offsite.md",
+    "line": 10,
+    "owner": "Karan",
+    "helper": null,
+    "task": "validate targets against the budget",
+    "due": "Oct 5th"
+  },
+  {
+    "file": "2026-09-30-q4-offsite.md",
+    "line": 11,
+    "owner": "Lena",
+    "helper": null,
+    "task": "run the customer survey",
+    "due": "15 October"
+  },
+  {
+    "file": "2026-09-30-q4-offsite.md",
+    "line": 12,
+    "owner": "Sam",
+    "helper": null,
+    "task": "propose the on-call rotation",
+    "due": "mid-October"
+  },
+  {
+    "file": "2026-09-30-q4-offsite.md",
+    "line": 16,
+    "owner": "Priya",
+    "helper": null,
+    "task": "own the hiring plan for the two QA roles",
+    "due": null
+  },
+  {
+    "file": "2026-09-30-q4-offsite.md",
+    "line": 17,
+    "owner": "Rahul",
+    "helper": null,
+    "task": "prepare the architecture overview",
+    "due": "Friday"
+  },
+  {
+    "file": "2026-09-30-q4-offsite.md",
+    "line": 18,
+    "owner": "Everyone",
+    "helper": null,
+    "task": "submit their Q4 goals",
+    "due": "7 Oct"
+  },
+  {
+    "file": "2026-09-30-q4-offsite.md",
+    "line": 22,
+    "owner": "Anita",
+    "helper": null,
+    "task": "Refresh the brand kit",
+    "due": "2026-10-09"
+  },
+  {
+    "file": "2026-09-30-q4-offsite.md",
+    "line": 24,
+    "owner": "Karan",
+    "helper": null,
+    "task": "circulate the offsite summary",
+    "due": "tomorrow"
+  },
+  {
+    "file": "2026-09-30-standup.md",
+    "line": 11,
+    "owner": "Karan",
+    "helper": null,
+    "task": "approve the Q4 cloud spend",
+    "due": "2026-10-02"
+  },
+  {
+    "file": "2026-09-30-standup.md",
+    "line": 12,
+    "owner": "Priya",
+    "helper": null,
+    "task": "share the Q4 roadmap draft",
+    "due": "Friday"
+  },
+  {
+    "file": "2026-10-01-quote-portal-weekly.md",
+    "line": 9,
+    "owner": "Meera",
+    "helper": null,
+    "task": "send Acme the procurement form",
+    "due": null
+  },
+  {
+    "file": "2026-10-01-quote-portal-weekly.md",
+    "line": 10,
+    "owner": "Rahul",
+    "helper": null,
+    "task": "deploy the beta to staging",
+    "due": "Friday"
+  },
+  {
+    "file": "2026-10-01-quote-portal-weekly.md",
+    "line": 11,
+    "owner": "Anita",
+    "helper": null,
+    "task": "hand over final designs to dev",
+    "due": "2026-10-06"
+  },
+  {
+    "file": "2026-10-01-quote-portal-weekly.md",
+    "line": 12,
+    "owner": "Team",
+    "helper": null,
+    "task": "decide on the launch date",
+    "due": null
+  },
+  {
+    "file": "2026-10-02-finance-sync.md",
+    "line": 9,
+    "owner": "Karan",
+    "helper": null,
+    "task": "approve the Q4 cloud spend",
+    "due": null
+  },
+  {
+    "file": "2026-10-02-finance-sync.md",
+    "line": 10,
+    "owner": "Sam",
+    "helper": null,
+    "task": "cut cloud costs by 10%",
+    "due": "2026-10-09"
+  },
+  {
+    "file": "2026-10-02-finance-sync.md",
+    "line": 11,
+    "owner": "Meera",
+    "helper": null,
+    "task": "share the Q4 pipeline forecast",
+    "due": "Wednesday"
+  },
+  {
+    "file": "2026-10-02-finance-sync.md",
+    "line": 12,
+    "owner": "Karan",
+    "helper": null,
+    "task": "prepare the board finance slide",
+    "due": "12 Oct"
+  },
+  {
+    "file": "2026-10-03-sales-pipeline.md",
+    "line": 6,
+    "owner": "Meera",
+    "helper": null,
+    "task": "chase Orbit Labs",
+    "due": "Friday"
+  },
+  {
+    "file": "2026-10-03-sales-pipeline.md",
+    "line": 7,
+    "owner": "Lena",
+    "helper": null,
+    "task": "clean up duplicate leads",
+    "due": null
+  },
+  {
+    "file": "2026-10-05-onboarding-retro.md",
+    "line": 9,
+    "owner": "Rahul",
+    "helper": null,
+    "task": "start SSO spike",
+    "due": "next Tuesday"
+  },
+  {
+    "file": "2026-10-05-onboarding-retro.md",
+    "line": 10,
+    "owner": "Lena",
+    "helper": null,
+    "task": "publish the customer quotes",
+    "due": "9 Oct"
+  },
+  {
+    "file": "2026-10-05-onboarding-retro.md",
+    "line": 11,
+    "owner": "Anita",
+    "helper": null,
+    "task": "finalise the welcome-email copy",
+    "due": null
+  },
+  {
+    "file": "2026-10-05-onboarding-retro.md",
+    "line": 12,
+    "owner": "Priya",
+    "helper": null,
+    "task": "review the welcome email for accessibility",
+    "due": null
+  },
+  {
+    "file": "2026-10-06-quote-portal-weekly.md",
+    "line": 9,
+    "owner": "Rahul",
+    "helper": null,
+    "task": "deploy the beta to staging",
+    "due": "tomorrow"
+  },
+  {
+    "file": "2026-10-06-quote-portal-weekly.md",
+    "line": 10,
+    "owner": "Meera",
+    "helper": null,
+    "task": "demo the portal to Acme",
+    "due": "2026-10-14"
+  },
+  {
+    "file": "2026-10-06-quote-portal-weekly.md",
+    "line": 11,
+    "owner": "Sam",
+    "helper": null,
+    "task": "set up uptime monitoring",
+    "due": null
+  },
+  {
+    "file": "2026-10-06-quote-portal-weekly.md",
+    "line": 12,
+    "owner": "Priya",
+    "helper": null,
+    "task": "write the beta test checklist",
+    "due": "Thursday"
+  },
+  {
+    "file": "2026-10-07-standup.md",
+    "line": 9,
+    "owner": "Rahul",
+    "helper": null,
+    "task": "review Anita's PR",
+    "due": "tomorrow"
+  },
+  {
+    "file": "2026-10-07-standup.md",
+    "line": 10,
+    "owner": "Anita",
+    "helper": null,
+    "task": "update the style guide",
+    "due": null
+  },
+  {
+    "file": "2026-10-08-billing-go-no-go.md",
+    "line": 9,
+    "owner": "Priya",
+    "helper": null,
+    "task": "circulate the go/no-go summary",
+    "due": "EOD"
+  },
+  {
+    "file": "2026-10-08-billing-go-no-go.md",
+    "line": 10,
+    "owner": "Sam",
+    "helper": null,
+    "task": "confirm rollback plan",
+    "due": "2026-10-09"
+  },
+  {
+    "file": "2026-10-08-billing-go-no-go.md",
+    "line": 11,
+    "owner": "Karan",
+    "helper": null,
+    "task": "freeze invoice edits from 9 Oct",
+    "due": null
+  },
+  {
+    "file": "2026-10-08-billing-go-no-go.md",
+    "line": 12,
+    "owner": "Priya N.",
+    "helper": null,
+    "task": "notify customers about the maintenance window",
+    "due": null
+  },
+  {
+    "file": "2026-10-09-security-review.md",
+    "line": 18,
+    "owner": "Sam",
+    "helper": null,
+    "task": "enable MFA on all admin accounts",
+    "due": "2026-10-16"
+  },
+  {
+    "file": "2026-10-09-security-review.md",
+    "line": 19,
+    "owner": "Rahul",
+    "helper": null,
+    "task": "patch the outdated express dependency",
+    "due": "Monday"
+  },
+  {
+    "file": "2026-10-09-security-review.md",
+    "line": 20,
+    "owner": "Priya",
+    "helper": null,
+    "task": "document the incident response steps",
+    "due": "23 Oct"
+  },
+  {
+    "file": "2026-10-09-security-review.md",
+    "line": 21,
+    "owner": "Karan",
+    "helper": null,
+    "task": "revoke access for the two ex-contractors",
+    "due": null
+  },
+  {
+    "file": "2026-10-10-sales-weekly.md",
+    "line": 9,
+    "owner": "Meera",
+    "helper": null,
+    "task": "send the proposal to Orbit Labs",
+    "due": "Tuesday"
+  },
+  {
+    "file": "2026-10-10-sales-weekly.md",
+    "line": 10,
+    "owner": "Lena",
+    "helper": null,
+    "task": "log the three new leads in CRM",
+    "due": "EOD"
+  },
+  {
+    "file": "2026-10-10-sales-weekly.md",
+    "line": 11,
+    "owner": "Lena",
+    "helper": null,
+    "task": "update the Acme account notes",
+    "due": null
+  },
+  {
+    "file": "2026-10-12-billing-post-cutover.md",
+    "line": 9,
+    "owner": "Sam",
+    "helper": null,
+    "task": "decommission the old billing DB",
+    "due": "2026-10-30"
+  },
+  {
+    "file": "2026-10-12-billing-post-cutover.md",
+    "line": 10,
+    "owner": "Priya",
+    "helper": null,
+    "task": "verify invoice totals for the first 50 invoices",
+    "due": "Wednesday"
+  },
+  {
+    "file": "2026-10-12-billing-post-cutover.md",
+    "line": 11,
+    "owner": "Karan",
+    "helper": null,
+    "task": "reconcile September ledger",
+    "due": "15 Oct"
+  },
+  {
+    "file": "2026-10-12-billing-post-cutover.md",
+    "line": 12,
+    "owner": "Rahul",
+    "helper": null,
+    "task": "write the migration runbook",
+    "due": null
+  },
+  {
+    "file": "2026-10-13-quote-portal-weekly.md",
+    "line": 9,
+    "owner": "Rahul",
+    "helper": null,
+    "task": "deploy the beta to staging",
+    "due": null
+  },
+  {
+    "file": "2026-10-13-quote-portal-weekly.md",
+    "line": 10,
+    "owner": "Anita",
+    "helper": null,
+    "task": "fix spacing issues flagged in review",
+    "due": "Friday"
+  },
+  {
+    "file": "2026-10-13-quote-portal-weekly.md",
+    "line": 11,
+    "owner": "Priya",
+    "helper": null,
+    "task": "collect beta feedback from Acme",
+    "due": "2026-10-20"
+  },
+  {
+    "file": "2026-10-13-quote-portal-weekly.md",
+    "line": 12,
+    "owner": "Meera",
+    "helper": null,
+    "task": "follow up on the demo",
+    "due": null
+  },
+  {
+    "file": "2026-10-14-acme-renewal-wrapup.md",
+    "line": 9,
+    "owner": "Karan",
+    "helper": null,
+    "task": "send the final contract to legal",
+    "due": "tomorrow"
+  },
+  {
+    "file": "2026-10-14-acme-renewal-wrapup.md",
+    "line": 10,
+    "owner": "Lena",
+    "helper": null,
+    "task": "schedule the quarterly business review for November",
+    "due": null
+  },
+  {
+    "file": "2026-10-14-acme-renewal-wrapup.md",
+    "line": 11,
+    "owner": "Meera",
+    "helper": null,
+    "task": "book the renewal call with Acme's CTO",
+    "due": null
+  },
+  {
+    "file": "2026-10-14-acme-renewal-wrapup.md",
+    "line": 12,
+    "owner": "Priya",
+    "helper": null,
+    "task": "prepare the renewal one-pager",
+    "due": null
+  },
+  {
+    "file": "untitled.md",
+    "line": 1,
+    "owner": "Sam",
+    "helper": null,
+    "task": "chase the vendor",
+    "due": null
+  },
+  {
+    "file": "untitled.md",
+    "line": 2,
+    "owner": "Priya",
+    "helper": null,
+    "task": "send the slides",
+    "due": "Friday"
+  }
+]

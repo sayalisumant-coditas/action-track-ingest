@@ -1,0 +1,289 @@
+
+> <ide_opened_file>The user opened the file c:\Users\sayali.sumant_codita\Downl
+  oads\notes\actiontrack\docs\plans\00-scaffold\plan.md in the IDE. This may or
+  may not be related to the current task.</ide_opened_file>
+
+> create a tests.md file for every plan in the plans folder.
+  Edge cases the tool must handl
+  Duplicate items repeated across several meetings.
+  Items with no owner or no da
+  Two people with the same first name.
+  Malformed notes (skip them and report, don't crash).
+  A sample notes/ folder with 30+ files is provided. Several are long and
+  messy, and a few are deliberately malformed.
+  consider this while generating the test cases. On this basis we'll create
+  tasks.md file later.
+
+  Searched for 1 pattern, read 16 files (ctrl+o to expand)
+
+● Write(actiontrack\docs\plans\00-scaffold\tests.md)
+  ⎿  Wrote 73 lines to actiontrack\docs\plans\00-scaffold\tests.md
+      1 # Tests — 00 Scaffold
+      2
+      3 Plan: [plan.md](plan.md) · Runner: `vitest` · Location: `test/uni
+        t/scaffold/`
+      4
+      5 **Edge-case tags** used in every tests.md: `[DUP]` duplicates acr
+        oss meetings · `[GAP]` missing owner or date · `[NAME]` same firs
+        t name · `[BAD]` malformed notes.
+      6
+      7 The scaffold has little logic. Its tests make sure the foundation
+     … +67 lines (~5 KB) (ctrl+o to expand)
+
+● Write(actiontrack\docs\plans\m01-scan-read\tests.md)
+  ⎿  Wrote 83 lines to actiontrack\docs\plans\m01-scan-read\tests.md
+       1 # Tests — M1 Scan and read
+       2
+       3 Plan: [plan.md](plan.md) · Files under test: `scanFolder.ts`, `r
+         eadNote.ts` · Tags: `[DUP]` `[GAP]` `[NAME]` `[BAD]`
+       4
+       5 Unit tests write synthetic files to a temp dir (`mkdtemp`); inte
+         gration tests read `test/fixtures/notes`.
+       6
+       7 ## A. `scanFolder` unit tests
+       8
+     … +75 lines (ctrl+o to expand)
+
+● Write(actiontrack\docs\plans\m02-meeting-parser\tests.md)
+  ⎿  Wrote 108 lines to actiontrack\docs\plans\m02-meeting-parser\tests.md
+       1 # Tests — M2 Meeting header parser
+       2
+       3 Plan: [plan.md](plan.md) · Files under test: `frontmatter.ts`, `
+         meeting.ts`, `parseDate.ts` · Tags: `[DUP]` `[GAP]` `[NAME]` `[B
+         AD]`
+       4
+       5 ## A. `splitFrontMatter`
+       6
+       7 | ID | Input | Expected |
+       8 |---|---|---|
+     … +100 lines (ctrl+o to expand)
+
+● Write(actiontrack\docs\plans\m03-candidate-extractor\tests.md)
+  ⎿  Wrote 127 lines to
+     actiontrack\docs\plans\m03-candidate-extractor\tests.md
+       1 # Tests — M3 Candidate extractor
+       2
+       3 Plan: [plan.md](plan.md) · File under test: `candidates.ts` · Ta
+         gs: `[DUP]` `[GAP]` `[NAME]` `[BAD]`
+       4
+       5 Unit tests use small inline strings. Fixture tests run the whole
+          file body through `extractCandidates`.
+       6
+       7 ## A. `matchCheckbox`
+       8
+     … +119 lines (ctrl+o to expand)
+
+● Write(actiontrack\docs\plans\m04-line-parser\tests.md)
+  ⎿  Wrote 109 lines to actiontrack\docs\plans\m04-line-parser\tests.md
+       1 # Tests — M4 Line parser
+       2
+       3 Plan: [plan.md](plan.md) · Files under test: `line.ts`, `ownerGr
+         ammar.ts` · Tags: `[DUP]` `[GAP]` `[NAME]` `[BAD]`
+       4
+       5 Data-driven (`it.each`). The "due" column is `dueRaw`: the text
+         cut from the task. Turning it into a date is M6's job.
+       6
+       7 ## A. The 14 required sample rows
+       8
+     … +101 lines (ctrl+o to expand)
+
+● Writing the test plans one module at a time. Scaffold through M4 are done.
+  Next up are M5 (people), M6 (dates), M7 (dedupe), M8 (store), M9 (ingest), M10
+  (query), M11 (follow-up) and M12 (CLI).
+
+● Write(actiontrack\docs\plans\m05-people-owner\tests.md)
+  ⎿  Wrote 153 lines to actiontrack\docs\plans\m05-people-owner\tests.md
+      1 # Tests — M5 People and owner resolution
+      2
+      3 Plan: [plan.md](plan.md) · Files under test: `directory.ts`, `res
+        olveOwner.ts`, `config.ts` · Tags: `[DUP]` `[GAP]` `[NAME]` `[BAD
+        ]`
+      4
+      5 This module carries the **same-first-name** edge case (two Priyas
+        , two Rahuls) and the **no-owner** edge case. Most tests are data
+        -driven.
+      6
+     … +147 lines (ctrl+o to expand)
+
+● Write(actiontrack\docs\plans\m06-date-resolution\tests.md)
+  ⎿  Wrote 170 lines to actiontrack\docs\plans\m06-date-resolution\tests.md
+       1 # Tests — M6 Date resolution
+       2
+       3 Plan: [plan.md](plan.md) · Files under test: `resolveDue.ts`, `w
+         eekday.ts`, `grammar.ts`, `parseDate.ts` · Tags: `[DUP]` `[GAP]`
+          `[NAME]` `[BAD]`
+       4
+       5 This module carries the **missing date** edge case. All tests ar
+         e data-driven (`it.each`). Run the whole suite under two timezon
+         es (`TZ=America/Los_Angeles`, `TZ=Asia/Kolkata`) to prove no day
+          shifts.
+     … +165 lines (ctrl+o to expand)
+
+● Write(actiontrack\docs\plans\m07-dedupe\tests.md)
+  ⎿  Wrote 174 lines to actiontrack\docs\plans\m07-dedupe\tests.md
+       1 # Tests — M7 De-duplication and status carry-over
+       2
+       3 Plan: [plan.md](plan.md) · Files under test: `normalise.ts`, `si
+         milarity.ts`, `stageGuard.ts`, `merge.ts`, `ids.ts` · Tags: `[DU
+         P]` `[GAP]` `[NAME]` `[BAD]`
+       4
+       5 This module carries the **duplicates across meetings** edge case
+         , and most of the **same-first-name** logic (`?priya` keys). Tes
+         ts use small `ParsedItem` objects first, then the real sample.
+       6
+     … +168 lines (ctrl+o to expand)
+
+● Write(actiontrack\docs\plans\m08-store\tests.md)
+  ⎿  Wrote 122 lines to actiontrack\docs\plans\m08-store\tests.md
+       1 # Tests — M8 Store and overrides
+       2
+       3 Plan: [plan.md](plan.md) · Files under test: `store.ts`, `overri
+         des.ts`, `paths.ts` · Tags: `[DUP]` `[GAP]` `[NAME]` `[BAD]`
+       4
+       5 All tests use a temp folder and an **injected clock** fixed at `
+         2026-11-24T10:00:00.000Z`.
+       6
+       7 ## A. `emptyStore`, `loadStore`
+       8
+     … +114 lines (ctrl+o to expand)
+
+● Write(actiontrack\docs\plans\m09-ingest-orchestrator\tests.md)
+  ⎿  Wrote 117 lines to
+     actiontrack\docs\plans\m09-ingest-orchestrator\tests.md
+       1 # Tests — M9 Ingest orchestrator
+       2
+       3 Plan: [plan.md](plan.md) · Files under test: `ingest.ts`, `repor
+         t.ts` · Tags: `[DUP]` `[GAP]` `[NAME]` `[BAD]`
+       4
+       5 This module is where all four edge cases meet. It is the single
+         guarantee that **a malformed note never crashes the tool and is
+         reported, not hidden**. Tests use temp folders built from fixtur
+         es, an injected clock and a temp store.
+       6
+     … +111 lines (ctrl+o to expand)
+
+● Write(actiontrack\docs\plans\m10-query\tests.md)
+  ⎿  Wrote 143 lines to actiontrack\docs\plans\m10-query\tests.md
+       1 # Tests — M10 Query (list filters and overdue)
+       2
+       3 Plan: [plan.md](plan.md) · Files under test: `status.ts`, `list.
+         ts` · Tags: `[DUP]` `[GAP]` `[NAME]` `[BAD]`
+       4
+       5 Unit tests use a small in-memory item set. Integration tests use
+          the ingested sample with `--as-of 2026-10-15`. No test reads th
+         e real clock.
+       6
+       7 Small item set (`asOf = 2026-10-15`):
+     … +136 lines (ctrl+o to expand)
+
+● Write(actiontrack\docs\plans\m11-followup-gmail\tests.md)
+  ⎿  Wrote 152 lines to actiontrack\docs\plans\m11-followup-gmail\tests.md
+       1 # Tests — M11 Follow-up and Gmail drafts
+       2
+       3 Plan: [plan.md](plan.md) · Files under test: `select.ts`, `build
+         .ts`, `render.ts`, `redact.ts`, `gmail.ts`, `fileGmail.ts`, `mcp
+         Gmail.ts`, `followup.ts` · Tags: `[DUP]` `[GAP]` `[NAME]` `[BAD]
+         `
+       4
+       5 All tests use `FileGmailDrafter` or a spy drafter. **No test cal
+         ls a real Gmail endpoint** except the manual milestone-7 check i
+         n section J. Fixed `--as-of 2026-10-15`.
+     … +147 lines (ctrl+o to expand)
+
+● Write(actiontrack\docs\plans\m12-cli\tests.md)
+  ⎿  Wrote 168 lines to actiontrack\docs\plans\m12-cli\tests.md
+       1 # Tests — M12 CLI
+       2
+       3 Plan: [plan.md](plan.md) · Files under test: `index.ts`, `comman
+         ds/*`, `format.ts`, `errors.ts` · Tags: `[DUP]` `[GAP]` `[NAME]`
+          `[BAD]`
+       4
+       5 Two layers: **unit** (render functions, `handleError`, `buildPro
+         gram` parsing) and **end-to-end** (spawn the built binary agains
+         t a temp store and a copy of the fixture folder). E2E tests chec
+         k stdout, stderr and exit codes. Default args: `--store <tmp>/st
+     … +164 lines (~9 KB) (ctrl+o to expand)
+
+● Update(actiontrack\docs\plans\README.md)
+  ⎿  Added 1 line
+      26  - Test cases name the real sample files so they can be copied i
+          nto the fixture folder.
+      27  - Dates in examples are worked out from the meeting date in the
+           file (e.g. 2026-09-01 is a Tuesday).
+      28  - A task is finished only with its tests. No module is merged w
+          ithout its unit tests.
+      29 +- Each plan folder also holds a `tests.md` with numbered test c
+         +ases (e.g. `M7-50`). Cases are tagged with the four brief edge 
+         +cases: `[DUP]` duplicate items across meetings, `[GAP]` missing
+         + owner or date, `[NAME]` two people with the same first name, `
+         +[BAD]` malformed notes. `tasks.md` will be built from these.   
+
+● I wrote a tests.md next to every plan.md, 13 files in all, covering
+  00-scaffold and m01 through m12. I haven't run or checked any of the cases.
+  They come from reading the plans, requirements.md and technical-spec.md, and
+  they use the real sample files.
+
+  Each case has a numbered ID (such as M7-50) with its input and expected
+  result. Each file ends with a "Done when" line. Cases are tagged with your
+  four edge cases:
+
+  - [DUP] is duplicate items across meetings. It's covered most heavily in m07
+    (merging, status and due-date history, items that must stay separate) and
+    m09 (ingesting twice, nothing lost in merging).
+  - [GAP] is a missing owner or date. It's covered in m03, m04, m06, m07, m09
+    and m10, including untitled.md, Someone and TBD, and due phrases that can't
+    be resolved. Those items are kept and shown, never dropped.
+  - [NAME] is two people with the same first name. It's covered in m05, m07,
+    m10, m11 and m12. The cases include the two Priyas and two Rahuls, the five
+    known ambiguous owner cases, and an alias in the config that settles one of
+    them. Ambiguous owners are refused by list --owner and followup, never
+    guessed.
+  - [BAD] is malformed notes. It's covered in m01, m02, m03, m08, m09 and m12.
+    The cases include the empty file, the PNG saved as .md, whitespace-only
+    files, broken YAML, unclosed code fences and a corrupt store file. m09 also
+    has a test that sends random byte files through ingest and checks it never
+    throws.
+
+  The numbers in the cases match the plans (35 .md files scanned, 33 read, 2
+  skipped, 3 ignored candidates, 5 ambiguous owners), and the m12 file ends with
+  a run of acceptance criteria 1–14 through the real binary.
+
+  - Pinned cases: Where the plans leave a behaviour open, I wrote the case as
+    "pinned": the test should lock in whichever behaviour you choose. Examples
+    are whether a later occurrence with no due date erases an earlier date, and
+    how next Monday behaves from a Sunday.
+  - README: I added one line to plans/README.md describing tests.md and the four
+    tags.
+
+  The next step is tasks.md, which can be built from these IDs.
+
+> also do we need test cases for a cli tool?
+
+● Yes, and they're already in the plan. m12-cli/tests.md
+  (actiontrack/docs/plans/m12-cli/tests.md) has about 140 cases for the CLI.
+  Because the CLI is the only thing users touch, it needs two kinds of tests
+  that the core modules don't.
+
+  What's covered in m12:
+  - Help and usage: --help, unknown commands, bad flag values.
+  - Exit codes: 0 for success (including skipped files), 1 for real failures.
+  - stdout vs stderr: results go to stdout and errors to stderr. --json must
+    emit nothing else, so scripts can parse it.
+  - Output rendering: table columns, truncation, colour only on a TTY, and
+    --no-color / NO_COLOR.
+  - Error messages: each one says what happened and what to do (NFR-6).
+  - End-to-end: spawns the built binary against a temp store and a copy of the
+    fixtures, then runs acceptance criteria 1–14 (M12-130 to M12-143).
+
+  Two gaps worth adding:
+  1. State between commands. The cases cover ingest → done → ingest and followup
+     twice, but not wrong command order, such as done or followup before any
+     ingest. list with no store is covered (M12-50).
+  2. Cross-platform and install checks. There's only one Windows case (M12-107).
+     Missing are paths with spaces, running from a different working directory,
+     --store as a relative path, and a smoke test of the packed tarball (npm
+     pack, install, run). The npm link check in the plan is a manual step, not a
+     test.
+
+  I can add these as a short section to the m12 file if you'd like. They'd be
+  small, about 10 cases.
