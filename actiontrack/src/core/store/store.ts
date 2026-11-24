@@ -1,3 +1,4 @@
+import { randomBytes } from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 import { StoreError } from '../errors.js';
@@ -160,7 +161,10 @@ export function serialiseStore(store: Store): string {
  */
 export function saveStore(file: string, store: Store, io: StoreIO = nodeIO): void {
   const dir = path.dirname(file);
-  const tmp = path.join(dir, `.${path.basename(file)}.${process.pid}.${Date.now()}.tmp`);
+  const tmp = path.join(
+    dir,
+    `.${path.basename(file)}.${process.pid}.${randomBytes(4).toString('hex')}.tmp`,
+  );
   const text = serialiseStore(store);
   try {
     io.mkdir(dir);

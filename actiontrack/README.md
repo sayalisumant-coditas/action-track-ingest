@@ -8,6 +8,26 @@ npm run build   # compile to dist/
 npm run lint
 ```
 
+## Getting started
+
+Requires Node 20 or newer. From the `actiontrack` folder:
+
+```powershell
+npm install
+npm run build
+node dist/cli/index.js --help
+```
+
+While developing you can skip the build: `npm run dev -- <command>` runs the TypeScript source via `tsx`. Run `npm link` once to use `actiontrack <command>` directly.
+
+Example:
+
+```powershell
+node dist/cli/index.js ingest ..\some-notes-folder --recursive
+node dist/cli/index.js list --status open
+node dist/cli/index.js followup "Alice" --dry-run
+```
+
 ## Usage
 
 ```

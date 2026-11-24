@@ -1,0 +1,3664 @@
+[
+  {
+    "doneBy": "notes",
+    "due": {
+      "date": "2026-09-11",
+      "inferred": false,
+      "raw": "Friday"
+    },
+    "dueHistory": [
+      "2026-09-04"
+    ],
+    "flags": [],
+    "id": "d92408",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-04",
+          "inferred": false,
+          "raw": "Friday"
+        },
+        "line": 9,
+        "meetingId": "2026-09-01-quote-portal-kickoff",
+        "rawLine": "- [ ] Priya to send the revised quote to Acme by Friday",
+        "sourceFile": "2026-09-01-quote-portal-kickoff.md"
+      },
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-11",
+          "inferred": false,
+          "raw": "Friday"
+        },
+        "line": 9,
+        "meetingId": "2026-09-08-quote-portal-weekly",
+        "rawLine": "- [ ] Priya N. to send revised quote to Acme — by Friday",
+        "sourceFile": "2026-09-08-quote-portal-weekly.md"
+      },
+      {
+        "checked": true,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 9,
+        "meetingId": "2026-09-15-quote-portal-weekly",
+        "rawLine": "- [x] Priya to send the revised quote to Acme",
+        "sourceFile": "2026-09-15-quote-portal-weekly.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "priya-nair"
+      ],
+      "raw": "Priya"
+    },
+    "status": "done",
+    "task": "send the revised quote to Acme"
+  },
+  {
+    "doneBy": "notes",
+    "due": {
+      "date": "2026-09-08",
+      "inferred": false,
+      "raw": "2026-09-08"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "b5113e",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-08",
+          "inferred": false,
+          "raw": "2026-09-08"
+        },
+        "line": 10,
+        "meetingId": "2026-09-01-quote-portal-kickoff",
+        "rawLine": "- [ ] Rahul to set up the staging environment by 2026-09-08",
+        "sourceFile": "2026-09-01-quote-portal-kickoff.md"
+      },
+      {
+        "checked": true,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 12,
+        "meetingId": "2026-09-08-quote-portal-weekly",
+        "rawLine": "- [x] Rahul to set up the staging environment",
+        "sourceFile": "2026-09-08-quote-portal-weekly.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "rahul-mehta"
+      ],
+      "raw": "Rahul"
+    },
+    "status": "done",
+    "task": "set up the staging environment"
+  },
+  {
+    "due": {
+      "date": "2026-09-03",
+      "inferred": false,
+      "raw": "Thursday"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "468935",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-03",
+          "inferred": false,
+          "raw": "Thursday"
+        },
+        "line": 11,
+        "meetingId": "2026-09-01-quote-portal-kickoff",
+        "rawLine": "- [ ] Anita to share first wireframes by Thursday",
+        "sourceFile": "2026-09-01-quote-portal-kickoff.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "anita-desai"
+      ],
+      "raw": "Anita"
+    },
+    "status": "open",
+    "task": "share first wireframes"
+  },
+  {
+    "doneBy": "notes",
+    "due": {
+      "date": "2026-09-18",
+      "inferred": false,
+      "raw": "Friday"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "3301be",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 12,
+        "meetingId": "2026-09-01-quote-portal-kickoff",
+        "rawLine": "- [ ] Sam to confirm cloud budget with finance",
+        "sourceFile": "2026-09-01-quote-portal-kickoff.md"
+      },
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-18",
+          "inferred": false,
+          "raw": "Friday"
+        },
+        "line": 11,
+        "meetingId": "2026-09-15-quote-portal-weekly",
+        "rawLine": "- [ ] Sam to confirm cloud budget with finance by Friday",
+        "sourceFile": "2026-09-15-quote-portal-weekly.md"
+      },
+      {
+        "checked": true,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 10,
+        "meetingId": "2026-09-22-quote-portal-weekly",
+        "rawLine": "- [x] Sam to confirm cloud budget with finance",
+        "sourceFile": "2026-09-22-quote-portal-weekly.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "sam-okafor"
+      ],
+      "raw": "Sam"
+    },
+    "status": "done",
+    "task": "confirm cloud budget with finance"
+  },
+  {
+    "due": {
+      "date": "2026-09-03",
+      "inferred": false,
+      "raw": "tomorrow"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "58175d",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-03",
+          "inferred": false,
+          "raw": "tomorrow"
+        },
+        "line": 9,
+        "meetingId": "2026-09-02-standup",
+        "rawLine": "- [ ] Rahul to open the repo access request by tomorrow",
+        "sourceFile": "2026-09-02-standup.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "rahul-mehta"
+      ],
+      "raw": "Rahul"
+    },
+    "status": "open",
+    "task": "open the repo access request"
+  },
+  {
+    "due": {
+      "date": null,
+      "inferred": false,
+      "raw": null
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "0350f1",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 10,
+        "meetingId": "2026-09-02-standup",
+        "rawLine": "- [ ] Sam to share the VPN guide",
+        "sourceFile": "2026-09-02-standup.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "sam-okafor"
+      ],
+      "raw": "Sam"
+    },
+    "status": "open",
+    "task": "share the VPN guide"
+  },
+  {
+    "doneBy": "notes",
+    "due": {
+      "date": "2026-09-10",
+      "inferred": false,
+      "raw": "10 Sep"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "be2be0",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-10",
+          "inferred": false,
+          "raw": "10 Sep"
+        },
+        "line": 9,
+        "meetingId": "2026-09-03-billing-migration-sync",
+        "rawLine": "- [ ] Karan to export last quarter invoices by 10 Sep",
+        "sourceFile": "2026-09-03-billing-migration-sync.md"
+      },
+      {
+        "checked": true,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 11,
+        "meetingId": "2026-09-17-billing-migration-sync",
+        "rawLine": "- [x] Karan to export last quarter invoices",
+        "sourceFile": "2026-09-17-billing-migration-sync.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "karan-joshi"
+      ],
+      "raw": "Karan"
+    },
+    "status": "done",
+    "task": "export last quarter invoices"
+  },
+  {
+    "due": {
+      "date": "2026-09-07",
+      "inferred": false,
+      "raw": "Monday"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "2243c3",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-07",
+          "inferred": false,
+          "raw": "Monday"
+        },
+        "line": 10,
+        "meetingId": "2026-09-03-billing-migration-sync",
+        "rawLine": "- [ ] Rahul to review the schema mapping doc by Monday",
+        "sourceFile": "2026-09-03-billing-migration-sync.md"
+      },
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 12,
+        "meetingId": "2026-09-17-billing-migration-sync",
+        "rawLine": "- [ ] Rahul to review the schema mapping doc",
+        "sourceFile": "2026-09-17-billing-migration-sync.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "rahul-verma"
+      ],
+      "raw": "Rahul"
+    },
+    "status": "open",
+    "task": "review the schema mapping doc"
+  },
+  {
+    "due": {
+      "date": "2026-09-11",
+      "inferred": false,
+      "raw": "end of next week"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "ef1c24",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-11",
+          "inferred": false,
+          "raw": "end of next week"
+        },
+        "line": 11,
+        "meetingId": "2026-09-03-billing-migration-sync",
+        "rawLine": "- [ ] Priya to draft the test plan for invoice rounding by end of next week",
+        "sourceFile": "2026-09-03-billing-migration-sync.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "priya-shah"
+      ],
+      "raw": "Priya"
+    },
+    "status": "open",
+    "task": "draft the test plan for invoice rounding"
+  },
+  {
+    "due": {
+      "date": null,
+      "inferred": false,
+      "raw": null
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "b2a970",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 12,
+        "meetingId": "2026-09-03-billing-migration-sync",
+        "rawLine": "- [ ] Sam to snapshot the production DB before cutover",
+        "sourceFile": "2026-09-03-billing-migration-sync.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "sam-okafor"
+      ],
+      "raw": "Sam"
+    },
+    "status": "open",
+    "task": "snapshot the production DB before cutover"
+  },
+  {
+    "due": {
+      "date": "2026-09-09",
+      "inferred": false,
+      "raw": "Wed"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "c93afc",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-09",
+          "inferred": false,
+          "raw": "Wed"
+        },
+        "line": 10,
+        "meetingId": "2026-09-08-quote-portal-weekly",
+        "rawLine": "- [ ] Rahul to finish login screen by Wed",
+        "sourceFile": "2026-09-08-quote-portal-weekly.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "rahul-mehta"
+      ],
+      "raw": "Rahul"
+    },
+    "status": "open",
+    "task": "finish login screen"
+  },
+  {
+    "due": {
+      "date": null,
+      "inferred": false,
+      "raw": null
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "1d075b",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 11,
+        "meetingId": "2026-09-08-quote-portal-weekly",
+        "rawLine": "- [ ] Meera to ask Acme for their procurement contact",
+        "sourceFile": "2026-09-08-quote-portal-weekly.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "meera-iyer"
+      ],
+      "raw": "Meera"
+    },
+    "status": "open",
+    "task": "ask Acme for their procurement contact"
+  },
+  {
+    "due": {
+      "date": "2026-09-11",
+      "inferred": false,
+      "raw": "Friday"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "1ba826",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-11",
+          "inferred": false,
+          "raw": "Friday"
+        },
+        "line": 9,
+        "meetingId": "2026-09-09-qa-standup",
+        "rawLine": "- [ ] Karan to send the vendor invoice list by Friday",
+        "sourceFile": "2026-09-09-qa-standup.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "karan-joshi"
+      ],
+      "raw": "Karan"
+    },
+    "status": "open",
+    "task": "send the vendor invoice list"
+  },
+  {
+    "due": {
+      "date": null,
+      "inferred": false,
+      "raw": null
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "575997",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 10,
+        "meetingId": "2026-09-09-qa-standup",
+        "rawLine": "- [ ] Priya to set up the test data",
+        "sourceFile": "2026-09-09-qa-standup.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "priya-shah"
+      ],
+      "raw": "Priya"
+    },
+    "status": "open",
+    "task": "set up the test data"
+  },
+  {
+    "due": {
+      "date": "2026-09-11",
+      "inferred": false,
+      "raw": "tomorrow"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "1ba512",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-11",
+          "inferred": false,
+          "raw": "tomorrow"
+        },
+        "line": 9,
+        "meetingId": "2026-09-10-acme-renewal-prep",
+        "rawLine": "- [ ] Lena to pull Acme's usage report for the last 6 months by tomorrow",
+        "sourceFile": "2026-09-10-acme-renewal-prep.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "lena-fischer"
+      ],
+      "raw": "Lena"
+    },
+    "status": "open",
+    "task": "pull Acme's usage report for the last 6 months"
+  },
+  {
+    "due": {
+      "date": "2026-09-14",
+      "inferred": false,
+      "raw": "2026-09-14"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "25202a",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-14",
+          "inferred": false,
+          "raw": "2026-09-14"
+        },
+        "line": 10,
+        "meetingId": "2026-09-10-acme-renewal-prep",
+        "rawLine": "- [ ] Karan to confirm discount ceiling with the CFO by 2026-09-14",
+        "sourceFile": "2026-09-10-acme-renewal-prep.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "karan-joshi"
+      ],
+      "raw": "Karan"
+    },
+    "status": "open",
+    "task": "confirm discount ceiling with the CFO"
+  },
+  {
+    "doneBy": "notes",
+    "due": {
+      "date": "2026-09-30",
+      "inferred": false,
+      "raw": "Wednesday"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "7efddf",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 11,
+        "meetingId": "2026-09-10-acme-renewal-prep",
+        "rawLine": "- [ ] Meera to book the renewal call with Acme's CTO",
+        "sourceFile": "2026-09-10-acme-renewal-prep.md"
+      },
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-30",
+          "inferred": false,
+          "raw": "Wednesday"
+        },
+        "line": 9,
+        "meetingId": "2026-09-28-acme-renewal-checkin",
+        "rawLine": "- [ ] Meera to book the renewal call with Acme's CTO by Wednesday",
+        "sourceFile": "2026-09-28-acme-renewal-checkin.md"
+      },
+      {
+        "checked": true,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 11,
+        "meetingId": "2026-10-14-acme-renewal-wrapup",
+        "rawLine": "- [x] Meera to book the renewal call with Acme's CTO",
+        "sourceFile": "2026-10-14-acme-renewal-wrapup.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "meera-iyer"
+      ],
+      "raw": "Meera"
+    },
+    "status": "done",
+    "task": "book the renewal call with Acme's CTO"
+  },
+  {
+    "due": {
+      "date": null,
+      "inferred": false,
+      "raw": null
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "042cd9",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 12,
+        "meetingId": "2026-09-10-acme-renewal-prep",
+        "rawLine": "- [ ] Someone to update the CRM notes",
+        "sourceFile": "2026-09-10-acme-renewal-prep.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "unassigned",
+      "people": [],
+      "raw": "Someone"
+    },
+    "status": "open",
+    "task": "update the CRM notes"
+  },
+  {
+    "doneBy": "notes",
+    "due": {
+      "date": "2026-09-25",
+      "inferred": false,
+      "raw": "Friday"
+    },
+    "dueHistory": [
+      "2026-09-16"
+    ],
+    "flags": [],
+    "id": "d1f6e5",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-16",
+          "inferred": false,
+          "raw": "Wed 16 Sep"
+        },
+        "line": 9,
+        "meetingId": "2026-09-14-onboarding-flow-design",
+        "rawLine": "- [ ] Anita to finalise the welcome-email copy by Wed 16 Sep",
+        "sourceFile": "2026-09-14-onboarding-flow-design.md"
+      },
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-25",
+          "inferred": false,
+          "raw": "Friday"
+        },
+        "line": 9,
+        "meetingId": "2026-09-24-onboarding-flow-design",
+        "rawLine": "- [ ] Anita to finalise the welcome-email copy by Friday",
+        "sourceFile": "2026-09-24-onboarding-flow-design.md"
+      },
+      {
+        "checked": true,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 11,
+        "meetingId": "2026-10-05-onboarding-retro",
+        "rawLine": "- [x] Anita to finalise the welcome-email copy",
+        "sourceFile": "2026-10-05-onboarding-retro.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "anita-desai"
+      ],
+      "raw": "Anita"
+    },
+    "status": "done",
+    "task": "finalise the welcome-email copy"
+  },
+  {
+    "doneBy": "notes",
+    "due": {
+      "date": "2026-09-18",
+      "inferred": false,
+      "raw": "18 Sep"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "bc6b38",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-18",
+          "inferred": false,
+          "raw": "18 Sep"
+        },
+        "line": 10,
+        "meetingId": "2026-09-14-onboarding-flow-design",
+        "rawLine": "- [ ] Priya to write acceptance tests for the signup flow by 18 Sep",
+        "sourceFile": "2026-09-14-onboarding-flow-design.md"
+      },
+      {
+        "checked": true,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 10,
+        "meetingId": "2026-09-24-onboarding-flow-design",
+        "rawLine": "- [x] Priya to write acceptance tests for the signup flow",
+        "sourceFile": "2026-09-24-onboarding-flow-design.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "priya-shah"
+      ],
+      "raw": "Priya"
+    },
+    "status": "done",
+    "task": "write acceptance tests for the signup flow"
+  },
+  {
+    "due": {
+      "date": "2026-09-28",
+      "inferred": false,
+      "raw": "Monday"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "d17b30",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 11,
+        "meetingId": "2026-09-14-onboarding-flow-design",
+        "rawLine": "- [ ] Rahul to estimate the SSO work",
+        "sourceFile": "2026-09-14-onboarding-flow-design.md"
+      },
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-28",
+          "inferred": false,
+          "raw": "Monday"
+        },
+        "line": 12,
+        "meetingId": "2026-09-24-onboarding-flow-design",
+        "rawLine": "- [ ] Rahul to estimate SSO work by Monday",
+        "sourceFile": "2026-09-24-onboarding-flow-design.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "rahul-verma"
+      ],
+      "raw": "Rahul"
+    },
+    "status": "open",
+    "task": "estimate the SSO work"
+  },
+  {
+    "due": {
+      "date": "2026-10-02",
+      "inferred": false,
+      "raw": "2 Oct"
+    },
+    "dueHistory": [
+      "2026-09-30"
+    ],
+    "flags": [],
+    "id": "691baf",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-30",
+          "inferred": false,
+          "raw": "end of month"
+        },
+        "line": 12,
+        "meetingId": "2026-09-14-onboarding-flow-design",
+        "rawLine": "- [ ] Lena to collect 5 customer quotes for the landing page by end of month",
+        "sourceFile": "2026-09-14-onboarding-flow-design.md"
+      },
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-02",
+          "inferred": false,
+          "raw": "2 Oct"
+        },
+        "line": 11,
+        "meetingId": "2026-09-24-onboarding-flow-design",
+        "rawLine": "- [ ] Lena to collect 5 customer quotes for the landing page by 2 Oct",
+        "sourceFile": "2026-09-24-onboarding-flow-design.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "lena-fischer"
+      ],
+      "raw": "Lena"
+    },
+    "status": "open",
+    "task": "collect 5 customer quotes for the landing page"
+  },
+  {
+    "due": {
+      "date": "2026-09-24",
+      "inferred": false,
+      "raw": "Thursday"
+    },
+    "dueHistory": [
+      "2026-09-17"
+    ],
+    "flags": [],
+    "id": "da83d9",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-17",
+          "inferred": false,
+          "raw": "Thursday"
+        },
+        "line": 10,
+        "meetingId": "2026-09-15-quote-portal-weekly",
+        "rawLine": "- [ ] Anita to share updated wireframes by Thursday",
+        "sourceFile": "2026-09-15-quote-portal-weekly.md"
+      },
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-24",
+          "inferred": false,
+          "raw": "Thursday"
+        },
+        "line": 9,
+        "meetingId": "2026-09-22-quote-portal-weekly",
+        "rawLine": "- [ ] Anita to share updated wireframes by Thursday",
+        "sourceFile": "2026-09-22-quote-portal-weekly.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "anita-desai"
+      ],
+      "raw": "Anita"
+    },
+    "status": "open",
+    "task": "share updated wireframes"
+  },
+  {
+    "due": {
+      "date": "2026-09-23",
+      "inferred": false,
+      "raw": "Wednesday"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "a519a5",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 12,
+        "meetingId": "2026-09-15-quote-portal-weekly",
+        "rawLine": "- [ ] Rahul to fix the pagination bug",
+        "sourceFile": "2026-09-15-quote-portal-weekly.md"
+      },
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-23",
+          "inferred": false,
+          "raw": "Wednesday"
+        },
+        "line": 12,
+        "meetingId": "2026-09-22-quote-portal-weekly",
+        "rawLine": "- [ ] Rahul to fix the pagination bug by Wednesday",
+        "sourceFile": "2026-09-22-quote-portal-weekly.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "rahul-mehta"
+      ],
+      "raw": "Rahul"
+    },
+    "status": "open",
+    "task": "fix the pagination bug"
+  },
+  {
+    "due": {
+      "date": "2026-09-21",
+      "inferred": false,
+      "raw": "2026-09-21"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "60c63f",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-21",
+          "inferred": false,
+          "raw": "2026-09-21"
+        },
+        "line": 11,
+        "meetingId": "2026-09-16-standup",
+        "rawLine": "- [ ] Lena to draft the case study outline by 2026-09-21",
+        "sourceFile": "2026-09-16-standup.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "lena-fischer"
+      ],
+      "raw": "Lena"
+    },
+    "status": "open",
+    "task": "draft the case study outline"
+  },
+  {
+    "due": {
+      "date": "2026-09-18",
+      "inferred": false,
+      "raw": "Friday"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "54dcc6",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-18",
+          "inferred": false,
+          "raw": "Friday"
+        },
+        "line": 12,
+        "meetingId": "2026-09-16-standup",
+        "rawLine": "- [ ] Meera to update the pipeline sheet by Friday",
+        "sourceFile": "2026-09-16-standup.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "meera-iyer"
+      ],
+      "raw": "Meera"
+    },
+    "status": "open",
+    "task": "update the pipeline sheet"
+  },
+  {
+    "due": {
+      "date": "2026-09-21",
+      "inferred": false,
+      "raw": "Monday"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "8c1c94",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-21",
+          "inferred": false,
+          "raw": "Monday"
+        },
+        "line": 9,
+        "meetingId": "2026-09-17-billing-migration-sync",
+        "rawLine": "- [ ] Priya to sign off the cutover checklist by Monday",
+        "sourceFile": "2026-09-17-billing-migration-sync.md"
+      }
+    ],
+    "owner": {
+      "candidates": [
+        "priya-nair",
+        "priya-shah"
+      ],
+      "helpers": [],
+      "kind": "ambiguous",
+      "people": [],
+      "raw": "Priya"
+    },
+    "status": "open",
+    "task": "sign off the cutover checklist"
+  },
+  {
+    "due": {
+      "date": "2026-09-22",
+      "inferred": false,
+      "raw": "2026-09-22"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "5b033f",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-22",
+          "inferred": false,
+          "raw": "2026-09-22"
+        },
+        "line": 10,
+        "meetingId": "2026-09-17-billing-migration-sync",
+        "rawLine": "- [ ] Sam to run the dry-run migration on staging by 2026-09-22",
+        "sourceFile": "2026-09-17-billing-migration-sync.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "sam-okafor"
+      ],
+      "raw": "Sam"
+    },
+    "status": "open",
+    "task": "run the dry-run migration on staging"
+  },
+  {
+    "due": {
+      "date": "2026-09-21",
+      "inferred": false,
+      "raw": "Mon"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "491f08",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-21",
+          "inferred": false,
+          "raw": "Mon"
+        },
+        "line": 11,
+        "meetingId": "2026-09-18-design-review",
+        "rawLine": "- [ ] @anita: audit colour contrast on the dashboard by Mon",
+        "sourceFile": "2026-09-18-design-review.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "anita-desai"
+      ],
+      "raw": "anita"
+    },
+    "status": "open",
+    "task": "audit colour contrast on the dashboard"
+  },
+  {
+    "due": {
+      "date": "2026-09-23",
+      "inferred": false,
+      "raw": "Wednesday"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "3ee74f",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-23",
+          "inferred": false,
+          "raw": "Wednesday"
+        },
+        "line": 12,
+        "meetingId": "2026-09-18-design-review",
+        "rawLine": "- [ ] Anita & Rahul to agree on the component API by Wednesday",
+        "sourceFile": "2026-09-18-design-review.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "anita-desai",
+        "rahul-mehta"
+      ],
+      "raw": "Anita & Rahul"
+    },
+    "status": "open",
+    "task": "agree on the component API"
+  },
+  {
+    "due": {
+      "date": "2026-09-25",
+      "inferred": false,
+      "raw": "2026-09-25"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "d51243",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-25",
+          "inferred": false,
+          "raw": "2026-09-25"
+        },
+        "line": 13,
+        "meetingId": "2026-09-18-design-review",
+        "rawLine": "- [ ] Lena (with Priya) to collect user feedback on the prototype by 2026-09-25",
+        "sourceFile": "2026-09-18-design-review.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [
+        "priya-nair"
+      ],
+      "kind": "person",
+      "people": [
+        "lena-fischer"
+      ],
+      "raw": "Lena"
+    },
+    "status": "open",
+    "task": "collect user feedback on the prototype"
+  },
+  {
+    "due": {
+      "date": null,
+      "inferred": false,
+      "raw": null
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "de416b",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 14,
+        "meetingId": "2026-09-18-design-review",
+        "rawLine": "- [ ] Everyone to review the prototype before the next review",
+        "sourceFile": "2026-09-18-design-review.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "group",
+      "people": [],
+      "raw": "Everyone"
+    },
+    "status": "open",
+    "task": "review the prototype before the next review"
+  },
+  {
+    "due": {
+      "date": null,
+      "inferred": false,
+      "raw": null
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "244cb4",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 15,
+        "meetingId": "2026-09-18-design-review",
+        "rawLine": "- [ ] TBD to write the design-system changelog",
+        "sourceFile": "2026-09-18-design-review.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "unassigned",
+      "people": [],
+      "raw": "TBD"
+    },
+    "status": "open",
+    "task": "write the design-system changelog"
+  },
+  {
+    "due": {
+      "date": "2026-09-22",
+      "inferred": false,
+      "raw": "EOD tomorrow"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "29c7f2",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-22",
+          "inferred": false,
+          "raw": "EOD tomorrow"
+        },
+        "line": 14,
+        "meetingId": "2026-09-21-incident-review",
+        "rawLine": "- [ ] Sam to write the postmortem by EOD tomorrow",
+        "sourceFile": "2026-09-21-incident-review.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "sam-okafor"
+      ],
+      "raw": "Sam"
+    },
+    "status": "open",
+    "task": "write the postmortem"
+  },
+  {
+    "due": {
+      "date": "2026-09-25",
+      "inferred": false,
+      "raw": "Friday"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "49b423",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-25",
+          "inferred": false,
+          "raw": "Friday"
+        },
+        "line": 15,
+        "meetingId": "2026-09-21-incident-review",
+        "rawLine": "- [ ] Rahul to add idempotency keys to the payment call by Friday",
+        "sourceFile": "2026-09-21-incident-review.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "rahul-verma"
+      ],
+      "raw": "Rahul"
+    },
+    "status": "open",
+    "task": "add idempotency keys to the payment call"
+  },
+  {
+    "due": {
+      "date": "2026-09-25",
+      "inferred": false,
+      "raw": "25 Sep"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "d85059",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-25",
+          "inferred": false,
+          "raw": "25 Sep"
+        },
+        "line": 16,
+        "meetingId": "2026-09-21-incident-review",
+        "rawLine": "- [ ] Priya to add a regression test for double charge by 25 Sep",
+        "sourceFile": "2026-09-21-incident-review.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "priya-shah"
+      ],
+      "raw": "Priya"
+    },
+    "status": "open",
+    "task": "add a regression test for double charge"
+  },
+  {
+    "due": {
+      "date": null,
+      "inferred": false,
+      "raw": null
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "a7b3d3",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 17,
+        "meetingId": "2026-09-21-incident-review",
+        "rawLine": "- [ ] Karan to refund affected customers",
+        "sourceFile": "2026-09-21-incident-review.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "karan-joshi"
+      ],
+      "raw": "Karan"
+    },
+    "status": "open",
+    "task": "refund affected customers"
+  },
+  {
+    "doneBy": "notes",
+    "due": {
+      "date": "2026-09-25",
+      "inferred": false,
+      "raw": "2026-09-25"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "4f05cf",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-25",
+          "inferred": false,
+          "raw": "2026-09-25"
+        },
+        "line": 11,
+        "meetingId": "2026-09-22-quote-portal-weekly",
+        "rawLine": "- [ ] Meera to send Acme the procurement form by 2026-09-25",
+        "sourceFile": "2026-09-22-quote-portal-weekly.md"
+      },
+      {
+        "checked": true,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 9,
+        "meetingId": "2026-10-01-quote-portal-weekly",
+        "rawLine": "- [x] Meera to send Acme the procurement form",
+        "sourceFile": "2026-10-01-quote-portal-weekly.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "meera-iyer"
+      ],
+      "raw": "Meera"
+    },
+    "status": "done",
+    "task": "send Acme the procurement form"
+  },
+  {
+    "due": {
+      "date": "2026-09-24",
+      "inferred": false,
+      "raw": "Thursday"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "d02daf",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-24",
+          "inferred": false,
+          "raw": "Thursday"
+        },
+        "line": 8,
+        "meetingId": "2026-09-23-standup",
+        "rawLine": "- [ ] Rahul to rebase the feature branch by Thursday",
+        "sourceFile": "2026-09-23-standup.md"
+      }
+    ],
+    "owner": {
+      "candidates": [
+        "rahul-mehta",
+        "rahul-verma"
+      ],
+      "helpers": [],
+      "kind": "ambiguous",
+      "people": [],
+      "raw": "Rahul"
+    },
+    "status": "open",
+    "task": "rebase the feature branch"
+  },
+  {
+    "due": {
+      "date": null,
+      "inferred": false,
+      "raw": null
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "78c8a3",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 9,
+        "meetingId": "2026-09-23-standup",
+        "rawLine": "- [ ] Sam to rotate the staging credentials",
+        "sourceFile": "2026-09-23-standup.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "sam-okafor"
+      ],
+      "raw": "Sam"
+    },
+    "status": "open",
+    "task": "rotate the staging credentials"
+  },
+  {
+    "due": {
+      "date": "2026-09-28",
+      "inferred": false,
+      "raw": "Monday"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "b5276c",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-09-28",
+          "inferred": false,
+          "raw": "Monday"
+        },
+        "line": 9,
+        "meetingId": "2026-09-25-qa-sync",
+        "rawLine": "- [ ] Priya to triage the open bug list by Monday",
+        "sourceFile": "2026-09-25-qa-sync.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "priya-shah"
+      ],
+      "raw": "Priya"
+    },
+    "status": "open",
+    "task": "triage the open bug list"
+  },
+  {
+    "due": {
+      "date": "2026-10-02",
+      "inferred": false,
+      "raw": "2026-10-02"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "e258c6",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-02",
+          "inferred": false,
+          "raw": "2026-10-02"
+        },
+        "line": 10,
+        "meetingId": "2026-09-25-qa-sync",
+        "rawLine": "- [ ] Rahul to fix the top three critical bugs by 2026-10-02",
+        "sourceFile": "2026-09-25-qa-sync.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "rahul-verma"
+      ],
+      "raw": "Rahul"
+    },
+    "status": "open",
+    "task": "fix the top three critical bugs"
+  },
+  {
+    "due": {
+      "date": "2026-10-01",
+      "inferred": false,
+      "raw": "2026-10-01"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "891e2f",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-01",
+          "inferred": false,
+          "raw": "2026-10-01"
+        },
+        "line": 10,
+        "meetingId": "2026-09-28-acme-renewal-checkin",
+        "rawLine": "- [ ] Karan to send Acme the revised pricing sheet by 2026-10-01",
+        "sourceFile": "2026-09-28-acme-renewal-checkin.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "karan-joshi"
+      ],
+      "raw": "Karan"
+    },
+    "status": "open",
+    "task": "send Acme the revised pricing sheet"
+  },
+  {
+    "due": {
+      "date": null,
+      "inferred": false,
+      "raw": null
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "8bef43",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 11,
+        "meetingId": "2026-09-28-acme-renewal-checkin",
+        "rawLine": "- [ ] Lena to share the usage report with Meera",
+        "sourceFile": "2026-09-28-acme-renewal-checkin.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "lena-fischer"
+      ],
+      "raw": "Lena"
+    },
+    "status": "open",
+    "task": "share the usage report with Meera"
+  },
+  {
+    "due": {
+      "date": "2026-10-02",
+      "inferred": false,
+      "raw": "Friday"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "61ec92",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-02",
+          "inferred": false,
+          "raw": "Friday"
+        },
+        "line": 12,
+        "meetingId": "2026-09-28-acme-renewal-checkin",
+        "rawLine": "- [ ] Priya to prepare the renewal one-pager by Friday",
+        "sourceFile": "2026-09-28-acme-renewal-checkin.md"
+      },
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 12,
+        "meetingId": "2026-10-14-acme-renewal-wrapup",
+        "rawLine": "- [ ] Priya to prepare the renewal one-pager",
+        "sourceFile": "2026-10-14-acme-renewal-wrapup.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "priya-nair"
+      ],
+      "raw": "Priya"
+    },
+    "status": "open",
+    "task": "prepare the renewal one-pager"
+  },
+  {
+    "due": {
+      "date": "2026-10-01",
+      "inferred": false,
+      "raw": "Thursday"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "aea9f5",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-01",
+          "inferred": false,
+          "raw": "Thursday"
+        },
+        "line": 9,
+        "meetingId": "2026-09-29-billing-cutover-planning",
+        "rawLine": "- [ ] Priya S. to run the invoice rounding tests by Thursday",
+        "sourceFile": "2026-09-29-billing-cutover-planning.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "priya-shah"
+      ],
+      "raw": "Priya S."
+    },
+    "status": "open",
+    "task": "run the invoice rounding tests"
+  },
+  {
+    "doneBy": "notes",
+    "due": {
+      "date": "2026-10-05",
+      "inferred": false,
+      "raw": "2026-10-05"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "d9c3d4",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-05",
+          "inferred": false,
+          "raw": "2026-10-05"
+        },
+        "line": 10,
+        "meetingId": "2026-09-29-billing-cutover-planning",
+        "rawLine": "- [ ] Priya N. to notify customers about the maintenance window by 2026-10-05",
+        "sourceFile": "2026-09-29-billing-cutover-planning.md"
+      },
+      {
+        "checked": true,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 12,
+        "meetingId": "2026-10-08-billing-go-no-go",
+        "rawLine": "- [x] Priya N. to notify customers about the maintenance window",
+        "sourceFile": "2026-10-08-billing-go-no-go.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "priya-nair"
+      ],
+      "raw": "Priya N."
+    },
+    "status": "done",
+    "task": "notify customers about the maintenance window"
+  },
+  {
+    "due": {
+      "date": "2026-10-10",
+      "inferred": false,
+      "raw": "Saturday 10 Oct"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "0dc88c",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-10",
+          "inferred": false,
+          "raw": "Saturday 10 Oct"
+        },
+        "line": 11,
+        "meetingId": "2026-09-29-billing-cutover-planning",
+        "rawLine": "- [ ] Sam to schedule cutover for Saturday 10 Oct",
+        "sourceFile": "2026-09-29-billing-cutover-planning.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "sam-okafor"
+      ],
+      "raw": "Sam"
+    },
+    "status": "open",
+    "task": "schedule cutover"
+  },
+  {
+    "due": {
+      "date": null,
+      "inferred": false,
+      "raw": null
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "3030a3",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 12,
+        "meetingId": "2026-09-29-billing-cutover-planning",
+        "rawLine": "- [ ] Karan to freeze invoice edits from 9 Oct",
+        "sourceFile": "2026-09-29-billing-cutover-planning.md"
+      },
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 11,
+        "meetingId": "2026-10-08-billing-go-no-go",
+        "rawLine": "- [ ] Karan to freeze invoice edits from 9 Oct",
+        "sourceFile": "2026-10-08-billing-go-no-go.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "karan-joshi"
+      ],
+      "raw": "Karan"
+    },
+    "status": "open",
+    "task": "freeze invoice edits from 9 Oct"
+  },
+  {
+    "due": {
+      "date": "2026-10-03",
+      "inferred": false,
+      "raw": "Oct 3rd"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "05c6bc",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-03",
+          "inferred": false,
+          "raw": "Oct 3rd"
+        },
+        "line": 9,
+        "meetingId": "2026-09-30-q4-offsite",
+        "rawLine": "- [ ] Meera to finalise the Q4 sales targets by Oct 3rd",
+        "sourceFile": "2026-09-30-q4-offsite.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "meera-iyer"
+      ],
+      "raw": "Meera"
+    },
+    "status": "open",
+    "task": "finalise the Q4 sales targets"
+  },
+  {
+    "due": {
+      "date": "2026-10-05",
+      "inferred": false,
+      "raw": "Oct 5th"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "61eb88",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-05",
+          "inferred": false,
+          "raw": "Oct 5th"
+        },
+        "line": 10,
+        "meetingId": "2026-09-30-q4-offsite",
+        "rawLine": "  - [ ] Karan to validate targets against the budget by Oct 5th",
+        "sourceFile": "2026-09-30-q4-offsite.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "karan-joshi"
+      ],
+      "raw": "Karan"
+    },
+    "parentId": "05c6bc",
+    "status": "open",
+    "task": "validate targets against the budget"
+  },
+  {
+    "due": {
+      "date": "2026-10-15",
+      "inferred": false,
+      "raw": "15 October"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "cc8dff",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-15",
+          "inferred": false,
+          "raw": "15 October"
+        },
+        "line": 11,
+        "meetingId": "2026-09-30-q4-offsite",
+        "rawLine": "* [ ] Lena to run the customer survey, results due 15 October",
+        "sourceFile": "2026-09-30-q4-offsite.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "lena-fischer"
+      ],
+      "raw": "Lena"
+    },
+    "status": "open",
+    "task": "run the customer survey"
+  },
+  {
+    "due": {
+      "date": "2026-10-15",
+      "inferred": false,
+      "raw": "mid-October"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "b1539a",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-15",
+          "inferred": false,
+          "raw": "mid-October"
+        },
+        "line": 12,
+        "meetingId": "2026-09-30-q4-offsite",
+        "rawLine": "+ [ ] Sam to propose the on-call rotation by mid-October",
+        "sourceFile": "2026-09-30-q4-offsite.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "sam-okafor"
+      ],
+      "raw": "Sam"
+    },
+    "status": "open",
+    "task": "propose the on-call rotation"
+  },
+  {
+    "due": {
+      "date": null,
+      "inferred": false,
+      "raw": null
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "3f7306",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 16,
+        "meetingId": "2026-09-30-q4-offsite",
+        "rawLine": "- [ ] Priya to own the hiring plan for the two QA roles",
+        "sourceFile": "2026-09-30-q4-offsite.md"
+      }
+    ],
+    "owner": {
+      "candidates": [
+        "priya-nair",
+        "priya-shah"
+      ],
+      "helpers": [],
+      "kind": "ambiguous",
+      "people": [],
+      "raw": "Priya"
+    },
+    "status": "open",
+    "task": "own the hiring plan for the two QA roles"
+  },
+  {
+    "due": {
+      "date": "2026-10-02",
+      "inferred": false,
+      "raw": "Friday"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "2b8e09",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-02",
+          "inferred": false,
+          "raw": "Friday"
+        },
+        "line": 17,
+        "meetingId": "2026-09-30-q4-offsite",
+        "rawLine": "- [ ] Rahul to prepare the architecture overview by Friday",
+        "sourceFile": "2026-09-30-q4-offsite.md"
+      }
+    ],
+    "owner": {
+      "candidates": [
+        "rahul-mehta",
+        "rahul-verma"
+      ],
+      "helpers": [],
+      "kind": "ambiguous",
+      "people": [],
+      "raw": "Rahul"
+    },
+    "status": "open",
+    "task": "prepare the architecture overview"
+  },
+  {
+    "due": {
+      "date": "2026-10-07",
+      "inferred": false,
+      "raw": "7 Oct"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "0f5abc",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-07",
+          "inferred": false,
+          "raw": "7 Oct"
+        },
+        "line": 18,
+        "meetingId": "2026-09-30-q4-offsite",
+        "rawLine": "- [ ] Everyone to submit their Q4 goals by 7 Oct",
+        "sourceFile": "2026-09-30-q4-offsite.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "group",
+      "people": [],
+      "raw": "Everyone"
+    },
+    "status": "open",
+    "task": "submit their Q4 goals"
+  },
+  {
+    "due": {
+      "date": "2026-10-09",
+      "inferred": false,
+      "raw": "2026-10-09"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "47eb7c",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-09",
+          "inferred": false,
+          "raw": "2026-10-09"
+        },
+        "line": 22,
+        "meetingId": "2026-09-30-q4-offsite",
+        "rawLine": "| Anita | Refresh the brand kit | 2026-10-09 |",
+        "sourceFile": "2026-09-30-q4-offsite.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "anita-desai"
+      ],
+      "raw": "Anita"
+    },
+    "status": "open",
+    "task": "Refresh the brand kit"
+  },
+  {
+    "due": {
+      "date": "2026-10-01",
+      "inferred": false,
+      "raw": "tomorrow"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "b3433d",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-01",
+          "inferred": false,
+          "raw": "tomorrow"
+        },
+        "line": 24,
+        "meetingId": "2026-09-30-q4-offsite",
+        "rawLine": "ACTION: Karan to circulate the offsite summary tomorrow",
+        "sourceFile": "2026-09-30-q4-offsite.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "karan-joshi"
+      ],
+      "raw": "Karan"
+    },
+    "status": "open",
+    "task": "circulate the offsite summary"
+  },
+  {
+    "doneBy": "notes",
+    "due": {
+      "date": "2026-10-02",
+      "inferred": false,
+      "raw": "2026-10-02"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "757362",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-02",
+          "inferred": false,
+          "raw": "2026-10-02"
+        },
+        "line": 11,
+        "meetingId": "2026-09-30-standup",
+        "rawLine": "- [ ] Karan to approve the Q4 cloud spend by 2026-10-02",
+        "sourceFile": "2026-09-30-standup.md"
+      },
+      {
+        "checked": true,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 9,
+        "meetingId": "2026-10-02-finance-sync",
+        "rawLine": "- [X] Karan to approve the Q4 cloud spend",
+        "sourceFile": "2026-10-02-finance-sync.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "karan-joshi"
+      ],
+      "raw": "Karan"
+    },
+    "status": "done",
+    "task": "approve the Q4 cloud spend"
+  },
+  {
+    "due": {
+      "date": "2026-10-02",
+      "inferred": false,
+      "raw": "Friday"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "79dd05",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-02",
+          "inferred": false,
+          "raw": "Friday"
+        },
+        "line": 12,
+        "meetingId": "2026-09-30-standup",
+        "rawLine": "- [ ] Priya to share the Q4 roadmap draft by Friday",
+        "sourceFile": "2026-09-30-standup.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "priya-nair"
+      ],
+      "raw": "Priya"
+    },
+    "status": "open",
+    "task": "share the Q4 roadmap draft"
+  },
+  {
+    "doneBy": "notes",
+    "due": {
+      "date": "2026-10-07",
+      "inferred": false,
+      "raw": "tomorrow"
+    },
+    "dueHistory": [
+      "2026-10-02"
+    ],
+    "flags": [],
+    "id": "82a5aa",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-02",
+          "inferred": false,
+          "raw": "Friday"
+        },
+        "line": 10,
+        "meetingId": "2026-10-01-quote-portal-weekly",
+        "rawLine": "- [ ] Rahul to deploy the beta to staging by Friday",
+        "sourceFile": "2026-10-01-quote-portal-weekly.md"
+      },
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-07",
+          "inferred": false,
+          "raw": "tomorrow"
+        },
+        "line": 9,
+        "meetingId": "2026-10-06-quote-portal-weekly",
+        "rawLine": "- [ ] Rahul to deploy the beta to staging by tomorrow",
+        "sourceFile": "2026-10-06-quote-portal-weekly.md"
+      },
+      {
+        "checked": true,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 9,
+        "meetingId": "2026-10-13-quote-portal-weekly",
+        "rawLine": "- [x] Rahul to deploy the beta to staging",
+        "sourceFile": "2026-10-13-quote-portal-weekly.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "rahul-mehta"
+      ],
+      "raw": "Rahul"
+    },
+    "status": "done",
+    "task": "deploy the beta to staging"
+  },
+  {
+    "due": {
+      "date": "2026-10-06",
+      "inferred": false,
+      "raw": "2026-10-06"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "caa5dd",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-06",
+          "inferred": false,
+          "raw": "2026-10-06"
+        },
+        "line": 11,
+        "meetingId": "2026-10-01-quote-portal-weekly",
+        "rawLine": "- [ ] Anita to hand over final designs to dev by 2026-10-06",
+        "sourceFile": "2026-10-01-quote-portal-weekly.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "anita-desai"
+      ],
+      "raw": "Anita"
+    },
+    "status": "open",
+    "task": "hand over final designs to dev"
+  },
+  {
+    "due": {
+      "date": null,
+      "inferred": false,
+      "raw": null
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "8661df",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 12,
+        "meetingId": "2026-10-01-quote-portal-weekly",
+        "rawLine": "- [ ] Team to decide on the launch date",
+        "sourceFile": "2026-10-01-quote-portal-weekly.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "group",
+      "people": [],
+      "raw": "Team"
+    },
+    "status": "open",
+    "task": "decide on the launch date"
+  },
+  {
+    "due": {
+      "date": "2026-10-09",
+      "inferred": false,
+      "raw": "2026-10-09"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "d9373e",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-09",
+          "inferred": false,
+          "raw": "2026-10-09"
+        },
+        "line": 10,
+        "meetingId": "2026-10-02-finance-sync",
+        "rawLine": "* [ ] Sam to cut cloud costs by 10% — proposal by 2026-10-09",
+        "sourceFile": "2026-10-02-finance-sync.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "sam-okafor"
+      ],
+      "raw": "Sam"
+    },
+    "status": "open",
+    "task": "cut cloud costs by 10%"
+  },
+  {
+    "due": {
+      "date": "2026-10-07",
+      "inferred": false,
+      "raw": "Wednesday"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "ae91b9",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-07",
+          "inferred": false,
+          "raw": "Wednesday"
+        },
+        "line": 11,
+        "meetingId": "2026-10-02-finance-sync",
+        "rawLine": "+ [ ] Meera to share the Q4 pipeline forecast by Wednesday",
+        "sourceFile": "2026-10-02-finance-sync.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "meera-iyer"
+      ],
+      "raw": "Meera"
+    },
+    "status": "open",
+    "task": "share the Q4 pipeline forecast"
+  },
+  {
+    "due": {
+      "date": "2026-10-12",
+      "inferred": false,
+      "raw": "12 Oct"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "f96a4b",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-12",
+          "inferred": false,
+          "raw": "12 Oct"
+        },
+        "line": 12,
+        "meetingId": "2026-10-02-finance-sync",
+        "rawLine": "- [ ] Karan to prepare the board finance slide by 12 Oct",
+        "sourceFile": "2026-10-02-finance-sync.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "karan-joshi"
+      ],
+      "raw": "Karan"
+    },
+    "status": "open",
+    "task": "prepare the board finance slide"
+  },
+  {
+    "due": {
+      "date": "2026-10-09",
+      "inferred": true,
+      "raw": "Friday"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "dde2e7",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-09",
+          "inferred": true,
+          "raw": "Friday"
+        },
+        "line": 6,
+        "meetingId": "2026-10-03-sales-pipeline",
+        "rawLine": "- [ ] Meera to chase Orbit Labs by Friday",
+        "sourceFile": "2026-10-03-sales-pipeline.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "meera-iyer"
+      ],
+      "raw": "Meera"
+    },
+    "status": "open",
+    "task": "chase Orbit Labs"
+  },
+  {
+    "due": {
+      "date": null,
+      "inferred": false,
+      "raw": null
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "70c94b",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 7,
+        "meetingId": "2026-10-03-sales-pipeline",
+        "rawLine": "- [ ] Lena to clean up duplicate leads",
+        "sourceFile": "2026-10-03-sales-pipeline.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "lena-fischer"
+      ],
+      "raw": "Lena"
+    },
+    "status": "open",
+    "task": "clean up duplicate leads"
+  },
+  {
+    "due": {
+      "date": "2026-10-13",
+      "inferred": false,
+      "raw": "next Tuesday"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "87218c",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-13",
+          "inferred": false,
+          "raw": "next Tuesday"
+        },
+        "line": 9,
+        "meetingId": "2026-10-05-onboarding-retro",
+        "rawLine": "- [ ] Rahul to start SSO spike by next Tuesday",
+        "sourceFile": "2026-10-05-onboarding-retro.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "rahul-verma"
+      ],
+      "raw": "Rahul"
+    },
+    "status": "open",
+    "task": "start SSO spike"
+  },
+  {
+    "due": {
+      "date": "2026-10-09",
+      "inferred": false,
+      "raw": "9 Oct"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "e35fce",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-09",
+          "inferred": false,
+          "raw": "9 Oct"
+        },
+        "line": 10,
+        "meetingId": "2026-10-05-onboarding-retro",
+        "rawLine": "- [ ] Lena to publish the customer quotes by 9 Oct",
+        "sourceFile": "2026-10-05-onboarding-retro.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "lena-fischer"
+      ],
+      "raw": "Lena"
+    },
+    "status": "open",
+    "task": "publish the customer quotes"
+  },
+  {
+    "due": {
+      "date": null,
+      "inferred": false,
+      "raw": null
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "b23dec",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 12,
+        "meetingId": "2026-10-05-onboarding-retro",
+        "rawLine": "- [ ] Priya to review the welcome email for accessibility",
+        "sourceFile": "2026-10-05-onboarding-retro.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "priya-shah"
+      ],
+      "raw": "Priya"
+    },
+    "status": "open",
+    "task": "review the welcome email for accessibility"
+  },
+  {
+    "due": {
+      "date": "2026-10-14",
+      "inferred": false,
+      "raw": "2026-10-14"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "d0e3a4",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-14",
+          "inferred": false,
+          "raw": "2026-10-14"
+        },
+        "line": 10,
+        "meetingId": "2026-10-06-quote-portal-weekly",
+        "rawLine": "- [ ] Meera to demo the portal to Acme on 2026-10-14",
+        "sourceFile": "2026-10-06-quote-portal-weekly.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "meera-iyer"
+      ],
+      "raw": "Meera"
+    },
+    "status": "open",
+    "task": "demo the portal to Acme"
+  },
+  {
+    "due": {
+      "date": null,
+      "inferred": false,
+      "raw": null
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "e1b541",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 11,
+        "meetingId": "2026-10-06-quote-portal-weekly",
+        "rawLine": "- [ ] Sam to set up uptime monitoring",
+        "sourceFile": "2026-10-06-quote-portal-weekly.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "sam-okafor"
+      ],
+      "raw": "Sam"
+    },
+    "status": "open",
+    "task": "set up uptime monitoring"
+  },
+  {
+    "due": {
+      "date": "2026-10-08",
+      "inferred": false,
+      "raw": "Thursday"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "bf0dac",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-08",
+          "inferred": false,
+          "raw": "Thursday"
+        },
+        "line": 12,
+        "meetingId": "2026-10-06-quote-portal-weekly",
+        "rawLine": "- [ ] Priya to write the beta test checklist by Thursday",
+        "sourceFile": "2026-10-06-quote-portal-weekly.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "priya-nair"
+      ],
+      "raw": "Priya"
+    },
+    "status": "open",
+    "task": "write the beta test checklist"
+  },
+  {
+    "due": {
+      "date": "2026-10-08",
+      "inferred": false,
+      "raw": "tomorrow"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "45bc7e",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-08",
+          "inferred": false,
+          "raw": "tomorrow"
+        },
+        "line": 9,
+        "meetingId": "2026-10-07-standup",
+        "rawLine": "- [ ] Rahul to review Anita's PR by tomorrow",
+        "sourceFile": "2026-10-07-standup.md"
+      }
+    ],
+    "owner": {
+      "candidates": [
+        "rahul-mehta",
+        "rahul-verma"
+      ],
+      "helpers": [],
+      "kind": "ambiguous",
+      "people": [],
+      "raw": "Rahul"
+    },
+    "status": "open",
+    "task": "review Anita's PR"
+  },
+  {
+    "due": {
+      "date": null,
+      "inferred": false,
+      "raw": null
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "a55eac",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 10,
+        "meetingId": "2026-10-07-standup",
+        "rawLine": "- [ ] Anita to update the style guide",
+        "sourceFile": "2026-10-07-standup.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "anita-desai"
+      ],
+      "raw": "Anita"
+    },
+    "status": "open",
+    "task": "update the style guide"
+  },
+  {
+    "due": {
+      "date": "2026-10-08",
+      "inferred": false,
+      "raw": "EOD"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "fe2295",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-08",
+          "inferred": false,
+          "raw": "EOD"
+        },
+        "line": 9,
+        "meetingId": "2026-10-08-billing-go-no-go",
+        "rawLine": "- [ ] Priya to circulate the go/no-go summary by EOD",
+        "sourceFile": "2026-10-08-billing-go-no-go.md"
+      }
+    ],
+    "owner": {
+      "candidates": [
+        "priya-nair",
+        "priya-shah"
+      ],
+      "helpers": [],
+      "kind": "ambiguous",
+      "people": [],
+      "raw": "Priya"
+    },
+    "status": "open",
+    "task": "circulate the go/no-go summary"
+  },
+  {
+    "due": {
+      "date": "2026-10-09",
+      "inferred": false,
+      "raw": "2026-10-09"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "db1233",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-09",
+          "inferred": false,
+          "raw": "2026-10-09"
+        },
+        "line": 10,
+        "meetingId": "2026-10-08-billing-go-no-go",
+        "rawLine": "- [ ] Sam to confirm rollback plan by 2026-10-09",
+        "sourceFile": "2026-10-08-billing-go-no-go.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "sam-okafor"
+      ],
+      "raw": "Sam"
+    },
+    "status": "open",
+    "task": "confirm rollback plan"
+  },
+  {
+    "due": {
+      "date": "2026-10-16",
+      "inferred": false,
+      "raw": "2026-10-16"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "02ddc7",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-16",
+          "inferred": false,
+          "raw": "2026-10-16"
+        },
+        "line": 18,
+        "meetingId": "2026-10-09-security-review",
+        "rawLine": "- [ ] Sam to enable MFA on all admin accounts by 2026-10-16",
+        "sourceFile": "2026-10-09-security-review.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "sam-okafor"
+      ],
+      "raw": "Sam"
+    },
+    "status": "open",
+    "task": "enable MFA on all admin accounts"
+  },
+  {
+    "due": {
+      "date": "2026-10-12",
+      "inferred": false,
+      "raw": "Monday"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "6d8998",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-12",
+          "inferred": false,
+          "raw": "Monday"
+        },
+        "line": 19,
+        "meetingId": "2026-10-09-security-review",
+        "rawLine": "- [ ] Rahul to patch the outdated express dependency by Monday",
+        "sourceFile": "2026-10-09-security-review.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "rahul-verma"
+      ],
+      "raw": "Rahul"
+    },
+    "status": "open",
+    "task": "patch the outdated express dependency"
+  },
+  {
+    "due": {
+      "date": "2026-10-23",
+      "inferred": false,
+      "raw": "23 Oct"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "8457f0",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-23",
+          "inferred": false,
+          "raw": "23 Oct"
+        },
+        "line": 20,
+        "meetingId": "2026-10-09-security-review",
+        "rawLine": "- [ ] Priya to document the incident response steps by 23 Oct",
+        "sourceFile": "2026-10-09-security-review.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "priya-shah"
+      ],
+      "raw": "Priya"
+    },
+    "status": "open",
+    "task": "document the incident response steps"
+  },
+  {
+    "doneBy": "notes",
+    "due": {
+      "date": null,
+      "inferred": false,
+      "raw": null
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "d34897",
+    "occurrences": [
+      {
+        "checked": true,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 21,
+        "meetingId": "2026-10-09-security-review",
+        "rawLine": "- [x] Karan to revoke access for the two ex-contractors",
+        "sourceFile": "2026-10-09-security-review.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "karan-joshi"
+      ],
+      "raw": "Karan"
+    },
+    "status": "done",
+    "task": "revoke access for the two ex-contractors"
+  },
+  {
+    "due": {
+      "date": "2026-10-13",
+      "inferred": false,
+      "raw": "Tuesday"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "f3c090",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-13",
+          "inferred": false,
+          "raw": "Tuesday"
+        },
+        "line": 9,
+        "meetingId": "2026-10-10-sales-weekly",
+        "rawLine": "- [ ] Meera to send the proposal to Orbit Labs by Tuesday",
+        "sourceFile": "2026-10-10-sales-weekly.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "meera-iyer"
+      ],
+      "raw": "Meera"
+    },
+    "status": "open",
+    "task": "send the proposal to Orbit Labs"
+  },
+  {
+    "due": {
+      "date": "2026-10-10",
+      "inferred": false,
+      "raw": "EOD"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "06e10f",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-10",
+          "inferred": false,
+          "raw": "EOD"
+        },
+        "line": 10,
+        "meetingId": "2026-10-10-sales-weekly",
+        "rawLine": "- [ ] Lena to log the three new leads in CRM by EOD",
+        "sourceFile": "2026-10-10-sales-weekly.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "lena-fischer"
+      ],
+      "raw": "Lena"
+    },
+    "status": "open",
+    "task": "log the three new leads in CRM"
+  },
+  {
+    "doneBy": "notes",
+    "due": {
+      "date": null,
+      "inferred": false,
+      "raw": null
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "05a916",
+    "occurrences": [
+      {
+        "checked": true,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 11,
+        "meetingId": "2026-10-10-sales-weekly",
+        "rawLine": "- [x] Lena to update the Acme account notes",
+        "sourceFile": "2026-10-10-sales-weekly.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "lena-fischer"
+      ],
+      "raw": "Lena"
+    },
+    "status": "done",
+    "task": "update the Acme account notes"
+  },
+  {
+    "due": {
+      "date": "2026-10-30",
+      "inferred": false,
+      "raw": "2026-10-30"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "6c6368",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-30",
+          "inferred": false,
+          "raw": "2026-10-30"
+        },
+        "line": 9,
+        "meetingId": "2026-10-12-billing-post-cutover",
+        "rawLine": "- [ ] Sam to decommission the old billing DB by 2026-10-30",
+        "sourceFile": "2026-10-12-billing-post-cutover.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "sam-okafor"
+      ],
+      "raw": "Sam"
+    },
+    "status": "open",
+    "task": "decommission the old billing DB"
+  },
+  {
+    "due": {
+      "date": "2026-10-14",
+      "inferred": false,
+      "raw": "Wednesday"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "2c855b",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-14",
+          "inferred": false,
+          "raw": "Wednesday"
+        },
+        "line": 10,
+        "meetingId": "2026-10-12-billing-post-cutover",
+        "rawLine": "- [ ] Priya to verify invoice totals for the first 50 invoices by Wednesday",
+        "sourceFile": "2026-10-12-billing-post-cutover.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "priya-shah"
+      ],
+      "raw": "Priya"
+    },
+    "status": "open",
+    "task": "verify invoice totals for the first 50 invoices"
+  },
+  {
+    "due": {
+      "date": "2026-10-15",
+      "inferred": false,
+      "raw": "15 Oct"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "f8100f",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-15",
+          "inferred": false,
+          "raw": "15 Oct"
+        },
+        "line": 11,
+        "meetingId": "2026-10-12-billing-post-cutover",
+        "rawLine": "- [ ] Karan to reconcile September ledger by 15 Oct",
+        "sourceFile": "2026-10-12-billing-post-cutover.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "karan-joshi"
+      ],
+      "raw": "Karan"
+    },
+    "status": "open",
+    "task": "reconcile September ledger"
+  },
+  {
+    "due": {
+      "date": null,
+      "inferred": false,
+      "raw": null
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "bec179",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 12,
+        "meetingId": "2026-10-12-billing-post-cutover",
+        "rawLine": "- [ ] Rahul to write the migration runbook",
+        "sourceFile": "2026-10-12-billing-post-cutover.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "rahul-verma"
+      ],
+      "raw": "Rahul"
+    },
+    "status": "open",
+    "task": "write the migration runbook"
+  },
+  {
+    "due": {
+      "date": "2026-10-16",
+      "inferred": false,
+      "raw": "Friday"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "8b929f",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-16",
+          "inferred": false,
+          "raw": "Friday"
+        },
+        "line": 10,
+        "meetingId": "2026-10-13-quote-portal-weekly",
+        "rawLine": "- [ ] Anita to fix spacing issues flagged in review by Friday",
+        "sourceFile": "2026-10-13-quote-portal-weekly.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "anita-desai"
+      ],
+      "raw": "Anita"
+    },
+    "status": "open",
+    "task": "fix spacing issues flagged in review"
+  },
+  {
+    "due": {
+      "date": "2026-10-20",
+      "inferred": false,
+      "raw": "2026-10-20"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "6dd768",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-20",
+          "inferred": false,
+          "raw": "2026-10-20"
+        },
+        "line": 11,
+        "meetingId": "2026-10-13-quote-portal-weekly",
+        "rawLine": "- [ ] Priya to collect beta feedback from Acme by 2026-10-20",
+        "sourceFile": "2026-10-13-quote-portal-weekly.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "priya-nair"
+      ],
+      "raw": "Priya"
+    },
+    "status": "open",
+    "task": "collect beta feedback from Acme"
+  },
+  {
+    "due": {
+      "date": null,
+      "inferred": false,
+      "raw": null
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "3f23c0",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 12,
+        "meetingId": "2026-10-13-quote-portal-weekly",
+        "rawLine": "- [ ] Meera to follow up on the demo",
+        "sourceFile": "2026-10-13-quote-portal-weekly.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "meera-iyer"
+      ],
+      "raw": "Meera"
+    },
+    "status": "open",
+    "task": "follow up on the demo"
+  },
+  {
+    "due": {
+      "date": "2026-10-15",
+      "inferred": false,
+      "raw": "tomorrow"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "5d1538",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": "2026-10-15",
+          "inferred": false,
+          "raw": "tomorrow"
+        },
+        "line": 9,
+        "meetingId": "2026-10-14-acme-renewal-wrapup",
+        "rawLine": "- [ ] Karan to send the final contract to legal by tomorrow",
+        "sourceFile": "2026-10-14-acme-renewal-wrapup.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "karan-joshi"
+      ],
+      "raw": "Karan"
+    },
+    "status": "open",
+    "task": "send the final contract to legal"
+  },
+  {
+    "due": {
+      "date": null,
+      "inferred": false,
+      "raw": null
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "23b71c",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 10,
+        "meetingId": "2026-10-14-acme-renewal-wrapup",
+        "rawLine": "- [ ] Lena to schedule the quarterly business review for November",
+        "sourceFile": "2026-10-14-acme-renewal-wrapup.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "lena-fischer"
+      ],
+      "raw": "Lena"
+    },
+    "status": "open",
+    "task": "schedule the quarterly business review for November"
+  },
+  {
+    "due": {
+      "date": null,
+      "inferred": false,
+      "raw": null
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "2a705b",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": null
+        },
+        "line": 1,
+        "meetingId": "untitled",
+        "rawLine": "- [ ] Sam to chase the vendor",
+        "sourceFile": "untitled.md"
+      }
+    ],
+    "owner": {
+      "candidates": [],
+      "helpers": [],
+      "kind": "person",
+      "people": [
+        "sam-okafor"
+      ],
+      "raw": "Sam"
+    },
+    "status": "open",
+    "task": "chase the vendor"
+  },
+  {
+    "due": {
+      "date": null,
+      "inferred": false,
+      "raw": "Friday",
+      "reason": "no-meeting-date"
+    },
+    "dueHistory": [],
+    "flags": [],
+    "id": "98b264",
+    "occurrences": [
+      {
+        "checked": false,
+        "due": {
+          "date": null,
+          "inferred": false,
+          "raw": "Friday",
+          "reason": "no-meeting-date"
+        },
+        "line": 2,
+        "meetingId": "untitled",
+        "rawLine": "- [ ] Priya to send the slides by Friday",
+        "sourceFile": "untitled.md"
+      }
+    ],
+    "owner": {
+      "candidates": [
+        "priya-nair",
+        "priya-shah"
+      ],
+      "helpers": [],
+      "kind": "ambiguous",
+      "people": [],
+      "raw": "Priya"
+    },
+    "status": "open",
+    "task": "send the slides"
+  }
+]

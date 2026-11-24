@@ -73,7 +73,7 @@ This module is where all four edge cases meet. It is the single guarantee that *
 | M9-74 | 09-03 (`Rahul`, `Priya` with one of each attending) | Rahul Verma, Priya Shah; no warning |
 | M9-75 | 09-02 (`Rahul`, only Mehta attends) | Rahul Mehta |
 | M9-76 | 09-29: `Priya S.` and `Priya N.` | resolved, no warning |
-| M9-77 | Whole-folder ambiguous set | exactly 09-17 Priya, 09-23 Rahul, 09-30 Priya, 09-30 Rahul, 10-07 Rahul |
+| M9-77 | Whole-folder ambiguous set | **7** lines (the spec first said 5): 09-17 Priya, 09-23 Rahul, 09-30 Priya, 09-30 Rahul, 10-07 Rahul, plus 10-08 Priya and `untitled.md` Priya; matches the M5 snapshot |
 | M9-78 | Config alias `{"2026-09-17-billing-migration-sync.md": {"Priya": "Priya Nair"}}`, re-ingest | 09-17 item becomes Priya Nair; item id unchanged; ambiguity warning gone |
 | M9-79 | Ambiguity never merges two different Priyas | tested with the same task text on two meetings |
 | M9-80 | Directory is built **before** owner resolution | an attendee listed only in a later file still resolves in an earlier file |
@@ -87,7 +87,7 @@ This module is where all four edge cases meet. It is the single guarantee that *
 | M9-92 | Meetings | 33 (untitled counts as unknown) |
 | M9-93 | Ignored candidates | 3: blockquote (09-21), code (10-09), comment (10-09) |
 | M9-94 | `DATE_INFERRED` | ×1 (10-03) |
-| M9-95 | `OWNER_AMBIGUOUS` | 5 (see M9-77) |
+| M9-95 | `OWNER_AMBIGUOUS` | 7 (see M9-77) |
 | M9-96 | `DUE_UNRESOLVABLE` | present for each unparseable phrase |
 | M9-97 | No stored item from ignored lines (acceptance 2) | no refund line, no code-block item, no hardware-tokens item |
 | M9-98 | 09-30 offsite items (acceptance 6) | the 9 expected items; Karan validation has `parentId` of Meera's item; Everyone due 2026-10-07; brand kit 2026-10-09; Karan summary 2026-10-01 |

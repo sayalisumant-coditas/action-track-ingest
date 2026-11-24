@@ -138,6 +138,10 @@ Small item set (`asOf = 2026-10-15`):
 | M10-99 | Same query twice | identical rows |
 | M10-100 | `queryItems` source | grep: no `fs`, no `Date.now()`, no clock import |
 
+## Implemented in
+
+`test/unit/query/m10-spec.test.ts` (every ID above appears in a test title) and `query.test.ts`. Pinned details: M10-40 returns a1 **and** a9 (ambiguous, marked); M10-95 `untitled.md` gives "chase the vendor" (owner Sam, resolved) and "send the slides" (ambiguous Priya), both with no due date, so only one of them is `unassigned`-like; M10-67 uses 1,000 seeded random items.
+
 ## Done when
 
 Acceptance 7–9 pass, all of A–F pass on the small set, and `queryItems` has no I/O and no direct clock use (M10-100).

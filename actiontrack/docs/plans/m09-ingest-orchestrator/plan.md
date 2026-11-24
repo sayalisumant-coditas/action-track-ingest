@@ -47,7 +47,7 @@ Owner resolution runs after the directory is built because the directory comes f
 - Files scanned: 35 (`.md` only). Read OK: 33. Skipped: 2 (`2026-09-09-notes-final-v2.md` empty, `scratch.md` binary).
 - Meetings: 33 (`untitled.md` counts as a meeting with unknown details).
 - Ignored candidates: 3 (blockquote 09-21, code block 10-09, comment 10-09).
-- Warnings include `DATE_INFERRED` ×1 (10-03), `OWNER_AMBIGUOUS` (09-17, 09-23, 09-30 ×2, 10-07), `DUE_UNRESOLVABLE` for unparseable phrases, and the untitled file's unresolved relative due date.
+- Warnings include `DATE_INFERRED` ×1 (10-03), `OWNER_AMBIGUOUS` ×7 (the five dates 09-17, 09-23, 09-30 ×2, 10-07 plus two more Priya/Rahul lines; matches the M5 snapshot), `DUE_UNRESOLVABLE` for unparseable phrases, and the untitled file's unresolved relative due date.
 
 ## Tests
 

@@ -150,3 +150,14 @@ All tests use `FileGmailDrafter` or a spy drafter. **No test calls a real Gmail 
 ## Done when
 
 Acceptance 11–13 pass with the mock, safety tests H pass, and either M11-133 is verified or the limitation is written into the docs.
+
+## Implementation notes (automated coverage)
+
+Tests live in `test/unit/followup/followup.test.ts` and `test/unit/followup/m11-spec.test.ts` (IDs are in the test titles). Pinned to actual behaviour:
+
+- M11-42: zero overdue shows `(0 overdue)` and no Overdue section.
+- M11-27: the notice says "items with an unclear owner … left out"; Priya Shah has no open items of her own on the sample.
+- M11-62: a bad config email gives a warning and the email is dropped.
+- M11-78: the meeting title is left out of the draft for non-attendees because the whole confidential item is removed.
+- Items with no due date tie on date, so they are ordered by id.
+- Not automated: M11-130 to M11-134 (real Gmail, manual; `McpGmailDrafter` is intentionally a stub that fails with a clear message, M11-117).

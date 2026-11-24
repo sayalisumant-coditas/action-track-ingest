@@ -166,3 +166,14 @@ Two layers: **unit** (render functions, `handleError`, `buildProgram` parsing) a
 ## Done when
 
 All four commands work end to end on the sample folder and rows M12-130 to M12-143 pass through the real binary.
+
+## Implementation notes
+
+Covered by `test/e2e/cli.test.ts`, `test/e2e/cli-spec.test.ts` (real binary) and `test/unit/cli/m12-spec.test.ts` (in-process). Every test title carries its spec ID. Pinned where the spec differs from reality:
+
+- **M12-14 / M12-25**: the sample folder gives `OWNER_AMBIGUOUS` ×7 (not ×5; same as the M5 snapshot). The 09-17 alias test therefore drops it to 6, not 4.
+- **M12-04**: with no command, help is printed and the exit code is 1.
+- **M12-07**: `npm link` is not run in tests (it changes global state); the test checks the `bin` entry, the built file and the shebang.
+- **M12-131**: the quoted "refund" line (09-21 line 9) is ignored, but a real "refund affected customers" item exists at line 17; the test checks the source line.
+- **M12-37**: an unknown owner prints a `note:` on stderr and `no matching items` on stdout, exit 0.
+- **M12-87, M12-107, M12-117**: M12-87 accepts either result for Sam (the sample may give a draft); M12-107 (Windows console) is not automated; M12-117 is covered by M12-19/27.

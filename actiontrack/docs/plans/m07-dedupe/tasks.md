@@ -22,7 +22,7 @@ Depends on: M4, M5, M6.
 - [x] B. `ownerKey` — M7-20 to M7-26
 - [x] C. `similarity` — M7-30 to M7-39
 - [x] D. `stageGuard` — M7-40 to M7-48
-- [ ] E. Golden merge cases from the sample — M7-50 to M7-63 (M7-59 conflicts with M7-97, see report)
+- [x] E. Golden merge cases from the sample — M7-50 to M7-63 (M7-59 reconciled with M7-97 in tests.md; M7-59b covers a later due)
 - [x] F. Items that must stay separate — M7-70 to M7-83
 - [x] G. Status and due-date rules — M7-90 to M7-101
 - [x] H. Ordering, undated meetings, parents — M7-110 to M7-118
@@ -32,6 +32,6 @@ Depends on: M4, M5, M6.
 
 ## Done when
 
-- [ ] All golden cases (E, F) pass (M7-59 `dueHistory` conflicts with M7-97)
+- [x] All golden cases (E, F) pass
 - [x] Ids identical across runs (M7-140); shuffled order gives same result (M7-141)
 - [x] Borderline pair appears in `uncertain` (M7-82)

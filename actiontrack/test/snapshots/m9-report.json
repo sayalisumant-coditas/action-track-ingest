@@ -1,0 +1,105 @@
+{
+  "filesScanned": 35,
+  "filesRead": 33,
+  "meetings": 33,
+  "items": 96,
+  "skipped": [
+    {
+      "file": "2026-09-09-notes-final-v2.md",
+      "reason": "empty"
+    },
+    {
+      "file": "scratch.md",
+      "reason": "binary"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "DATE_INFERRED",
+      "message": "could not read date \"sometime last week\"; using file name date 2026-10-03",
+      "file": "2026-10-03-sales-pipeline.md"
+    },
+    {
+      "code": "DUE_UNRESOLVABLE",
+      "message": "cannot resolve \"Friday\": the meeting has no date",
+      "file": "untitled.md",
+      "line": 2
+    },
+    {
+      "code": "OWNER_AMBIGUOUS",
+      "message": "\"Priya\" could be Priya Nair or Priya Shah",
+      "file": "2026-09-17-billing-migration-sync.md",
+      "line": 9
+    },
+    {
+      "code": "OWNER_AMBIGUOUS",
+      "message": "\"Rahul\" could be Rahul Mehta or Rahul Verma",
+      "file": "2026-09-23-standup.md",
+      "line": 8
+    },
+    {
+      "code": "OWNER_AMBIGUOUS",
+      "message": "\"Priya\" could be Priya Nair or Priya Shah",
+      "file": "2026-09-30-q4-offsite.md",
+      "line": 16
+    },
+    {
+      "code": "OWNER_AMBIGUOUS",
+      "message": "\"Rahul\" could be Rahul Mehta or Rahul Verma",
+      "file": "2026-09-30-q4-offsite.md",
+      "line": 17
+    },
+    {
+      "code": "OWNER_AMBIGUOUS",
+      "message": "\"Rahul\" could be Rahul Mehta or Rahul Verma",
+      "file": "2026-10-07-standup.md",
+      "line": 9
+    },
+    {
+      "code": "OWNER_AMBIGUOUS",
+      "message": "\"Priya\" could be Priya Nair or Priya Shah",
+      "file": "2026-10-08-billing-go-no-go.md",
+      "line": 9
+    },
+    {
+      "code": "OWNER_AMBIGUOUS",
+      "message": "\"Priya\" could be Priya Nair or Priya Shah",
+      "file": "untitled.md",
+      "line": 2
+    }
+  ],
+  "warningCounts": {
+    "DATE_INFERRED": 1,
+    "DUE_UNRESOLVABLE": 1,
+    "OWNER_AMBIGUOUS": 7
+  },
+  "counts": {
+    "unassigned": 2,
+    "noDueDate": 23,
+    "ambiguousOwner": 7
+  },
+  "uncertainMerges": [
+    {
+      "a": "468935",
+      "b": "da83d9",
+      "score": 0.667
+    }
+  ],
+  "ignoredCandidates": [
+    {
+      "file": "2026-09-21-incident-review.md",
+      "line": 9,
+      "why": "blockquote"
+    },
+    {
+      "file": "2026-10-09-security-review.md",
+      "line": 10,
+      "why": "code"
+    },
+    {
+      "file": "2026-10-09-security-review.md",
+      "line": 13,
+      "why": "comment"
+    }
+  ]
+}
